@@ -1,0 +1,135 @@
+propka3.4.0                                                                                  2021-08-20
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+CYS 112 A  10.12    70 %    2.36  477   0.00    0   -0.15 TRP 107 A   -0.17 CYS 112 A    0.00 XXX   0 X
+CYS 112 A                                            0.00 XXX   0 X   -0.08 TYR 113 A    0.00 XXX   0 X
+CYS 112 A                                            0.00 XXX   0 X   -0.85 TYR 274 A    0.00 XXX   0 X
+
+CYS 149 A  12.58   100 %    3.59  629   0.00    0    0.00 XXX   0 X   -0.01 CYS 149 A    0.00 XXX   0 X
+
+CYS 190 A   7.20*    0 %    0.61  183   0.00    0   -0.00 ARG 229 A   -0.73 HIS 192 A    0.00 XXX   0 X
+CYS 190 A                                           -0.11 CYS 227 A   -0.85 CYS 193 A    0.00 XXX   0 X
+CYS 190 A                                           -0.34 CYS 193 A    0.00 XXX   0 X    0.00 XXX   0 X
+CYS 190 A                                           -0.38 CYS 225 A    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS 193 A  11.88*    0 %    0.41  160   0.00    0    0.34 CYS 190 A    0.00 XXX   0 X    0.35 CYS 190 A
+CYS 193 A                                            0.64 CYS 225 A    0.00 XXX   0 X    0.38 CYS 225 A
+CYS 193 A                                            0.39 CYS 227 A    0.00 XXX   0 X    0.37 CYS 227 A
+
+CYS 225 A   9.53*    0 %    0.53  189   0.00    0    0.38 CYS 190 A   -0.15 VAL 226 A    0.37 CYS 190 A
+CYS 225 A                                           -0.64 CYS 193 A   -0.84 CYS 227 A    0.38 CYS 227 A
+CYS 225 A                                            0.50 CYS 227 A    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS 227 A   8.03*    0 %    0.51  141   0.00    0    0.11 CYS 190 A   -0.08 CYS 227 A    0.28 CYS 190 A
+CYS 227 A                                           -0.39 CYS 193 A   -0.07 GLY 228 A    0.00 XXX   0 X
+CYS 227 A                                           -0.50 CYS 225 A   -0.83 ARG 229 A    0.00 XXX   0 X
+
+CYS 261 A  12.89   100 %    3.89  603   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+CYS 271 A   8.46     0 %    0.34  173   0.00    0    0.00 XXX   0 X   -0.84 ASN 268 A    0.00 XXX   0 X
+CYS 271 A                                            0.00 XXX   0 X   -0.04 CYS 271 A    0.00 XXX   0 X
+
+Coupled residues (marked *) were detected.Please rerun PropKa with the --display-coupled-residues 
+or -d option for detailed information.
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   CYS 112 A    10.12       9.00                      
+   CYS 149 A    12.58       9.00                      
+   CYS 190 A     7.20       9.00                      
+   CYS 193 A    11.88       9.00                      
+   CYS 225 A     9.53       9.00                      
+   CYS 227 A     8.03       9.00                      
+   CYS 261 A    12.89       9.00                      
+   CYS 271 A     8.46       9.00                      
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00     -0.00
+  1.00     -0.00
+  2.00     -0.00
+  3.00     -0.00
+  4.00     -0.00
+  5.00     -0.00
+  6.00     -0.04
+  7.00     -0.32
+  8.00     -1.31
+  9.00     -1.64
+ 10.00      1.57
+ 11.00      5.76
+ 12.00      9.27
+ 13.00     11.25
+ 14.00     11.75
+
+The pH of optimum stability is  8.7 for which the free energy is   -1.9 kcal/mol at 298K
+The free energy is within 80 % of maximum at pH  8.2 to  9.0
+The free energy is negative in the range  0.0 -  9.6
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     -0.00   -0.00
+  1.00     -0.00   -0.00
+  2.00     -0.00   -0.00
+  3.00     -0.00   -0.00
+  4.00     -0.00   -0.00
+  5.00     -0.00   -0.01
+  6.00     -0.01   -0.07
+  7.00     -0.08   -0.51
+  8.00     -0.73   -1.64
+  9.00     -4.00   -2.96
+ 10.00     -7.27   -4.16
+ 11.00     -7.92   -5.00
+ 12.00     -7.99   -5.87
+ 13.00     -8.00   -7.22
+ 14.00     -8.00   -7.88
+The pI is  0.00 (folded) and  0.00 (unfolded)

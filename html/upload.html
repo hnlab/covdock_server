@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Protein</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <meta name="viewport" content="width=device-width"/>
+  <meta charset="utf-8">
+</head>
+
+<body bgcolor="#F4F5F7" width="80%" align="center"> <!-- banner -->
+  <table width="100%" height=60 border="0" cellspacing="0" cellpadding="0" bgcolor="#1c488c" align="center">
+    <tr height = 20 >
+
+      <style>
+      .navText{
+          color:white;
+          text-decoration:none; 
+      }
+      </style>
+
+      <td align="left" valign="middle" width="13%"><a href="/html/home.html"><img src="/img/SPA_database_logo_white2.png" height="30%"
+      border="0"/></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/html/home.html" class=
+      "navText"><span class="STYLE2">Home</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/html/introduction.html"
+      class="navText"><span class="STYLE9" >Introduction</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/cgi-bin/search.cgi" class=
+      "navText"><span class="STYLE9">Search</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/cgi-bin/browse.cgi" class=
+      "navText"><span class="STYLE9">Browse</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/html/download.html" class=
+      "navText"><span class="STYLE9">Download</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/html/methods.html" class=
+      "navText"><span class="STYLE9">Methods</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/html/faq.html" class=
+      "navText"><span class="STYLE9">FAQ</span></a></td>
+
+      <td align="center" valign="middle" width="8%"><a href="/html/links.html" class=
+      "navText"><span class="STYLE9">Links</span></a></td>
+
+      <td align="center" valign="middle" width="17%">
+        <form action="/cgi-bin/search.cgi" method="post" name=
+            "protein_pdbid" enctype="multipart/form-data" target="_blank">
+              <p><input type="text" name="pdbid" /> &nbsp;&nbsp;&nbsp; <input type=
+              "submit" name="search_id" value="GO" /></p>
+        </form>
+      </td>
+
+      <td width="10%"></td>
+    </tr>
+  </table>
+
+<hr width="100%" align="center" />
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr heigh=1600>
+    <tr>
+      <h1> Upload your structures </h1> 
+      <form action="/cgi-bin/upload.cgi" method="post" name="upload_files" enctype="multipart/form-data" target="current">
+          <p> Clean receptor file : <input type="file" name='rec' value="rec.pdb" id='rec'> </p>
+          <p> Clean ligand file : <input type="file" name='lig' value="lig.pdb" id='lig'>   </p>
+          <p> Job name  <input type="text" name='name' id='name'> (Can't be started with a number. No spaces) </p>
+          <p> <input type="submit" name="upload_button" value="Upload"> </p>
+      </form>
+    </tr>
+  </tr>
+</table>
+
+<hr width="100%" align="center" />
+
+</body>
+</html>
+

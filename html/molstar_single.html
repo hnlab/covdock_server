@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
+		<script type="text/javascript" src="https://molstar.org/viewer/molstar.js"></script>
+    <style>
+    body {
+      background-image: url('/img/light.jpg');
+    }
+    </style>
+	</head>
+	<body bgcolor="#F4F5F7" width="80%" align="center">
+		<!-- banner -->
+		<table width="100%" height="60" border="0" cellspacing="0" cellpadding="0" bgcolor="#916300" align="center">
+			<tr height = "20" >
+        <style>
+      .navText{
+          color:white;
+          text-decoration:none; 
+      }
+      </style>
+				<td align="left" valign="middle" width="83%">
+					<a href="/html/home.html"></a>
+					<img src="/img/logo.png" height="30%" border="0"/>
+				</td>
+				<td align="center" valign="middle" width="17%">
+					<form action="/cgi-bin/search.cgi" method="post" name=
+            "protein_pdbid" enctype="multipart/form-data" target="_blank">
+						<p>
+							<input type="text" name="pdbid" /> ; 
+								
+							
+							
+							<input type=
+              "submit" name="search_id" value="Search" />
+						</p>
+					</form>
+				</td>
+				<td width="10%"></td>
+			</tr>
+		</table>
+		<hr width="90%" align="center" />
+		<table width="80%" border="0" cellspacing="0" cellpadding="0" align="center">
+			<!-- structure information -->
+			<tr class="STYLE3" align="center">
+				<td valign="middle">PDB ID:;
+						
+					
+					
+					<a href="https://www.rcsb.org/structure/2fe8">2FE8</a>
+				</td>
+				<td valign="middle">Chain:A</td>
+			</tr>
+		</table>
+		<hr width="90%" align="center"/>
+		<table width="90%"  height="600" cellspacing="1" cellpadding="0" align="center" frame="hsides" rules="cols">
+			<!-- graphic applet & water data -->
+			<tr>
+				<td width="2%" align="center" valign='top'>
+				</td>
+				<td width="63%" align="center" valign='top'>
+                        <style>
+                            #app {
+                                position: relative;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style>
+					<font size="4.5" color="#0099FF"></font>
+					<!-- Applet 0 -->
+                    <div id="app" style="position: relative; left: 0px; height: 100; width:100">
+					<script type="text/javascript">
+                          var viewer = new molstar.Viewer('app') ;
+        </script>
+                    </div>
+				</td>
+				<td width="33%" align="center">
+					<font size="4.5" color="#0099FF"></font>
+					<!-- table data 1 -->
+					<div style="overflow:scroll;height:600px">
+						<table class="tg" scrolling="yes">
+							<tr>
+								<th class="tg-amwm" width="30%" valign="top" align="center">Cave No.</th>
+								<th class="tg-amwm" width="30%" valign="top" align="center">Druggability</th>
+								<th class="tg-amwm" width="30%" valign="top" align="center">Predicted pKa</th>
+							</tr>
+						</table>
+					</div>
+					<td width="2%" align="center" valign='top'>
+					</td>
+				</tr>
+			</table>
+			<hr width="90%%" align="center" />
+		</body>
+	</html>

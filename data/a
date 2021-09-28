@@ -1,0 +1,8772 @@
+	audit_author
+		> 			name
+				 Marrero, A.
+			pdbx_ordinal
+				 1
+		> 			name
+				 Duquerroy, S.
+			pdbx_ordinal
+				 2
+		> 			name
+				 Trapani, S.
+			pdbx_ordinal
+				 3
+		> 			name
+				 Goulas, T.
+			pdbx_ordinal
+				 4
+		> 			name
+				 Guevara, T.
+			pdbx_ordinal
+				 5
+		> 			name
+				 Andersen, G.R.
+			pdbx_ordinal
+				 6
+		> 			name
+				 Navaza, J.
+			pdbx_ordinal
+				 7
+		> 			name
+				 Sottrup-Jensen, L.
+			pdbx_ordinal
+				 8
+		> 			name
+				 Gomis-Ruth, F.X.
+			pdbx_ordinal
+				 9
+	cell
+		angle_alpha
+			 90.0
+		angle_beta
+			 90.0
+		angle_gamma
+			 90.0
+		length_a
+			 130.69
+		length_b
+			 260.3
+		length_c
+			 281.8
+		zpdb
+			 16
+	citation
+		> 			country
+				 GE
+			id
+				 primary
+			journal_abbrev
+				 Angew. Chem. Int. Ed. Engl.
+			journal_id_astm
+				 ACIEAY
+			journal_id_csd
+				 0179
+			journal_id_issn
+				 1521-3773
+			journal_volume
+				 51
+			page_first
+				 3340
+			page_last
+				 3344
+			pdbx_database_id_doi
+				 10.1002/anie.201108015
+			pdbx_database_id_pub_med
+				 22290936
+			rcsb_authors
+				> 					 Marrero, A.
+				> 					 Duquerroy, S.
+				> 					 Trapani, S.
+				> 					 Goulas, T.
+				> 					 Guevara, T.
+				> 					 Andersen, G.R.
+				> 					 Navaza, J.
+				> 					 Sottrup-Jensen, L.
+				> 					 Gomis-Ruth, F.X.
+			rcsb_is_primary
+				 Y
+			rcsb_journal_abbrev
+				 Angew Chem Int Ed Engl
+			title
+				 The crystal structure of human alpha 2-macroglobulin reveals a unique molecular cage.
+			year
+				 2012
+		> 			country
+				 US
+			id
+				 1
+			journal_abbrev
+				 J.Biol.Chem.
+			journal_id_astm
+				 JBCHA3
+			journal_id_csd
+				 0071
+			journal_id_issn
+				 0021-9258
+			journal_volume
+				 270
+			page_first
+				 25133
+			pdbx_database_id_doi
+				 10.1074/JBC.270.42.25133
+			pdbx_database_id_pub_med
+				 7559647
+			rcsb_authors
+				> 					 Andersen, G.R.
+				> 					 Koch, T.J.
+				> 					 Dolmer, K.
+				> 					 Sottrup-Jensen, L.
+				> 					 Nyborg, J.
+			rcsb_is_primary
+				 N
+			rcsb_journal_abbrev
+				 J Biol Chem
+			title
+				 Low Resolution X-Ray Structure of Human Methylamine-Treated Alpha 2-Macroglobulin.
+			year
+				 1995
+	diffrn
+		> 			ambient_temp
+				 100.0
+			crystal_id
+				 1
+			id
+				 1
+	diffrn_detector
+		> 			detector
+				 CCD
+			diffrn_id
+				 1
+			pdbx_collection_date
+				 2008-07-18T00:00:00+0000
+			type
+				 ADSC QUANTUM 315r
+	diffrn_radiation
+		> 			diffrn_id
+				 1
+			pdbx_diffrn_protocol
+				 SINGLE WAVELENGTH
+			pdbx_monochromatic_or_laue_ml
+				 M
+			pdbx_scattering_type
+				 x-ray
+			wavelength_id
+				 1
+	diffrn_source
+		> 			diffrn_id
+				 1
+			pdbx_synchrotron_beamline
+				 ID23-1
+			pdbx_synchrotron_site
+				 ESRF
+			pdbx_wavelength
+				 1.00
+			source
+				 SYNCHROTRON
+			type
+				 ESRF BEAMLINE ID23-1
+	entry
+		id
+			 4ACQ
+	exptl
+		> 			crystals_number
+				 1
+			method
+				 X-RAY DIFFRACTION
+	exptl_crystal
+		> 			density_matthews
+				 3.3
+			density_percent_sol
+				 63.0
+			description
+				 MR USING A MIR MAP (SEE SECONDARY REFERENCE)
+			id
+				 1
+	exptl_crystal_grow
+		> 			crystal_id
+				 1
+			pdbx_details
+				 0.2 M TRIBASIC AMMONIUM CITRATE, PH 6.4, 15% (W/V) POLYETHYLENE GLYCOL 3350, 0.05 M SODIUM FLUORIDE
+	pdbx_audit_revision_category
+		> 			category
+				 atom_site
+			data_content_type
+				 Structure model
+			ordinal
+				 1
+			revision_ordinal
+				 6
+		> 			category
+				 atom_site_anisotrop
+			data_content_type
+				 Structure model
+			ordinal
+				 2
+			revision_ordinal
+				 6
+		> 			category
+				 citation
+			data_content_type
+				 Structure model
+			ordinal
+				 3
+			revision_ordinal
+				 6
+		> 			category
+				 database_PDB_caveat
+			data_content_type
+				 Structure model
+			ordinal
+				 4
+			revision_ordinal
+				 6
+		> 			category
+				 pdbx_unobs_or_zero_occ_atoms
+			data_content_type
+				 Structure model
+			ordinal
+				 5
+			revision_ordinal
+				 6
+		> 			category
+				 pdbx_validate_chiral
+			data_content_type
+				 Structure model
+			ordinal
+				 6
+			revision_ordinal
+				 6
+		> 			category
+				 pdbx_validate_close_contact
+			data_content_type
+				 Structure model
+			ordinal
+				 7
+			revision_ordinal
+				 6
+		> 			category
+				 struct_conn
+			data_content_type
+				 Structure model
+			ordinal
+				 8
+			revision_ordinal
+				 6
+		> 			category
+				 atom_site
+			data_content_type
+				 Structure model
+			ordinal
+				 9
+			revision_ordinal
+				 7
+		> 			category
+				 atom_site_anisotrop
+			data_content_type
+				 Structure model
+			ordinal
+				 10
+			revision_ordinal
+				 7
+		> 			category
+				 chem_comp
+			data_content_type
+				 Structure model
+			ordinal
+				 11
+			revision_ordinal
+				 7
+		> 			category
+				 database_PDB_caveat
+			data_content_type
+				 Structure model
+			ordinal
+				 12
+			revision_ordinal
+				 7
+		> 			category
+				 entity
+			data_content_type
+				 Structure model
+			ordinal
+				 13
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_branch_scheme
+			data_content_type
+				 Structure model
+			ordinal
+				 14
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_chem_comp_identifier
+			data_content_type
+				 Structure model
+			ordinal
+				 15
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_database_status
+			data_content_type
+				 Structure model
+			ordinal
+				 16
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_entity_branch
+			data_content_type
+				 Structure model
+			ordinal
+				 17
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_entity_branch_descriptor
+			data_content_type
+				 Structure model
+			ordinal
+				 18
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_entity_branch_link
+			data_content_type
+				 Structure model
+			ordinal
+				 19
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_entity_branch_list
+			data_content_type
+				 Structure model
+			ordinal
+				 20
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_entity_nonpoly
+			data_content_type
+				 Structure model
+			ordinal
+				 21
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_nonpoly_scheme
+			data_content_type
+				 Structure model
+			ordinal
+				 22
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_struct_assembly_gen
+			data_content_type
+				 Structure model
+			ordinal
+				 23
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_unobs_or_zero_occ_atoms
+			data_content_type
+				 Structure model
+			ordinal
+				 24
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_validate_chiral
+			data_content_type
+				 Structure model
+			ordinal
+				 25
+			revision_ordinal
+				 7
+		> 			category
+				 pdbx_validate_close_contact
+			data_content_type
+				 Structure model
+			ordinal
+				 26
+			revision_ordinal
+				 7
+		> 			category
+				 struct_asym
+			data_content_type
+				 Structure model
+			ordinal
+				 27
+			revision_ordinal
+				 7
+		> 			category
+				 struct_conn
+			data_content_type
+				 Structure model
+			ordinal
+				 28
+			revision_ordinal
+				 7
+		> 			category
+				 struct_site
+			data_content_type
+				 Structure model
+			ordinal
+				 29
+			revision_ordinal
+				 7
+		> 			category
+				 struct_site_gen
+			data_content_type
+				 Structure model
+			ordinal
+				 30
+			revision_ordinal
+				 7
+	pdbx_audit_revision_details
+		> 			data_content_type
+				 Structure model
+			ordinal
+				 1
+			provider
+				 repository
+			revision_ordinal
+				 1
+			type
+				 Initial release
+		> 			data_content_type
+				 Structure model
+			description
+				 Carbohydrate remediation
+			ordinal
+				 2
+			provider
+				 repository
+			revision_ordinal
+				 7
+			type
+				 Remediation
+	pdbx_audit_revision_group
+		> 			data_content_type
+				 Structure model
+			group
+				 Other
+			ordinal
+				 1
+			revision_ordinal
+				 2
+		> 			data_content_type
+				 Structure model
+			group
+				 Other
+			ordinal
+				 2
+			revision_ordinal
+				 3
+		> 			data_content_type
+				 Structure model
+			group
+				 Database references
+			ordinal
+				 3
+			revision_ordinal
+				 4
+		> 			data_content_type
+				 Structure model
+			group
+				 Derived calculations
+			ordinal
+				 4
+			revision_ordinal
+				 5
+		> 			data_content_type
+				 Structure model
+			group
+				 Advisory
+			ordinal
+				 5
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			group
+				 Atomic model
+			ordinal
+				 6
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			group
+				 Data collection
+			ordinal
+				 7
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			group
+				 Database references
+			ordinal
+				 8
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			group
+				 Derived calculations
+			ordinal
+				 9
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			group
+				 Advisory
+			ordinal
+				 10
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			group
+				 Atomic model
+			ordinal
+				 11
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			group
+				 Data collection
+			ordinal
+				 12
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			group
+				 Derived calculations
+			ordinal
+				 13
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			group
+				 Other
+			ordinal
+				 14
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			group
+				 Structure summary
+			ordinal
+				 15
+			revision_ordinal
+				 7
+	pdbx_audit_revision_history
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 1
+			minor_revision
+				 0
+			ordinal
+				 1
+			revision_date
+				 2012-02-22T00:00:00+0000
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 1
+			minor_revision
+				 1
+			ordinal
+				 2
+			revision_date
+				 2012-04-11T00:00:00+0000
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 1
+			minor_revision
+				 2
+			ordinal
+				 3
+			revision_date
+				 2012-05-16T00:00:00+0000
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 1
+			minor_revision
+				 3
+			ordinal
+				 4
+			revision_date
+				 2012-07-18T00:00:00+0000
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 1
+			minor_revision
+				 4
+			ordinal
+				 5
+			revision_date
+				 2014-12-17T00:00:00+0000
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 2
+			minor_revision
+				 0
+			ordinal
+				 6
+			revision_date
+				 2019-01-30T00:00:00+0000
+		> 			data_content_type
+				 Structure model
+			major_revision
+				 3
+			minor_revision
+				 0
+			ordinal
+				 7
+			revision_date
+				 2020-07-29T00:00:00+0000
+	pdbx_audit_revision_item
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.B_iso_or_equiv
+			ordinal
+				 1
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.Cartn_x
+			ordinal
+				 2
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.Cartn_y
+			ordinal
+				 3
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.Cartn_z
+			ordinal
+				 4
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.auth_atom_id
+			ordinal
+				 5
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.label_atom_id
+			ordinal
+				 6
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[1][1]
+			ordinal
+				 7
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[1][2]
+			ordinal
+				 8
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[1][3]
+			ordinal
+				 9
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[2][2]
+			ordinal
+				 10
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[2][3]
+			ordinal
+				 11
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[3][3]
+			ordinal
+				 12
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_auth_atom_id
+			ordinal
+				 13
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_label_atom_id
+			ordinal
+				 14
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.journal_abbrev
+			ordinal
+				 15
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.journal_id_ASTM
+			ordinal
+				 16
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.journal_id_CSD
+			ordinal
+				 17
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.journal_id_ISSN
+			ordinal
+				 18
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.page_last
+			ordinal
+				 19
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.pdbx_database_id_DOI
+			ordinal
+				 20
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _citation.title
+			ordinal
+				 21
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _pdbx_unobs_or_zero_occ_atoms.auth_atom_id
+			ordinal
+				 22
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _pdbx_unobs_or_zero_occ_atoms.label_atom_id
+			ordinal
+				 23
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _pdbx_validate_close_contact.auth_atom_id_2
+			ordinal
+				 24
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _struct_conn.ptnr2_label_atom_id
+			ordinal
+				 25
+			revision_ordinal
+				 6
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.B_iso_or_equiv
+			ordinal
+				 26
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.Cartn_x
+			ordinal
+				 27
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.Cartn_y
+			ordinal
+				 28
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.Cartn_z
+			ordinal
+				 29
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.auth_asym_id
+			ordinal
+				 30
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.auth_atom_id
+			ordinal
+				 31
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.auth_comp_id
+			ordinal
+				 32
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.auth_seq_id
+			ordinal
+				 33
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.label_asym_id
+			ordinal
+				 34
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.label_atom_id
+			ordinal
+				 35
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.label_comp_id
+			ordinal
+				 36
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.label_entity_id
+			ordinal
+				 37
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site.type_symbol
+			ordinal
+				 38
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[1][1]
+			ordinal
+				 39
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[1][2]
+			ordinal
+				 40
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[1][3]
+			ordinal
+				 41
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[2][2]
+			ordinal
+				 42
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[2][3]
+			ordinal
+				 43
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.U[3][3]
+			ordinal
+				 44
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.id
+			ordinal
+				 45
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_auth_asym_id
+			ordinal
+				 46
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_auth_atom_id
+			ordinal
+				 47
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_auth_comp_id
+			ordinal
+				 48
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_auth_seq_id
+			ordinal
+				 49
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_label_asym_id
+			ordinal
+				 50
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_label_atom_id
+			ordinal
+				 51
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.pdbx_label_comp_id
+			ordinal
+				 52
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _atom_site_anisotrop.type_symbol
+			ordinal
+				 53
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _chem_comp.name
+			ordinal
+				 54
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _chem_comp.type
+			ordinal
+				 55
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _pdbx_database_status.status_code_sf
+			ordinal
+				 56
+			revision_ordinal
+				 7
+		> 			data_content_type
+				 Structure model
+			item
+				 _pdbx_struct_assembly_gen.asym_id_list
+			ordinal
+				 57
+			revision_ordinal
+				 7
+	pdbx_database_related
+		> 			content_type
+				 unspecified
+			db_id
+				 1BV8
+			db_name
+				 PDB
+			details
+				 RECEPTOR DOMAIN FROM ALPHA-2-MACROGLOBULIN
+	pdbx_database_status
+		deposit_site
+			 PDBE
+		pdb_format_compatible
+			 Y
+		process_site
+			 PDBE
+		recvd_initial_deposition_date
+			 2011-12-17T00:00:00+0000
+		status_code
+			 REL
+		status_code_sf
+			 REL
+	pdbx_vrpt_summary
+		fo_fc_correlation
+			 0.905
+		wilson_baniso
+			 [206.702,244.556,175.054,0.000,0.000,0.000]
+		wilson_bestimate
+			 205.845
+		absolute_percentile_dccrfree
+			 3.3
+		absolute_percentile_clashscore
+			 35.5
+		absolute_percentile_percent_ramachandran_outliers
+			 2.3
+		absolute_percentile_percent_rotamer_outliers
+			 3.0
+		acentric_outliers
+			 2
+		angles_rmsz
+			 0.72
+		attempted_validation_steps
+			 molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml
+		bonds_rmsz
+			 0.43
+		bulk_solvent_b
+			 154.271
+		bulk_solvent_k
+			 0.247
+		ccp4version
+			 7.0.044 (Gargrove)
+		centric_outliers
+			 0.0
+		clashscore
+			 8.09
+		data_anisotropy
+			 0.333
+		data_completeness
+			 99.0
+		high_resol_relative_percentile_dccrfree
+			 3.8
+		high_resol_relative_percentile_clashscore
+			 3.8
+		high_resol_relative_percentile_percent_ramachandran_outliers
+			 3.8
+		high_resol_relative_percentile_percent_rotamer_outliers
+			 3.8
+		low_resol_relative_percentile_dccrfree
+			 4.8
+		low_resol_relative_percentile_clashscore
+			 4.8
+		low_resol_relative_percentile_percent_ramachandran_outliers
+			 4.8
+		low_resol_relative_percentile_percent_rotamer_outliers
+			 4.8
+		no_ligands_for_buster_report
+			 yes
+		num_hreduce
+			 38349.0
+		num_pdbids_absolute_percentile_dccrfree
+			 130704
+		num_pdbids_absolute_percentile_clashscore
+			 141614
+		num_pdbids_absolute_percentile_percent_ramachandran_outliers
+			 138981
+		num_pdbids_absolute_percentile_percent_rotamer_outliers
+			 138945
+		num_pdbids_relative_percentile_dccrfree
+			 1014
+		num_pdbids_relative_percentile_clashscore
+			 1077
+		num_pdbids_relative_percentile_percent_ramachandran_outliers
+			 1029
+		num_pdbids_relative_percentile_percent_rotamer_outliers
+			 1012
+		num_angles_rmsz
+			 54543
+		num_bonds_rmsz
+			 40030
+		num_free_reflections
+			 3306
+		num_miller_indices
+			 65058
+		percent_free_reflections
+			 5.08
+		percent_ramachandran_outliers
+			 4.45
+		percent_rotamer_outliers
+			 14.29
+		percentilebins
+			> 				 all
+			> 				 4.3
+			> 				 xray
+		protein_dnarnaentities
+			 1
+		refmac_version
+			 5.8.0158
+		relative_percentile_dccrfree
+			 48.5
+		relative_percentile_clashscore
+			 71.6
+		relative_percentile_percent_ramachandran_outliers
+			 24.7
+		relative_percentile_percent_rotamer_outliers
+			 18.3
+		report_creation_date
+			 Aug  9, 2020 -- 07:57 AM BST
+		restypes_notchecked_for_bond_angle_geometry
+			> 				 MEQ
+			> 				 NAG
+			> 				 MAN
+		trans_nsc
+			 The largest off-origin peak in the Patterson function is 2.19% of the height of the origin peak. No significant pseudotranslation is detected.
+		twin_l
+			 0.445
+		twin_l2
+			 0.271
+		xtriage_input_columns
+			 F_meas_au,F_meas_sigma_au
+		bfactor_type
+			 FULL
+		dccr
+			 0.29
+		dccrfree
+			 0.31
+		dccrefinement_program
+			 REFMAC
+		edsr
+			 0.29
+		edsresolution
+			 4.3
+		edsresolution_low
+			 24.95
+		iover_sigma
+			 1.17(4.24A)
+		pdbr
+			 0.24
+		pdbrfree
+			 0.26
+		pdbdeposition_date
+			 2011-12-17T00:00:00+0000
+		pdbresolution
+			 4.3
+		pdbresolution_low
+			 25.0
+		pdbrevision_date
+			 2020-07-29T00:00:00+0000
+		pdbrevision_number
+			 7.0
+	rcsb_accession_info
+		deposit_date
+			 2011-12-17T00:00:00+0000
+		has_released_experimental_data
+			 Y
+		initial_release_date
+			 2012-02-22T00:00:00+0000
+		major_revision
+			 3
+		minor_revision
+			 0
+		revision_date
+			 2020-07-29T00:00:00+0000
+		status_code
+			 REL
+	rcsb_entry_container_identifiers
+		assembly_ids
+			> 				 1
+		branched_entity_ids
+			> 				 2
+			> 				 3
+		entity_ids
+			> 				 1
+			> 				 2
+			> 				 3
+			> 				 4
+		entry_id
+			 4ACQ
+		model_ids
+			> 				 1
+		non_polymer_entity_ids
+			> 				 4
+		polymer_entity_ids
+			> 				 1
+		rcsb_id
+			 4ACQ
+		pubmed_id
+			 22290936
+	rcsb_entry_info
+		assembly_count
+			 1
+		branched_entity_count
+			 2
+		branched_molecular_weight_maximum
+			 0.59
+		branched_molecular_weight_minimum
+			 0.42
+		cis_peptide_count
+			 9
+		deposited_atom_count
+			 39900
+		deposited_hydrogen_atom_count
+			 0
+		deposited_model_count
+			 1
+		deposited_modeled_polymer_monomer_count
+			 5213
+		deposited_nonpolymer_entity_instance_count
+			 13
+		deposited_polymer_entity_instance_count
+			 4
+		deposited_polymer_monomer_count
+			 5804
+		deposited_solvent_atom_count
+			 0
+		deposited_unmodeled_polymer_monomer_count
+			 591
+		diffrn_radiation_wavelength_maximum
+			 1.0
+		diffrn_radiation_wavelength_minimum
+			 1.0
+		disulfide_bond_count
+			 45
+		entity_count
+			 4
+		experimental_method
+			 X-ray
+		experimental_method_count
+			 1
+		inter_mol_covalent_bond_count
+			 57
+		inter_mol_metalic_bond_count
+			 0
+		molecular_weight
+			 654.29
+		na_polymer_entity_types
+			 Other
+		nonpolymer_bound_components
+			> 				 NAG
+		nonpolymer_entity_count
+			 1
+		nonpolymer_molecular_weight_maximum
+			 0.22
+		nonpolymer_molecular_weight_minimum
+			 0.22
+		polymer_composition
+			 protein/oligosaccharide
+		polymer_entity_count
+			 1
+		polymer_entity_count_dna
+			 0
+		polymer_entity_count_rna
+			 0
+		polymer_entity_count_nucleic_acid
+			 0
+		polymer_entity_count_nucleic_acid_hybrid
+			 0
+		polymer_entity_count_protein
+			 1
+		polymer_entity_taxonomy_count
+			 1
+		polymer_molecular_weight_maximum
+			 161.0
+		polymer_molecular_weight_minimum
+			 161.0
+		polymer_monomer_count_maximum
+			 1451
+		polymer_monomer_count_minimum
+			 1451
+		resolution_combined
+			> 				 4.3
+		selected_polymer_entity_types
+			 Protein/Oligosaccharide
+		software_programs_combined
+			> 				 AMORE
+			> 				 BUSTER
+			> 				 SCALA
+			> 				 XDS
+		solvent_entity_count
+			 0
+		diffrn_resolution_high
+			provenance_source
+				 Depositor assigned
+			value
+				 4.3
+	rcsb_primary_citation
+		country
+			 GE
+		id
+			 primary
+		journal_abbrev
+			 Angew. Chem. Int. Ed. Engl.
+		journal_id_astm
+			 ACIEAY
+		journal_id_csd
+			 0179
+		journal_id_issn
+			 1521-3773
+		journal_volume
+			 51
+		page_first
+			 3340
+		page_last
+			 3344
+		pdbx_database_id_doi
+			 10.1002/anie.201108015
+		pdbx_database_id_pub_med
+			 22290936
+		rcsb_orcididentifiers
+			> 				 ?
+			> 				 ?
+			> 				 ?
+			> 				 ?
+			> 				 ?
+			> 				 ?
+			> 				 ?
+			> 				 ?
+			> 				 ?
+		rcsb_authors
+			> 				 Marrero, A.
+			> 				 Duquerroy, S.
+			> 				 Trapani, S.
+			> 				 Goulas, T.
+			> 				 Guevara, T.
+			> 				 Andersen, G.R.
+			> 				 Navaza, J.
+			> 				 Sottrup-Jensen, L.
+			> 				 Gomis-Ruth, F.X.
+		rcsb_journal_abbrev
+			 Angew Chem Int Ed Engl
+		title
+			 The crystal structure of human alpha 2-macroglobulin reveals a unique molecular cage.
+		year
+			 2012
+	refine
+		> 			aniso_b11
+				 0.4729
+			aniso_b12
+				 0.0
+			aniso_b13
+				 0.0
+			aniso_b22
+				 -39.1733
+			aniso_b23
+				 0.0
+			aniso_b33
+				 38.7004
+			correlation_coeff_fo_to_fc
+				 0.8769
+			correlation_coeff_fo_to_fc_free
+				 0.8641
+			details
+				 IDEAL-DIST CONTACT TERM CONTACT SETUP. ALL ATOMS HAVE CCP4 ATOM TYPE FROM LIBRARY
+			ls_rfactor_rfree
+				 0.2595
+			ls_rfactor_rwork
+				 0.2385
+			ls_rfactor_obs
+				 0.2395
+			ls_dres_high
+				 4.3
+			ls_dres_low
+				 25.0
+			ls_number_reflns_rfree
+				 3306
+			ls_number_reflns_obs
+				 65058
+			ls_percent_reflns_rfree
+				 5.08
+			ls_percent_reflns_obs
+				 98.94
+			pdbx_rfree_selection_details
+				 RANDOM
+			pdbx_diffrn_id
+				> 					 1
+			pdbx_ls_cross_valid_method
+				 THROUGHOUT
+			pdbx_ls_sigma_f
+				 0.0
+			pdbx_method_to_determine_struct
+				 MOLECULAR REPLACEMENT
+			pdbx_overall_surfree_blow_dpi
+				 0.847
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			biso_mean
+				 175.73
+	refine_analyze
+		> 			luzzati_coordinate_error_obs
+				 1.317
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+	refine_hist
+		> 			cycle_id
+				 LAST
+			number_atoms_solvent
+				 0
+			number_atoms_total
+				 39900
+			pdbx_number_atoms_ligand
+				 674
+			pdbx_number_atoms_nucleic_acid
+				 0
+			pdbx_number_atoms_protein
+				 39226
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			dres_high
+				 4.3
+			dres_low
+				 25.0
+	refine_ls_restr
+		> 			dev_ideal
+				 0.009
+			number
+				 40842
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 HARMONIC
+			type
+				 t_bond_d
+			weight
+				 2.0
+		> 			dev_ideal
+				 1.24
+			number
+				 55759
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 HARMONIC
+			type
+				 t_angle_deg
+			weight
+				 2.0
+		> 			number
+				 13326
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 SINUSOIDAL
+			type
+				 t_dihedral_angle_d
+			weight
+				 2.0
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_incorr_chiral_ct
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_pseud_angle
+		> 			number
+				 960
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 HARMONIC
+			type
+				 t_trig_c_planes
+			weight
+				 2.0
+		> 			number
+				 6029
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 HARMONIC
+			type
+				 t_gen_planes
+			weight
+				 5.0
+		> 			number
+				 40842
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 HARMONIC
+			type
+				 t_it
+			weight
+				 20.0
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_nbd
+		> 			dev_ideal
+				 2.75
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_omega_torsion
+		> 			dev_ideal
+				 24.74
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_other_torsion
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_improper_torsion
+		> 			number
+				 5673
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 SEMIHARMONIC
+			type
+				 t_chiral_improper_torsion
+			weight
+				 5.0
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_sum_occupancies
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_utility_distance
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_utility_angle
+		> 			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			type
+				 t_utility_torsion
+		> 			number
+				 44621
+			pdbx_refine_id
+				 X-RAY DIFFRACTION
+			pdbx_restraint_function
+				 SEMIHARMONIC
+			type
+				 t_ideal_dist_contact
+			weight
+				 4.0
+	reflns
+		> 			number_obs
+				 65393
+			observed_criterion_sigma_i
+				 1.3
+			pdbx_rmerge_iobs
+				 0.09
+			pdbx_diffrn_id
+				> 					 1
+			pdbx_net_iover_sigma_i
+				 10.8
+			pdbx_ordinal
+				 1
+			pdbx_redundancy
+				 3.78
+			percent_possible_obs
+				 99.0
+			biso_wilson_estimate
+				 177.52
+			dresolution_high
+				 4.3
+			dresolution_low
+				 50.0
+	reflns_shell
+		> 			rmerge_iobs
+				 1.0
+			mean_iover_sig_iobs
+				 1.3
+			pdbx_diffrn_id
+				> 					 1
+			pdbx_ordinal
+				 1
+			pdbx_redundancy
+				 3.4
+			percent_possible_all
+				 95.8
+			dres_high
+				 4.3
+			dres_low
+				 4.53
+	software
+		> 			classification
+				 refinement
+			name
+				 BUSTER
+			pdbx_ordinal
+				 1
+			version
+				 2.11.1
+		> 			classification
+				 data reduction
+			name
+				 XDS
+			pdbx_ordinal
+				 2
+		> 			classification
+				 data scaling
+			name
+				 SCALA
+			pdbx_ordinal
+				 3
+		> 			classification
+				 phasing
+			name
+				 AMoRE
+			pdbx_ordinal
+				 4
+	struct
+		pdbx_descriptor
+			 ALPHA-2-MACROGLOBULIN
+		title
+			 Alpha-2 Macroglobulin
+	struct_keywords
+		pdbx_keywords
+			 HYDROLASE INHIBITOR
+		text
+			 HYDROLASE INHIBITOR, PROTEINASE INHIBITOR, IRREVERSIBLE PROTEINASE INHIBITOR, CONFORMATIONAL CHANGE, BLOOD PLASMA INHIBITOR
+	symmetry
+		int_tables_number
+			 19
+		space_group_name_hm
+			 P 21 21 21
+	rcsb_id
+		 4ACQ
+	rcsb_cluster_membership
+		> 			cluster_id
+				 32515
+			identity
+				 100
+		> 			cluster_id
+				 24819
+			identity
+				 95
+		> 			cluster_id
+				 21630
+			identity
+				 90
+		> 			cluster_id
+				 20047
+			identity
+				 70
+		> 			cluster_id
+				 22379
+			identity
+				 50
+		> 			cluster_id
+				 19476
+			identity
+				 30
+	entity_poly
+		nstd_linkage
+			 no
+		nstd_monomer
+			 yes
+		pdbx_seq_one_letter_code
+			 SVSGKPQYMVLVPSLLHTETTEKGCVLLSYLNETVTVSASLESVRGNRSLFTDLEAENDVLHCVAFAVPKSSSNEEVMFLTVQVKGPTQEFKKRTTVMVKNEDSLVFVQTDKSIYKPGQTVKFRVVSMDENFHPLNELIPLVYIQDPKGNRIAQWQSFQLEGGLKQFSFPLSSEPFQGSYKVVVQKKSGGRTEHPFTVEEFVLPKFEVQVTVPKIITILEEEMNVSVCGLYTYGKPVPGHVTVSICRKYSDASDCHGEDSQAFCEKFSGQLNSHGCFYQQVKTKVFQLKRKEYEMKLHTEAQIQEEGTVVELTGRQSSEITRTITKLSFVKVDSHFRQGIPFFGQVRLVDGKGVPIPNKVIFIRGNEANYYSNATTDEHGLVQFSINTTNVMGTSLTVRVNYKDRSPCYGYQWVSEEHEEAHHTAYLVFSPSKSFVHLEPMSHELPCGHTQTVQAHYILNGGTLLGLKKLSFYYLIMAKGGIVRTGTHGLLVKQEDMKGHFSISIPVKSDIAPVARLLIYAVLPTGDVIGDSAKYDVENCLANKVDLSFSPSQSLPASHAHLRVTAAPQSVCALRAVDQSVLLMKPDAELSASSVYNLLPEKDLTGFPGPLNDQDNEDCINRHNVYINGITYTPVSSTNEKDMYSFLEDMGLKAFTNSKIRKPKMCPQLQQYEMHGPEGLRVGFYESDVMGRGHARLVHVEEPHTETVRKYFPETWIWDLVVVNSAGVAEVGVTVPDTITEWKAGAFCLSEDAGLGISSTASLRAFQPFFVELTMPYSVIRGEAFTLKATVLNYLPKCIRVSVQLEASPAFLAVPVEKEQAPHCICANGRQTVSWAVTPKSLGNVNFTVSAEALESQELCGTEVPSVPEHGRKDTVIKPLLVEPEGLEKETTFNSLLCPSGGEVSEELSLKLPPNVVEESARASVSVLGDILGSAMQNTQNLLQMPYGCGE(MEQ)NMVLFAPNIYVLDYLNETQQLTPEIKSKAIGYLNTGYQRQLNYKHYDGSYSTFGERYGRNQGNTWLTAFVLKTFAQARAYIFIDEAHITQALIWLSQRQKDNGCFRSSGSLLNNAIKGGVEDEVTLSAYITIALLEIPLTVTHPVVRNALFCLESAWKTAQEGDHGSHVYTKALLAYAFALAGNQDKRKEVLKSLNEEAVKKDNSVHWERPQKPKAPVGHFYEPQAPSAEVEMTSYVLLAYLTAQPAPTSEDLTSATNIVKWITKQQNAQGGFSSTQDTVVALHALSKYGAATFTRTGKAAQVTIQSSGTFSSKFQVDNNNRLLLQQVSLPELPGEYSMKVTGEGCVYLQTSLKYNILPEKEEFPFALGVQTLPQTCDEPKAHTSFQISLSVSYTGSRSASNMAIVDVKMVSGFIPLKPTVKMLERSNHVSRTEVSSNHVLIYLDKVSNQTLSLFFTVLQDVPVRDLKPAIVKVYDYYETDEFAIAEYNAPCSKDLGNA
+		pdbx_seq_one_letter_code_can
+			 SVSGKPQYMVLVPSLLHTETTEKGCVLLSYLNETVTVSASLESVRGNRSLFTDLEAENDVLHCVAFAVPKSSSNEEVMFLTVQVKGPTQEFKKRTTVMVKNEDSLVFVQTDKSIYKPGQTVKFRVVSMDENFHPLNELIPLVYIQDPKGNRIAQWQSFQLEGGLKQFSFPLSSEPFQGSYKVVVQKKSGGRTEHPFTVEEFVLPKFEVQVTVPKIITILEEEMNVSVCGLYTYGKPVPGHVTVSICRKYSDASDCHGEDSQAFCEKFSGQLNSHGCFYQQVKTKVFQLKRKEYEMKLHTEAQIQEEGTVVELTGRQSSEITRTITKLSFVKVDSHFRQGIPFFGQVRLVDGKGVPIPNKVIFIRGNEANYYSNATTDEHGLVQFSINTTNVMGTSLTVRVNYKDRSPCYGYQWVSEEHEEAHHTAYLVFSPSKSFVHLEPMSHELPCGHTQTVQAHYILNGGTLLGLKKLSFYYLIMAKGGIVRTGTHGLLVKQEDMKGHFSISIPVKSDIAPVARLLIYAVLPTGDVIGDSAKYDVENCLANKVDLSFSPSQSLPASHAHLRVTAAPQSVCALRAVDQSVLLMKPDAELSASSVYNLLPEKDLTGFPGPLNDQDNEDCINRHNVYINGITYTPVSSTNEKDMYSFLEDMGLKAFTNSKIRKPKMCPQLQQYEMHGPEGLRVGFYESDVMGRGHARLVHVEEPHTETVRKYFPETWIWDLVVVNSAGVAEVGVTVPDTITEWKAGAFCLSEDAGLGISSTASLRAFQPFFVELTMPYSVIRGEAFTLKATVLNYLPKCIRVSVQLEASPAFLAVPVEKEQAPHCICANGRQTVSWAVTPKSLGNVNFTVSAEALESQELCGTEVPSVPEHGRKDTVIKPLLVEPEGLEKETTFNSLLCPSGGEVSEELSLKLPPNVVEESARASVSVLGDILGSAMQNTQNLLQMPYGCGEQNMVLFAPNIYVLDYLNETQQLTPEIKSKAIGYLNTGYQRQLNYKHYDGSYSTFGERYGRNQGNTWLTAFVLKTFAQARAYIFIDEAHITQALIWLSQRQKDNGCFRSSGSLLNNAIKGGVEDEVTLSAYITIALLEIPLTVTHPVVRNALFCLESAWKTAQEGDHGSHVYTKALLAYAFALAGNQDKRKEVLKSLNEEAVKKDNSVHWERPQKPKAPVGHFYEPQAPSAEVEMTSYVLLAYLTAQPAPTSEDLTSATNIVKWITKQQNAQGGFSSTQDTVVALHALSKYGAATFTRTGKAAQVTIQSSGTFSSKFQVDNNNRLLLQQVSLPELPGEYSMKVTGEGCVYLQTSLKYNILPEKEEFPFALGVQTLPQTCDEPKAHTSFQISLSVSYTGSRSASNMAIVDVKMVSGFIPLKPTVKMLERSNHVSRTEVSSNHVLIYLDKVSNQTLSLFFTVLQDVPVRDLKPAIVKVYDYYETDEFAIAEYNAPCSKDLGNA
+		pdbx_strand_id
+			 A,B,C,D
+		rcsb_artifact_monomer_count
+			 0
+		rcsb_conflict_count
+			 0
+		rcsb_deletion_count
+			 0
+		rcsb_entity_polymer_type
+			 Protein
+		rcsb_insertion_count
+			 0
+		rcsb_mutation_count
+			 0
+		rcsb_non_std_monomer_count
+			 1
+		rcsb_non_std_monomers
+			> 				 MEQ
+		rcsb_sample_sequence_length
+			 1451
+		type
+			 polypeptide(L)
+	entity_src_nat
+		> 			common_name
+				 HUMAN
+			pdbx_alt_source_flag
+				 sample
+			pdbx_ncbi_taxonomy_id
+				 9606
+			pdbx_organism_scientific
+				 HOMO SAPIENS
+			pdbx_src_id
+				 1
+			tissue
+				 PLASMA
+	rcsb_entity_source_organism
+		> 			ncbi_common_names
+				> 					 human
+				> 					 man
+			ncbi_parent_scientific_name
+				 Eukaryota
+			ncbi_scientific_name
+				 Homo sapiens
+			ncbi_taxonomy_id
+				 9606
+			pdbx_src_id
+				 1
+			provenance_source
+				 PDB Primary Data
+			scientific_name
+				 HOMO SAPIENS
+			source_type
+				 natural
+			taxonomy_lineage
+				> 					depth
+						 1
+					id
+						 131567
+					name
+						 cellular organisms
+				> 					depth
+						 1
+					id
+						 131567
+					name
+						 biota
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 Eukaryota
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 Eucarya
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 Eucaryotae
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 Eukarya
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 Eukaryotae
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 eucaryotes
+				> 					depth
+						 2
+					id
+						 2759
+					name
+						 eukaryotes
+				> 					depth
+						 3
+					id
+						 33154
+					name
+						 Opisthokonta
+				> 					depth
+						 3
+					id
+						 33154
+					name
+						 Fungi/Metazoa group
+				> 					depth
+						 3
+					id
+						 33154
+					name
+						 opisthokonts
+				> 					depth
+						 4
+					id
+						 33208
+					name
+						 Metazoa
+				> 					depth
+						 4
+					id
+						 33208
+					name
+						 Animalia
+				> 					depth
+						 4
+					id
+						 33208
+					name
+						 metazoans
+				> 					depth
+						 4
+					id
+						 33208
+					name
+						 multicellular animals
+				> 					depth
+						 5
+					id
+						 6072
+					name
+						 Eumetazoa
+				> 					depth
+						 6
+					id
+						 33213
+					name
+						 Bilateria
+				> 					depth
+						 7
+					id
+						 33511
+					name
+						 Deuterostomia
+				> 					depth
+						 7
+					id
+						 33511
+					name
+						 deuterostomes
+				> 					depth
+						 8
+					id
+						 7711
+					name
+						 Chordata
+				> 					depth
+						 8
+					id
+						 7711
+					name
+						 chordates
+				> 					depth
+						 9
+					id
+						 89593
+					name
+						 Craniata
+				> 					depth
+						 10
+					id
+						 7742
+					name
+						 Vertebrata
+				> 					depth
+						 10
+					id
+						 7742
+					name
+						 vertebrates
+				> 					depth
+						 11
+					id
+						 7776
+					name
+						 Gnathostomata
+				> 					depth
+						 11
+					id
+						 7776
+					name
+						 jawed vertebrates
+				> 					depth
+						 12
+					id
+						 117570
+					name
+						 Teleostomi
+				> 					depth
+						 13
+					id
+						 117571
+					name
+						 Euteleostomi
+				> 					depth
+						 13
+					id
+						 117571
+					name
+						 bony vertebrates
+				> 					depth
+						 14
+					id
+						 8287
+					name
+						 Sarcopterygii
+				> 					depth
+						 15
+					id
+						 1338369
+					name
+						 Dipnotetrapodomorpha
+				> 					depth
+						 16
+					id
+						 32523
+					name
+						 Tetrapoda
+				> 					depth
+						 16
+					id
+						 32523
+					name
+						 tetrapods
+				> 					depth
+						 17
+					id
+						 32524
+					name
+						 Amniota
+				> 					depth
+						 17
+					id
+						 32524
+					name
+						 amniotes
+				> 					depth
+						 18
+					id
+						 40674
+					name
+						 Mammalia
+				> 					depth
+						 18
+					id
+						 40674
+					name
+						 mammals
+				> 					depth
+						 19
+					id
+						 32525
+					name
+						 Theria
+				> 					depth
+						 20
+					id
+						 9347
+					name
+						 Eutheria
+				> 					depth
+						 20
+					id
+						 9347
+					name
+						 Placentalia
+				> 					depth
+						 20
+					id
+						 9347
+					name
+						 eutherian mammals
+				> 					depth
+						 20
+					id
+						 9347
+					name
+						 placental mammals
+				> 					depth
+						 20
+					id
+						 9347
+					name
+						 placentals
+				> 					depth
+						 21
+					id
+						 1437010
+					name
+						 Boreoeutheria
+				> 					depth
+						 21
+					id
+						 1437010
+					name
+						 Boreotheria
+				> 					depth
+						 22
+					id
+						 314146
+					name
+						 Euarchontoglires
+				> 					depth
+						 23
+					id
+						 9443
+					name
+						 Primates
+				> 					depth
+						 23
+					id
+						 9443
+					name
+						 Primata
+				> 					depth
+						 23
+					id
+						 9443
+					name
+						 primate
+				> 					depth
+						 24
+					id
+						 376913
+					name
+						 Haplorrhini
+				> 					depth
+						 25
+					id
+						 314293
+					name
+						 Simiiformes
+				> 					depth
+						 25
+					id
+						 314293
+					name
+						 Anthropoidea
+				> 					depth
+						 26
+					id
+						 9526
+					name
+						 Catarrhini
+				> 					depth
+						 27
+					id
+						 314295
+					name
+						 Hominoidea
+				> 					depth
+						 27
+					id
+						 314295
+					name
+						 ape
+				> 					depth
+						 27
+					id
+						 314295
+					name
+						 apes
+				> 					depth
+						 28
+					id
+						 9604
+					name
+						 Hominidae
+				> 					depth
+						 28
+					id
+						 9604
+					name
+						 Pongidae
+				> 					depth
+						 28
+					id
+						 9604
+					name
+						 great apes
+				> 					depth
+						 29
+					id
+						 207598
+					name
+						 Homininae
+				> 					depth
+						 29
+					id
+						 207598
+					name
+						 Homo/Pan/Gorilla group
+				> 					depth
+						 30
+					id
+						 9605
+					name
+						 Homo
+				> 					depth
+						 30
+					id
+						 9605
+					name
+						 humans
+				> 					depth
+						 31
+					id
+						 9606
+					name
+						 Homo sapiens
+				> 					depth
+						 31
+					id
+						 9606
+					name
+						 human
+				> 					depth
+						 31
+					id
+						 9606
+					name
+						 man
+			rcsb_gene_name
+				> 					provenance_source
+						 UniProt
+					value
+						 A2M
+				> 					provenance_source
+						 UniProt
+					value
+						 CPAMD5
+				> 					provenance_source
+						 UniProt
+					value
+						 FWP007
+	rcsb_polymer_entity
+		details
+			 METHYLGLUTAMINE AT A 975, B 975, C 975, AND D 975
+		formula_weight
+			 160.995
+		pdbx_description
+			 ALPHA-2-MACROGLOBULIN
+		pdbx_number_of_molecules
+			 4
+		rcsb_multiple_source_flag
+			 N
+		rcsb_source_part_count
+			 1
+		rcsb_source_taxonomy_count
+			 1
+		src_method
+			 nat
+		rcsb_macromolecular_names_combined
+			> 				name
+					 ALPHA-2-MACROGLOBULIN
+				provenance_code
+					 ECO:0000304
+				provenance_source
+					 PDB Preferred Name
+			> 				name
+					 ALPHA-2-M
+				provenance_code
+					 ECO:0000303
+				provenance_source
+					 PDB Synonym
+			> 				name
+					 C3 AND PZP-LIKE ALPHA-2-MACROGLOBULIN DOMAIN-CONTAINING PROTEIN 5
+				provenance_code
+					 ECO:0000303
+				provenance_source
+					 PDB Synonym
+	rcsb_polymer_entity_align
+		> 			provenance_source
+				 SIFTS
+			reference_database_accession
+				 P01023
+			reference_database_name
+				 UniProt
+			aligned_regions
+				> 					entity_beg_seq_id
+						 1
+					length
+						 1451
+					ref_beg_seq_id
+						 24
+	rcsb_polymer_entity_annotation
+		> 			annotation_id
+				 PF17791
+			assignment_version
+				 34.0
+			name
+				 Macroglobulin domain MG3 (MG3)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 PF07677
+			assignment_version
+				 34.0
+			name
+				 A-macroglobulin receptor binding domain (A2M_recep)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 PF00207
+			assignment_version
+				 34.0
+			name
+				 Alpha-2-macroglobulin family (A2M)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 PF01835
+			assignment_version
+				 34.0
+			name
+				 MG2 domain (MG2)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 PF07703
+			assignment_version
+				 34.0
+			name
+				 Alpha-2-macroglobulin bait region domain (A2M_BRD)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 PF17789
+			assignment_version
+				 34.0
+			name
+				 Macroglobulin domain MG4 (MG4)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 PF07678
+			assignment_version
+				 34.0
+			name
+				 A-macroglobulin TED domain (TED_complement)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+		> 			annotation_id
+				 GO:0072562
+			assignment_version
+				 227
+			name
+				 blood microparticle
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0005576
+					name
+						 extracellular region
+				> 					id
+						 GO:0005615
+					name
+						 extracellular space
+				> 					id
+						 GO:0072562
+					name
+						 blood microparticle
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+		> 			annotation_id
+				 GO:0062023
+			assignment_version
+				 227
+			name
+				 collagen-containing extracellular matrix
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0030312
+					name
+						 external encapsulating structure
+				> 					id
+						 GO:0031012
+					name
+						 extracellular matrix
+				> 					id
+						 GO:0062023
+					name
+						 collagen-containing extracellular matrix
+				> 					id
+						 GO:0071944
+					name
+						 cell periphery
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+		> 			annotation_id
+				 GO:0005829
+			assignment_version
+				 227
+			name
+				 cytosol
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0005622
+					name
+						 intracellular anatomical structure
+				> 					id
+						 GO:0005737
+					name
+						 cytoplasm
+				> 					id
+						 GO:0005829
+					name
+						 cytosol
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+		> 			annotation_id
+				 GO:0070062
+			assignment_version
+				 227
+			name
+				 extracellular exosome
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0005576
+					name
+						 extracellular region
+				> 					id
+						 GO:0005615
+					name
+						 extracellular space
+				> 					id
+						 GO:0031982
+					name
+						 vesicle
+				> 					id
+						 GO:0043226
+					name
+						 organelle
+				> 					id
+						 GO:0043227
+					name
+						 membrane-bounded organelle
+				> 					id
+						 GO:0043230
+					name
+						 extracellular organelle
+				> 					id
+						 GO:0065010
+					name
+						 extracellular membrane-bounded organelle
+				> 					id
+						 GO:0070062
+					name
+						 extracellular exosome
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+				> 					id
+						 GO:1903561
+					name
+						 extracellular vesicle
+		> 			annotation_id
+				 GO:0005576
+			assignment_version
+				 227
+			name
+				 extracellular region
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0005576
+					name
+						 extracellular region
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+		> 			annotation_id
+				 GO:0005615
+			assignment_version
+				 227
+			name
+				 extracellular space
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0005576
+					name
+						 extracellular region
+				> 					id
+						 GO:0005615
+					name
+						 extracellular space
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+		> 			annotation_id
+				 GO:0031093
+			assignment_version
+				 227
+			name
+				 platelet alpha granule lumen
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0005575
+					name
+						 cellular_component
+				> 					id
+						 GO:0005622
+					name
+						 intracellular anatomical structure
+				> 					id
+						 GO:0005737
+					name
+						 cytoplasm
+				> 					id
+						 GO:0012505
+					name
+						 endomembrane system
+				> 					id
+						 GO:0030141
+					name
+						 secretory granule
+				> 					id
+						 GO:0031091
+					name
+						 platelet alpha granule
+				> 					id
+						 GO:0031093
+					name
+						 platelet alpha granule lumen
+				> 					id
+						 GO:0031410
+					name
+						 cytoplasmic vesicle
+				> 					id
+						 GO:0031974
+					name
+						 membrane-enclosed lumen
+				> 					id
+						 GO:0031982
+					name
+						 vesicle
+				> 					id
+						 GO:0031983
+					name
+						 vesicle lumen
+				> 					id
+						 GO:0034774
+					name
+						 secretory granule lumen
+				> 					id
+						 GO:0043226
+					name
+						 organelle
+				> 					id
+						 GO:0043227
+					name
+						 membrane-bounded organelle
+				> 					id
+						 GO:0043229
+					name
+						 intracellular organelle
+				> 					id
+						 GO:0043231
+					name
+						 intracellular membrane-bounded organelle
+				> 					id
+						 GO:0043233
+					name
+						 organelle lumen
+				> 					id
+						 GO:0060205
+					name
+						 cytoplasmic vesicle lumen
+				> 					id
+						 GO:0070013
+					name
+						 intracellular organelle lumen
+				> 					id
+						 GO:0097708
+					name
+						 intracellular vesicle
+				> 					id
+						 GO:0099503
+					name
+						 secretory vesicle
+				> 					id
+						 GO:0110165
+					name
+						 cellular anatomical entity
+		> 			annotation_id
+				 GO:0048306
+			assignment_version
+				 227
+			name
+				 calcium-dependent protein binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0048306
+					name
+						 calcium-dependent protein binding
+		> 			annotation_id
+				 GO:0004866
+			assignment_version
+				 227
+			name
+				 endopeptidase inhibitor activity
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0004866
+					name
+						 endopeptidase inhibitor activity
+				> 					id
+						 GO:0030234
+					name
+						 enzyme regulator activity
+				> 					id
+						 GO:0030414
+					name
+						 peptidase inhibitor activity
+				> 					id
+						 GO:0061134
+					name
+						 peptidase regulator activity
+				> 					id
+						 GO:0061135
+					name
+						 endopeptidase regulator activity
+				> 					id
+						 GO:0098772
+					name
+						 molecular function regulator
+		> 			annotation_id
+				 GO:0019899
+			assignment_version
+				 227
+			name
+				 enzyme binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0019899
+					name
+						 enzyme binding
+		> 			annotation_id
+				 GO:0019838
+			assignment_version
+				 227
+			name
+				 growth factor binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0019838
+					name
+						 growth factor binding
+		> 			annotation_id
+				 GO:0019966
+			assignment_version
+				 227
+			name
+				 interleukin-1 binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0019838
+					name
+						 growth factor binding
+				> 					id
+						 GO:0019955
+					name
+						 cytokine binding
+				> 					id
+						 GO:0019966
+					name
+						 interleukin-1 binding
+		> 			annotation_id
+				 GO:0019959
+			assignment_version
+				 227
+			name
+				 interleukin-8 binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0019955
+					name
+						 cytokine binding
+				> 					id
+						 GO:0019956
+					name
+						 chemokine binding
+				> 					id
+						 GO:0019958
+					name
+						 C-X-C chemokine binding
+				> 					id
+						 GO:0019959
+					name
+						 interleukin-8 binding
+		> 			annotation_id
+				 GO:0002020
+			assignment_version
+				 227
+			name
+				 protease binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0002020
+					name
+						 protease binding
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0019899
+					name
+						 enzyme binding
+		> 			annotation_id
+				 GO:0004867
+			assignment_version
+				 227
+			name
+				 serine-type endopeptidase inhibitor activity
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0004866
+					name
+						 endopeptidase inhibitor activity
+				> 					id
+						 GO:0004867
+					name
+						 serine-type endopeptidase inhibitor activity
+				> 					id
+						 GO:0030234
+					name
+						 enzyme regulator activity
+				> 					id
+						 GO:0030414
+					name
+						 peptidase inhibitor activity
+				> 					id
+						 GO:0061134
+					name
+						 peptidase regulator activity
+				> 					id
+						 GO:0061135
+					name
+						 endopeptidase regulator activity
+				> 					id
+						 GO:0098772
+					name
+						 molecular function regulator
+		> 			annotation_id
+				 GO:0005102
+			assignment_version
+				 227
+			name
+				 signaling receptor binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005102
+					name
+						 signaling receptor binding
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+		> 			annotation_id
+				 GO:0043120
+			assignment_version
+				 227
+			name
+				 tumor necrosis factor binding
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0003674
+					name
+						 molecular_function
+				> 					id
+						 GO:0005488
+					name
+						 binding
+				> 					id
+						 GO:0005515
+					name
+						 protein binding
+				> 					id
+						 GO:0019955
+					name
+						 cytokine binding
+				> 					id
+						 GO:0043120
+					name
+						 tumor necrosis factor binding
+		> 			annotation_id
+				 GO:0007597
+			assignment_version
+				 227
+			name
+				 blood coagulation, intrinsic pathway
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0006807
+					name
+						 nitrogen compound metabolic process
+				> 					id
+						 GO:0006950
+					name
+						 response to stress
+				> 					id
+						 GO:0007596
+					name
+						 blood coagulation
+				> 					id
+						 GO:0007597
+					name
+						 blood coagulation, intrinsic pathway
+				> 					id
+						 GO:0007599
+					name
+						 hemostasis
+				> 					id
+						 GO:0008150
+					name
+						 biological_process
+				> 					id
+						 GO:0008152
+					name
+						 metabolic process
+				> 					id
+						 GO:0009611
+					name
+						 response to wounding
+				> 					id
+						 GO:0019538
+					name
+						 protein metabolic process
+				> 					id
+						 GO:0032501
+					name
+						 multicellular organismal process
+				> 					id
+						 GO:0042060
+					name
+						 wound healing
+				> 					id
+						 GO:0043170
+					name
+						 macromolecule metabolic process
+				> 					id
+						 GO:0044238
+					name
+						 primary metabolic process
+				> 					id
+						 GO:0050817
+					name
+						 coagulation
+				> 					id
+						 GO:0050878
+					name
+						 regulation of body fluid levels
+				> 					id
+						 GO:0050896
+					name
+						 response to stimulus
+				> 					id
+						 GO:0065007
+					name
+						 biological regulation
+				> 					id
+						 GO:0065008
+					name
+						 regulation of biological quality
+				> 					id
+						 GO:0071704
+					name
+						 organic substance metabolic process
+				> 					id
+						 GO:0072376
+					name
+						 protein activation cascade
+				> 					id
+						 GO:0072378
+					name
+						 blood coagulation, fibrin clot formation
+				> 					id
+						 GO:1901564
+					name
+						 organonitrogen compound metabolic process
+		> 			annotation_id
+				 GO:0022617
+			assignment_version
+				 227
+			name
+				 extracellular matrix disassembly
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0008150
+					name
+						 biological_process
+				> 					id
+						 GO:0009987
+					name
+						 cellular process
+				> 					id
+						 GO:0016043
+					name
+						 cellular component organization
+				> 					id
+						 GO:0022411
+					name
+						 cellular component disassembly
+				> 					id
+						 GO:0022617
+					name
+						 extracellular matrix disassembly
+				> 					id
+						 GO:0030198
+					name
+						 extracellular matrix organization
+				> 					id
+						 GO:0043062
+					name
+						 extracellular structure organization
+				> 					id
+						 GO:0045229
+					name
+						 external encapsulating structure organization
+				> 					id
+						 GO:0071840
+					name
+						 cellular component organization or biogenesis
+		> 			annotation_id
+				 GO:0001869
+			assignment_version
+				 227
+			name
+				 negative regulation of complement activation, lectin pathway
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0001867
+					name
+						 complement activation, lectin pathway
+				> 					id
+						 GO:0001868
+					name
+						 regulation of complement activation, lectin pathway
+				> 					id
+						 GO:0001869
+					name
+						 negative regulation of complement activation, lectin pathway
+				> 					id
+						 GO:0002252
+					name
+						 immune effector process
+				> 					id
+						 GO:0002253
+					name
+						 activation of immune response
+				> 					id
+						 GO:0002376
+					name
+						 immune system process
+				> 					id
+						 GO:0002682
+					name
+						 regulation of immune system process
+				> 					id
+						 GO:0002683
+					name
+						 negative regulation of immune system process
+				> 					id
+						 GO:0002684
+					name
+						 positive regulation of immune system process
+				> 					id
+						 GO:0002697
+					name
+						 regulation of immune effector process
+				> 					id
+						 GO:0002698
+					name
+						 negative regulation of immune effector process
+				> 					id
+						 GO:0002831
+					name
+						 regulation of response to biotic stimulus
+				> 					id
+						 GO:0002832
+					name
+						 negative regulation of response to biotic stimulus
+				> 					id
+						 GO:0002920
+					name
+						 regulation of humoral immune response
+				> 					id
+						 GO:0002921
+					name
+						 negative regulation of humoral immune response
+				> 					id
+						 GO:0006950
+					name
+						 response to stress
+				> 					id
+						 GO:0006952
+					name
+						 defense response
+				> 					id
+						 GO:0006955
+					name
+						 immune response
+				> 					id
+						 GO:0006956
+					name
+						 complement activation
+				> 					id
+						 GO:0006959
+					name
+						 humoral immune response
+				> 					id
+						 GO:0008150
+					name
+						 biological_process
+				> 					id
+						 GO:0009605
+					name
+						 response to external stimulus
+				> 					id
+						 GO:0009607
+					name
+						 response to biotic stimulus
+				> 					id
+						 GO:0030449
+					name
+						 regulation of complement activation
+				> 					id
+						 GO:0031347
+					name
+						 regulation of defense response
+				> 					id
+						 GO:0031348
+					name
+						 negative regulation of defense response
+				> 					id
+						 GO:0032101
+					name
+						 regulation of response to external stimulus
+				> 					id
+						 GO:0032102
+					name
+						 negative regulation of response to external stimulus
+				> 					id
+						 GO:0043207
+					name
+						 response to external biotic stimulus
+				> 					id
+						 GO:0044419
+					name
+						 biological process involved in interspecies interaction between organisms
+				> 					id
+						 GO:0045087
+					name
+						 innate immune response
+				> 					id
+						 GO:0045088
+					name
+						 regulation of innate immune response
+				> 					id
+						 GO:0045824
+					name
+						 negative regulation of innate immune response
+				> 					id
+						 GO:0045916
+					name
+						 negative regulation of complement activation
+				> 					id
+						 GO:0048518
+					name
+						 positive regulation of biological process
+				> 					id
+						 GO:0048519
+					name
+						 negative regulation of biological process
+				> 					id
+						 GO:0048583
+					name
+						 regulation of response to stimulus
+				> 					id
+						 GO:0048584
+					name
+						 positive regulation of response to stimulus
+				> 					id
+						 GO:0048585
+					name
+						 negative regulation of response to stimulus
+				> 					id
+						 GO:0050776
+					name
+						 regulation of immune response
+				> 					id
+						 GO:0050777
+					name
+						 negative regulation of immune response
+				> 					id
+						 GO:0050778
+					name
+						 positive regulation of immune response
+				> 					id
+						 GO:0050789
+					name
+						 regulation of biological process
+				> 					id
+						 GO:0050896
+					name
+						 response to stimulus
+				> 					id
+						 GO:0051707
+					name
+						 response to other organism
+				> 					id
+						 GO:0065007
+					name
+						 biological regulation
+				> 					id
+						 GO:0080134
+					name
+						 regulation of response to stress
+				> 					id
+						 GO:0098542
+					name
+						 defense response to other organism
+		> 			annotation_id
+				 GO:0002576
+			assignment_version
+				 227
+			name
+				 platelet degranulation
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0002576
+					name
+						 platelet degranulation
+				> 					id
+						 GO:0006810
+					name
+						 transport
+				> 					id
+						 GO:0006887
+					name
+						 exocytosis
+				> 					id
+						 GO:0008150
+					name
+						 biological_process
+				> 					id
+						 GO:0009987
+					name
+						 cellular process
+				> 					id
+						 GO:0016192
+					name
+						 vesicle-mediated transport
+				> 					id
+						 GO:0032940
+					name
+						 secretion by cell
+				> 					id
+						 GO:0045055
+					name
+						 regulated exocytosis
+				> 					id
+						 GO:0046903
+					name
+						 secretion
+				> 					id
+						 GO:0051179
+					name
+						 localization
+				> 					id
+						 GO:0051234
+					name
+						 establishment of localization
+				> 					id
+						 GO:0051641
+					name
+						 cellular localization
+				> 					id
+						 GO:0051649
+					name
+						 establishment of localization in cell
+				> 					id
+						 GO:0140352
+					name
+						 export from cell
+		> 			annotation_id
+				 GO:0051056
+			assignment_version
+				 227
+			name
+				 regulation of small GTPase mediated signal transduction
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0007154
+					name
+						 cell communication
+				> 					id
+						 GO:0007165
+					name
+						 signal transduction
+				> 					id
+						 GO:0007264
+					name
+						 small GTPase mediated signal transduction
+				> 					id
+						 GO:0008150
+					name
+						 biological_process
+				> 					id
+						 GO:0009966
+					name
+						 regulation of signal transduction
+				> 					id
+						 GO:0009987
+					name
+						 cellular process
+				> 					id
+						 GO:0010646
+					name
+						 regulation of cell communication
+				> 					id
+						 GO:0023051
+					name
+						 regulation of signaling
+				> 					id
+						 GO:0023052
+					name
+						 signaling
+				> 					id
+						 GO:0035556
+					name
+						 intracellular signal transduction
+				> 					id
+						 GO:0048583
+					name
+						 regulation of response to stimulus
+				> 					id
+						 GO:0050789
+					name
+						 regulation of biological process
+				> 					id
+						 GO:0050794
+					name
+						 regulation of cellular process
+				> 					id
+						 GO:0050896
+					name
+						 response to stimulus
+				> 					id
+						 GO:0051056
+					name
+						 regulation of small GTPase mediated signal transduction
+				> 					id
+						 GO:0051716
+					name
+						 cellular response to stimulus
+				> 					id
+						 GO:0065007
+					name
+						 biological regulation
+				> 					id
+						 GO:1902531
+					name
+						 regulation of intracellular signal transduction
+		> 			annotation_id
+				 GO:0048863
+			assignment_version
+				 227
+			name
+				 stem cell differentiation
+			provenance_source
+				 UniProt
+			type
+				 GO
+			annotation_lineage
+				> 					id
+						 GO:0008150
+					name
+						 biological_process
+				> 					id
+						 GO:0009987
+					name
+						 cellular process
+				> 					id
+						 GO:0030154
+					name
+						 cell differentiation
+				> 					id
+						 GO:0032502
+					name
+						 developmental process
+				> 					id
+						 GO:0048863
+					name
+						 stem cell differentiation
+				> 					id
+						 GO:0048869
+					name
+						 cellular developmental process
+		> 			annotation_id
+				 IPR009048
+			assignment_version
+				 227
+			name
+				 Alpha-macroglobulin, receptor-binding
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR009048
+					name
+						 Alpha-macroglobulin, receptor-binding
+		> 			annotation_id
+				 IPR036595
+			assignment_version
+				 227
+			name
+				 Alpha-macroglobulin, receptor-binding domain superfamily
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR036595
+					name
+						 Alpha-macroglobulin, receptor-binding domain superfamily
+		> 			annotation_id
+				 IPR011625
+			assignment_version
+				 227
+			name
+				 Alpha-2-macroglobulin, bait region domain
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR011625
+					name
+						 Alpha-2-macroglobulin, bait region domain
+		> 			annotation_id
+				 IPR041813
+			assignment_version
+				 227
+			name
+				 Alpha-2-macroglobulin, TED domain
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR011626
+					name
+						 Alpha-macroglobulin-like, TED domain
+				> 					depth
+						 2
+					id
+						 IPR041813
+					name
+						 Alpha-2-macroglobulin, TED domain
+		> 			annotation_id
+				 IPR011626
+			assignment_version
+				 227
+			name
+				 Alpha-macroglobulin-like, TED domain
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR011626
+					name
+						 Alpha-macroglobulin-like, TED domain
+		> 			annotation_id
+				 IPR013783
+			assignment_version
+				 227
+			name
+				 Immunoglobulin-like fold
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR013783
+					name
+						 Immunoglobulin-like fold
+		> 			annotation_id
+				 IPR014756
+			assignment_version
+				 227
+			name
+				 Immunoglobulin E-set
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR014756
+					name
+						 Immunoglobulin E-set
+		> 			annotation_id
+				 IPR001599
+			assignment_version
+				 227
+			name
+				 Alpha-2-macroglobulin
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR001599
+					name
+						 Alpha-2-macroglobulin
+		> 			annotation_id
+				 IPR019742
+			assignment_version
+				 227
+			name
+				 Alpha-2-macroglobulin, conserved site
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR019742
+					name
+						 Alpha-2-macroglobulin, conserved site
+		> 			annotation_id
+				 IPR002890
+			assignment_version
+				 227
+			name
+				 Macroglobulin domain
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR002890
+					name
+						 Macroglobulin domain
+		> 			annotation_id
+				 IPR041555
+			assignment_version
+				 227
+			name
+				 Macroglobulin domain MG3
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR041555
+					name
+						 Macroglobulin domain MG3
+		> 			annotation_id
+				 IPR040839
+			assignment_version
+				 227
+			name
+				 Macroglobulin domain MG4
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR040839
+					name
+						 Macroglobulin domain MG4
+		> 			annotation_id
+				 IPR008930
+			assignment_version
+				 227
+			name
+				 Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR008930
+					name
+						 Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid
+		> 			annotation_id
+				 IPR010916
+			assignment_version
+				 227
+			name
+				 TonB box, conserved site
+			provenance_source
+				 UniProt
+			type
+				 InterPro
+			annotation_lineage
+				> 					depth
+						 1
+					id
+						 IPR010916
+					name
+						 TonB box, conserved site
+		> 			annotation_id
+				 P01023
+			assignment_version
+				 1.0
+			name
+				 Glycoprotein
+			provenance_source
+				 PDB
+			type
+				 GlyGen
+	rcsb_polymer_entity_container_identifiers
+		asym_ids
+			> 				 A
+			> 				 B
+			> 				 C
+			> 				 D
+		auth_asym_ids
+			> 				 A
+			> 				 B
+			> 				 C
+			> 				 D
+		chem_comp_monomers
+			> 				 ALA
+			> 				 ARG
+			> 				 ASN
+			> 				 ASP
+			> 				 CYS
+			> 				 GLN
+			> 				 GLU
+			> 				 GLY
+			> 				 HIS
+			> 				 ILE
+			> 				 LEU
+			> 				 LYS
+			> 				 MEQ
+			> 				 MET
+			> 				 PHE
+			> 				 PRO
+			> 				 SER
+			> 				 THR
+			> 				 TRP
+			> 				 TYR
+			> 				 VAL
+		chem_comp_nstd_monomers
+			> 				 MEQ
+		entity_id
+			 1
+		entry_id
+			 4ACQ
+		rcsb_id
+			 4ACQ_1
+		reference_sequence_identifiers
+			> 				database_accession
+					 P01023
+				database_name
+					 UniProt
+				provenance_source
+					 SIFTS
+		uniprot_ids
+			> 				 P01023
+	rcsb_polymer_entity_feature
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF17791
+			name
+				 Macroglobulin domain MG3 (MG3)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 200
+					end_seq_id
+						 290
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF07703
+			name
+				 Alpha-2-macroglobulin bait region domain (A2M_BRD)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 436
+					end_seq_id
+						 584
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF07678
+			name
+				 A-macroglobulin TED domain (TED_complement)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 925
+					end_seq_id
+						 1241
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF00207
+			name
+				 Alpha-2-macroglobulin family (A2M)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 715
+					end_seq_id
+						 805
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF17789
+			name
+				 Macroglobulin domain MG4 (MG4)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 327
+					end_seq_id
+						 422
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF01835
+			name
+				 MG2 domain (MG2)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 105
+					end_seq_id
+						 198
+		> 			assignment_version
+				 34.0
+			feature_id
+				 PF07677
+			name
+				 A-macroglobulin receptor binding domain (A2M_recep)
+			provenance_source
+				 Pfam
+			type
+				 Pfam
+			feature_positions
+				> 					beg_seq_id
+						 1351
+					end_seq_id
+						 1441
+		> 			assignment_version
+				 V1.0
+			feature_id
+				 monomer_feature_1
+			name
+				 Parent monomer GLN
+			provenance_source
+				 PDB
+			reference_scheme
+				 PDB entity
+			type
+				 modified_monomer
+			feature_positions
+				> 					beg_comp_id
+						 MEQ
+					beg_seq_id
+						 952
+			additional_properties
+				> 					name
+						 PARENT_COMP_ID
+					values
+						> 							 GLN
+		> 			name
+				 Hydropathy values
+			provenance_source
+				 biojava-aa-prop-6.0.0-alpha3
+			type
+				 hydropathy
+			feature_positions
+				> 					beg_seq_id
+						 5
+					values
+						> 							 -0.69
+						> 							 -0.13
+						> 							 -0.18
+						> 							 0.38
+						> 							 0.24
+						> 							 0.59
+						> 							 1.19
+						> 							 2.0
+						> 							 1.79
+						> 							 1.5
+						> 							 0.64
+						> 							 0.14
+						> 							 -0.4
+						> 							 -0.61
+						> 							 -0.96
+						> 							 -1.42
+						> 							 -1.57
+						> 							 -0.74
+						> 							 -0.24
+						> 							 0.57
+						> 							 0.56
+						> 							 0.49
+						> 							 1.3
+						> 							 1.34
+						> 							 1.0
+						> 							 0.64
+						> 							 0.64
+						> 							 0.14
+						> 							 0.19
+						> 							 0.19
+						> 							 0.53
+						> 							 0.02
+						> 							 0.83
+						> 							 0.83
+						> 							 0.82
+						> 							 0.82
+						> 							 0.4
+						> 							 -0.11
+						> 							 -0.41
+						> 							 -1.11
+						> 							 -1.11
+						> 							 -1.11
+						> 							 -0.41
+						> 							 -0.4
+						> 							 -1.26
+						> 							 -0.33
+						> 							 -0.68
+						> 							 -0.09
+						> 							 0.02
+						> 							 -0.28
+						> 							 -1.09
+						> 							 -0.93
+						> 							 -0.43
+						> 							 -0.4
+						> 							 -0.54
+						> 							 0.31
+						> 							 0.31
+						> 							 1.01
+						> 							 1.6
+						> 							 2.46
+						> 							 1.81
+						> 							 0.96
+						> 							 1.22
+						> 							 0.86
+						> 							 0.3
+						> 							 -0.29
+						> 							 -0.99
+						> 							 -1.58
+						> 							 -1.58
+						> 							 -1.19
+						> 							 -0.44
+						> 							 0.07
+						> 							 0.08
+						> 							 0.63
+						> 							 0.63
+						> 							 1.49
+						> 							 1.44
+						> 							 0.93
+						> 							 0.54
+						> 							 0.16
+						> 							 -0.66
+						> 							 -0.97
+						> 							 -1.12
+						> 							 -1.17
+						> 							 -2.07
+						> 							 -2.13
+						> 							 -2.17
+						> 							 -2.07
+						> 							 -1.52
+						> 							 -0.92
+						> 							 -0.07
+						> 							 -0.81
+						> 							 -0.77
+						> 							 -0.72
+						> 							 -0.61
+						> 							 -0.62
+						> 							 -0.12
+						> 							 -0.12
+						> 							 -0.02
+						> 							 -0.02
+						> 							 0.02
+						> 							 0.33
+						> 							 0.33
+						> 							 0.29
+						> 							 0.29
+						> 							 0.37
+						> 							 -0.24
+						> 							 -0.99
+						> 							 -1.63
+						> 							 -1.29
+						> 							 -1.6
+						> 							 -1.29
+						> 							 -0.39
+						> 							 -0.73
+						> 							 -0.92
+						> 							 -1.28
+						> 							 -0.38
+						> 							 0.27
+						> 							 0.22
+						> 							 0.82
+						> 							 0.51
+						> 							 -0.34
+						> 							 -0.3
+						> 							 -0.3
+						> 							 -0.16
+						> 							 -0.8
+						> 							 -0.84
+						> 							 -1.14
+						> 							 -1.74
+						> 							 -0.93
+						> 							 -0.04
+						> 							 0.17
+						> 							 0.28
+						> 							 1.1
+						> 							 1.13
+						> 							 1.21
+						> 							 1.21
+						> 							 1.21
+						> 							 0.61
+						> 							 -0.32
+						> 							 -0.19
+						> 							 -1.0
+						> 							 -1.97
+						> 							 -1.32
+						> 							 -1.62
+						> 							 -1.62
+						> 							 -1.33
+						> 							 -1.54
+						> 							 -1.2
+						> 							 -0.84
+						> 							 -0.84
+						> 							 0.08
+						> 							 -0.81
+						> 							 -1.06
+						> 							 -0.71
+						> 							 -0.19
+						> 							 -0.23
+						> 							 -0.53
+						> 							 -0.53
+						> 							 -0.23
+						> 							 -0.34
+						> 							 -0.13
+						> 							 0.33
+						> 							 0.29
+						> 							 -0.22
+						> 							 -0.18
+						> 							 0.03
+						> 							 0.03
+						> 							 -0.27
+						> 							 -0.62
+						> 							 -0.53
+						> 							 -1.1
+						> 							 -1.44
+						> 							 -0.89
+						> 							 -0.03
+						> 							 0.61
+						> 							 -0.09
+						> 							 -0.13
+						> 							 -0.52
+						> 							 -0.52
+						> 							 -0.42
+						> 							 -0.03
+						> 							 -1.0
+						> 							 -1.54
+						> 							 -2.4
+						> 							 -2.37
+						> 							 -2.11
+						> 							 -1.37
+						> 							 -1.36
+						> 							 -0.84
+						> 							 -1.19
+						> 							 -1.08
+						> 							 -0.69
+						> 							 0.17
+						> 							 0.94
+						> 							 0.94
+						> 							 0.2
+						> 							 0.59
+						> 							 -0.27
+						> 							 0.59
+						> 							 0.59
+						> 							 0.74
+						> 							 0.2
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.43
+						> 							 1.32
+						> 							 0.78
+						> 							 1.67
+						> 							 1.62
+						> 							 1.31
+						> 							 0.46
+						> 							 0.24
+						> 							 0.89
+						> 							 0.0
+						> 							 -0.03
+						> 							 -0.04
+						> 							 -0.08
+						> 							 -0.22
+						> 							 0.12
+						> 							 0.93
+						> 							 1.18
+						> 							 0.89
+						> 							 1.13
+						> 							 0.62
+						> 							 0.28
+						> 							 -0.37
+						> 							 -0.18
+						> 							 -0.31
+						> 							 -0.78
+						> 							 -0.99
+						> 							 -0.44
+						> 							 -0.38
+						> 							 0.13
+						> 							 0.48
+						> 							 1.16
+						> 							 0.97
+						> 							 0.64
+						> 							 0.26
+						> 							 0.47
+						> 							 -0.09
+						> 							 -0.4
+						> 							 -0.67
+						> 							 -0.67
+						> 							 -1.56
+						> 							 -1.56
+						> 							 -1.41
+						> 							 -1.02
+						> 							 -1.27
+						> 							 -1.57
+						> 							 -1.27
+						> 							 -1.86
+						> 							 -1.57
+						> 							 -0.87
+						> 							 -0.87
+						> 							 -0.9
+						> 							 -1.29
+						> 							 -0.59
+						> 							 -0.29
+						> 							 -0.24
+						> 							 -0.24
+						> 							 -0.02
+						> 							 -0.72
+						> 							 -1.09
+						> 							 -1.06
+						> 							 -0.67
+						> 							 -0.7
+						> 							 -0.3
+						> 							 -0.4
+						> 							 -0.4
+						> 							 -1.21
+						> 							 -0.36
+						> 							 -0.7
+						> 							 -0.42
+						> 							 -0.81
+						> 							 -0.62
+						> 							 -0.62
+						> 							 -0.87
+						> 							 -0.06
+						> 							 -0.1
+						> 							 -1.07
+						> 							 -1.07
+						> 							 -1.38
+						> 							 -1.09
+						> 							 -1.94
+						> 							 -2.04
+						> 							 -2.09
+						> 							 -2.09
+						> 							 -2.01
+						> 							 -1.59
+						> 							 -1.54
+						> 							 -0.96
+						> 							 -1.2
+						> 							 -0.31
+						> 							 -0.91
+						> 							 -0.87
+						> 							 -1.68
+						> 							 -1.37
+						> 							 -1.37
+						> 							 -0.51
+						> 							 -0.24
+						> 							 -0.24
+						> 							 -0.32
+						> 							 -0.01
+						> 							 0.33
+						> 							 0.22
+						> 							 -0.12
+						> 							 -0.13
+						> 							 -0.69
+						> 							 -1.54
+						> 							 -0.66
+						> 							 -1.16
+						> 							 -1.58
+						> 							 -1.61
+						> 							 -0.61
+						> 							 -0.3
+						> 							 -0.64
+						> 							 -0.13
+						> 							 0.17
+						> 							 -0.02
+						> 							 0.52
+						> 							 0.59
+						> 							 1.13
+						> 							 0.24
+						> 							 0.23
+						> 							 0.31
+						> 							 0.2
+						> 							 -0.21
+						> 							 -0.91
+						> 							 -1.42
+						> 							 -0.49
+						> 							 -1.13
+						> 							 -0.43
+						> 							 -0.03
+						> 							 0.28
+						> 							 -0.42
+						> 							 0.54
+						> 							 0.43
+						> 							 0.9
+						> 							 0.87
+						> 							 0.66
+						> 							 0.3
+						> 							 -0.44
+						> 							 -0.44
+						> 							 0.41
+						> 							 -0.23
+						> 							 0.77
+						> 							 0.17
+						> 							 -0.69
+						> 							 -0.73
+						> 							 -0.22
+						> 							 0.71
+						> 							 1.07
+						> 							 1.1
+						> 							 0.78
+						> 							 0.23
+						> 							 0.02
+						> 							 0.02
+						> 							 0.66
+						> 							 -0.2
+						> 							 -0.84
+						> 							 -1.3
+						> 							 -1.89
+						> 							 -1.78
+						> 							 -1.53
+						> 							 -1.22
+						> 							 -0.91
+						> 							 -1.5
+						> 							 -1.5
+						> 							 -1.71
+						> 							 -1.61
+						> 							 -1.1
+						> 							 -0.24
+						> 							 -0.83
+						> 							 -0.44
+						> 							 -0.46
+						> 							 0.43
+						> 							 0.43
+						> 							 0.71
+						> 							 0.68
+						> 							 -0.13
+						> 							 -0.13
+						> 							 0.47
+						> 							 0.11
+						> 							 0.12
+						> 							 -0.47
+						> 							 0.34
+						> 							 0.34
+						> 							 0.89
+						> 							 0.78
+						> 							 0.78
+						> 							 0.18
+						> 							 0.08
+						> 							 -0.28
+						> 							 -0.58
+						> 							 -1.5
+						> 							 -1.51
+						> 							 -2.16
+						> 							 -1.38
+						> 							 -1.99
+						> 							 -1.64
+						> 							 -1.64
+						> 							 -1.6
+						> 							 -1.31
+						> 							 -0.34
+						> 							 -0.34
+						> 							 -0.56
+						> 							 -1.22
+						> 							 -1.43
+						> 							 -1.78
+						> 							 -2.02
+						> 							 -1.43
+						> 							 -1.69
+						> 							 -2.51
+						> 							 -2.5
+						> 							 -1.91
+						> 							 -1.67
+						> 							 -0.89
+						> 							 -0.03
+						> 							 0.67
+						> 							 0.38
+						> 							 0.56
+						> 							 0.82
+						> 							 0.47
+						> 							 0.18
+						> 							 0.63
+						> 							 0.68
+						> 							 -0.14
+						> 							 -0.03
+						> 							 -0.33
+						> 							 -0.33
+						> 							 -0.03
+						> 							 0.31
+						> 							 0.04
+						> 							 -0.66
+						> 							 -0.7
+						> 							 -0.52
+						> 							 -0.67
+						> 							 -0.32
+						> 							 -0.5
+						> 							 -0.79
+						> 							 -1.09
+						> 							 -0.81
+						> 							 0.04
+						> 							 -0.77
+						> 							 -0.39
+						> 							 -1.02
+						> 							 -1.12
+						> 							 -0.27
+						> 							 0.23
+						> 							 0.23
+						> 							 0.27
+						> 							 -0.24
+						> 							 0.07
+						> 							 0.29
+						> 							 1.07
+						> 							 1.17
+						> 							 1.09
+						> 							 0.23
+						> 							 0.19
+						> 							 0.66
+						> 							 0.61
+						> 							 1.0
+						> 							 0.43
+						> 							 -0.13
+						> 							 0.33
+						> 							 0.41
+						> 							 1.06
+						> 							 1.69
+						> 							 0.83
+						> 							 0.88
+						> 							 0.52
+						> 							 1.17
+						> 							 1.78
+						> 							 0.86
+						> 							 0.28
+						> 							 0.02
+						> 							 -0.26
+						> 							 -0.18
+						> 							 -0.18
+						> 							 0.29
+						> 							 0.21
+						> 							 0.21
+						> 							 0.28
+						> 							 -0.03
+						> 							 -0.38
+						> 							 -0.69
+						> 							 -0.12
+						> 							 -0.51
+						> 							 -0.98
+						> 							 -1.76
+						> 							 -1.91
+						> 							 -1.57
+						> 							 -0.68
+						> 							 -0.38
+						> 							 0.51
+						> 							 0.12
+						> 							 1.02
+						> 							 0.63
+						> 							 0.9
+						> 							 0.2
+						> 							 0.79
+						> 							 0.49
+						> 							 0.4
+						> 							 0.37
+						> 							 0.74
+						> 							 -0.22
+						> 							 0.63
+						> 							 1.14
+						> 							 2.03
+						> 							 1.39
+						> 							 1.39
+						> 							 2.03
+						> 							 1.99
+						> 							 1.61
+						> 							 2.03
+						> 							 1.57
+						> 							 0.76
+						> 							 0.72
+						> 							 1.37
+						> 							 1.12
+						> 							 0.27
+						> 							 -0.24
+						> 							 0.13
+						> 							 -0.22
+						> 							 -0.32
+						> 							 -0.32
+						> 							 -0.32
+						> 							 -1.21
+						> 							 -1.56
+						> 							 -0.89
+						> 							 -0.38
+						> 							 -0.38
+						> 							 -0.33
+						> 							 -0.62
+						> 							 0.23
+						> 							 -0.62
+						> 							 0.19
+						> 							 0.49
+						> 							 0.52
+						> 							 0.01
+						> 							 -0.37
+						> 							 -0.07
+						> 							 -0.02
+						> 							 -0.58
+						> 							 0.23
+						> 							 -0.37
+						> 							 -0.08
+						> 							 -0.48
+						> 							 -0.74
+						> 							 -0.37
+						> 							 -0.63
+						> 							 0.18
+						> 							 -0.23
+						> 							 -0.19
+						> 							 -0.09
+						> 							 -0.09
+						> 							 0.2
+						> 							 0.38
+						> 							 -0.21
+						> 							 0.06
+						> 							 0.1
+						> 							 0.88
+						> 							 0.61
+						> 							 1.11
+						> 							 0.41
+						> 							 0.41
+						> 							 1.06
+						> 							 1.06
+						> 							 0.76
+						> 							 0.2
+						> 							 0.39
+						> 							 0.61
+						> 							 0.61
+						> 							 1.32
+						> 							 0.69
+						> 							 0.04
+						> 							 0.04
+						> 							 0.63
+						> 							 0.33
+						> 							 0.29
+						> 							 -0.22
+						> 							 -0.44
+						> 							 -0.74
+						> 							 -0.4
+						> 							 0.24
+						> 							 0.49
+						> 							 -0.1
+						> 							 0.71
+						> 							 0.71
+						> 							 0.62
+						> 							 0.03
+						> 							 -0.31
+						> 							 -0.61
+						> 							 -0.66
+						> 							 -0.59
+						> 							 -0.24
+						> 							 -0.36
+						> 							 -0.96
+						> 							 -0.82
+						> 							 -0.61
+						> 							 0.24
+						> 							 0.24
+						> 							 -0.57
+						> 							 -0.88
+						> 							 -1.22
+						> 							 -1.92
+						> 							 -2.13
+						> 							 -2.48
+						> 							 -2.02
+						> 							 -1.94
+						> 							 -1.94
+						> 							 -2.06
+						> 							 -2.02
+						> 							 -2.02
+						> 							 -1.17
+						> 							 -0.92
+						> 							 -0.03
+						> 							 -0.7
+						> 							 -1.24
+						> 							 -0.36
+						> 							 0.07
+						> 							 0.28
+						> 							 0.59
+						> 							 -0.06
+						> 							 0.56
+						> 							 -0.03
+						> 							 0.27
+						> 							 0.23
+						> 							 -0.66
+						> 							 -0.97
+						> 							 -1.26
+						> 							 -1.57
+						> 							 -1.18
+						> 							 -1.79
+						> 							 -1.79
+						> 							 -1.39
+						> 							 -0.89
+						> 							 -0.89
+						> 							 -0.89
+						> 							 -0.24
+						> 							 0.1
+						> 							 0.31
+						> 							 0.02
+						> 							 0.31
+						> 							 0.31
+						> 							 -0.19
+						> 							 -0.19
+						> 							 0.11
+						> 							 -0.53
+						> 							 0.01
+						> 							 -0.91
+						> 							 -0.91
+						> 							 -1.29
+						> 							 -2.03
+						> 							 -1.74
+						> 							 -1.08
+						> 							 -1.17
+						> 							 -1.12
+						> 							 -1.2
+						> 							 -1.09
+						> 							 -1.04
+						> 							 -1.01
+						> 							 -0.97
+						> 							 -0.97
+						> 							 -1.6
+						> 							 -1.47
+						> 							 -1.26
+						> 							 -2.07
+						> 							 -1.72
+						> 							 -0.91
+						> 							 -1.27
+						> 							 -0.41
+						> 							 -0.67
+						> 							 0.0
+						> 							 -0.1
+						> 							 -0.31
+						> 							 -0.01
+						> 							 -0.36
+						> 							 -0.31
+						> 							 0.4
+						> 							 -0.11
+						> 							 -0.57
+						> 							 -0.92
+						> 							 -1.13
+						> 							 -0.54
+						> 							 -0.96
+						> 							 -0.14
+						> 							 -0.14
+						> 							 -0.71
+						> 							 -0.2
+						> 							 -0.09
+						> 							 -0.43
+						> 							 -0.26
+						> 							 -0.81
+						> 							 -0.39
+						> 							 -1.2
+						> 							 -1.74
+						> 							 -0.92
+						> 							 -1.89
+						> 							 -1.93
+						> 							 -1.69
+						> 							 -1.2
+						> 							 -1.02
+						> 							 -1.33
+						> 							 -1.02
+						> 							 -1.04
+						> 							 -1.01
+						> 							 -0.61
+						> 							 -0.57
+						> 							 0.0
+						> 							 0.16
+						> 							 0.8
+						> 							 1.66
+						> 							 1.34
+						> 							 1.36
+						> 							 1.06
+						> 							 1.11
+						> 							 1.97
+						> 							 1.74
+						> 							 0.89
+						> 							 0.89
+						> 							 0.38
+						> 							 1.23
+						> 							 1.24
+						> 							 1.51
+						> 							 1.38
+						> 							 0.52
+						> 							 0.24
+						> 							 1.13
+						> 							 0.59
+						> 							 0.24
+						> 							 -0.32
+						> 							 -0.68
+						> 							 -0.94
+						> 							 -0.81
+						> 							 -0.22
+						> 							 0.17
+						> 							 -0.06
+						> 							 0.44
+						> 							 0.74
+						> 							 0.46
+						> 							 0.5
+						> 							 0.5
+						> 							 0.5
+						> 							 0.72
+						> 							 0.37
+						> 							 0.59
+						> 							 0.08
+						> 							 0.08
+						> 							 0.39
+						> 							 0.98
+						> 							 0.69
+						> 							 1.16
+						> 							 0.23
+						> 							 0.48
+						> 							 0.29
+						> 							 -0.01
+						> 							 -0.1
+						> 							 0.29
+						> 							 0.4
+						> 							 0.96
+						> 							 0.14
+						> 							 1.07
+						> 							 0.79
+						> 							 0.69
+						> 							 0.9
+						> 							 0.93
+						> 							 0.53
+						> 							 0.69
+						> 							 0.72
+						> 							 0.61
+						> 							 0.14
+						> 							 -0.17
+						> 							 -0.18
+						> 							 0.31
+						> 							 0.38
+						> 							 0.89
+						> 							 -0.01
+						> 							 -0.31
+						> 							 0.11
+						> 							 0.62
+						> 							 1.43
+						> 							 0.84
+						> 							 0.39
+						> 							 0.89
+						> 							 0.29
+						> 							 0.29
+						> 							 0.37
+						> 							 0.94
+						> 							 -0.02
+						> 							 0.02
+						> 							 0.32
+						> 							 0.93
+						> 							 0.12
+						> 							 0.72
+						> 							 0.77
+						> 							 0.69
+						> 							 0.1
+						> 							 0.42
+						> 							 0.16
+						> 							 0.56
+						> 							 0.51
+						> 							 1.1
+						> 							 1.14
+						> 							 1.36
+						> 							 1.62
+						> 							 1.32
+						> 							 1.07
+						> 							 0.48
+						> 							 -0.22
+						> 							 -0.44
+						> 							 -0.82
+						> 							 -1.64
+						> 							 -1.19
+						> 							 -1.16
+						> 							 -0.49
+						> 							 0.14
+						> 							 0.14
+						> 							 0.49
+						> 							 -0.21
+						> 							 -0.42
+						> 							 -0.14
+						> 							 0.04
+						> 							 -0.54
+						> 							 -0.92
+						> 							 -0.92
+						> 							 -0.07
+						> 							 -0.1
+						> 							 0.22
+						> 							 0.18
+						> 							 0.17
+						> 							 0.12
+						> 							 0.17
+						> 							 -0.12
+						> 							 0.14
+						> 							 -0.71
+						> 							 -0.32
+						> 							 -0.22
+						> 							 0.68
+						> 							 0.68
+						> 							 0.46
+						> 							 0.11
+						> 							 0.7
+						> 							 0.66
+						> 							 0.66
+						> 							 0.26
+						> 							 -0.06
+						> 							 -0.91
+						> 							 -0.4
+						> 							 -0.32
+						> 							 0.02
+						> 							 -0.26
+						> 							 -1.07
+						> 							 -0.21
+						> 							 -0.3
+						> 							 0.0
+						> 							 0.86
+						> 							 0.26
+						> 							 -0.41
+						> 							 -0.72
+						> 							 -0.69
+						> 							 -0.8
+						> 							 -1.7
+						> 							 -1.91
+						> 							 -1.9
+						> 							 -1.9
+						> 							 -1.22
+						> 							 -1.27
+						> 							 -1.09
+						> 							 -0.62
+						> 							 0.3
+						> 							 1.2
+						> 							 1.2
+						> 							 1.1
+						> 							 0.24
+						> 							 -0.3
+						> 							 0.56
+						> 							 0.34
+						> 							 -0.51
+						> 							 -1.32
+						> 							 -1.87
+						> 							 -1.56
+						> 							 -1.07
+						> 							 -1.07
+						> 							 -1.11
+						> 							 -1.11
+						> 							 -0.3
+						> 							 0.41
+						> 							 0.62
+						> 							 0.61
+						> 							 0.64
+						> 							 0.29
+						> 							 0.29
+						> 							 0.84
+						> 							 0.33
+						> 							 -0.48
+						> 							 -1.14
+						> 							 -0.54
+						> 							 -0.54
+						> 							 -0.08
+						> 							 -0.47
+						> 							 0.34
+						> 							 -0.3
+						> 							 -0.39
+						> 							 -0.39
+						> 							 0.47
+						> 							 0.51
+						> 							 0.21
+						> 							 -0.6
+						> 							 -0.26
+						> 							 -0.48
+						> 							 -0.8
+						> 							 -0.42
+						> 							 -0.12
+						> 							 -0.12
+						> 							 -0.68
+						> 							 0.18
+						> 							 0.99
+						> 							 1.03
+						> 							 0.44
+						> 							 1.44
+						> 							 1.67
+						> 							 1.71
+						> 							 1.16
+						> 							 1.44
+						> 							 1.19
+						> 							 0.38
+						> 							 0.03
+						> 							 0.34
+						> 							 -0.54
+						> 							 -1.36
+						> 							 -0.89
+						> 							 -0.38
+						> 							 -0.97
+						> 							 -0.97
+						> 							 -0.76
+						> 							 -0.51
+						> 							 -0.48
+						> 							 0.19
+						> 							 0.53
+						> 							 -0.28
+						> 							 -1.09
+						> 							 -1.09
+						> 							 -1.09
+						> 							 -0.44
+						> 							 0.12
+						> 							 0.48
+						> 							 0.4
+						> 							 0.27
+						> 							 0.27
+						> 							 1.16
+						> 							 1.4
+						> 							 1.66
+						> 							 1.61
+						> 							 0.8
+						> 							 0.34
+						> 							 0.57
+						> 							 0.36
+						> 							 0.36
+						> 							 -0.22
+						> 							 -0.47
+						> 							 -1.32
+						> 							 -1.32
+						> 							 -1.01
+						> 							 -1.04
+						> 							 -1.86
+						> 							 -0.97
+						> 							 -1.01
+						> 							 -1.02
+						> 							 -1.07
+						> 							 -0.48
+						> 							 -0.4
+						> 							 -0.37
+						> 							 -0.33
+						> 							 0.48
+						> 							 -0.41
+						> 							 -0.06
+						> 							 -0.01
+						> 							 0.28
+						> 							 -0.31
+						> 							 -1.31
+						> 							 -1.66
+						> 							 -1.09
+						> 							 -1.9
+						> 							 -1.66
+						> 							 -2.01
+						> 							 -2.32
+						> 							 -2.32
+						> 							 -2.32
+						> 							 -1.87
+						> 							 -1.57
+						> 							 -2.13
+						> 							 -1.83
+						> 							 -1.77
+						> 							 -1.02
+						> 							 -0.71
+						> 							 -0.96
+						> 							 -1.07
+						> 							 -1.17
+						> 							 -1.12
+						> 							 -1.48
+						> 							 -1.78
+						> 							 -2.09
+						> 							 -2.44
+						> 							 -2.79
+						> 							 -2.48
+						> 							 -2.08
+						> 							 -1.51
+						> 							 -1.54
+						> 							 -0.84
+						> 							 -0.14
+						> 							 0.71
+						> 							 1.18
+						> 							 1.13
+						> 							 1.13
+						> 							 1.54
+						> 							 1.32
+						> 							 1.01
+						> 							 1.01
+						> 							 0.2
+						> 							 -0.07
+						> 							 -0.63
+						> 							 0.3
+						> 							 0.69
+						> 							 0.88
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.43
+						> 							 0.73
+						> 							 0.8
+						> 							 -0.09
+						> 							 -0.2
+						> 							 -0.28
+						> 							 0.61
+						> 							 0.9
+						> 							 1.12
+						> 							 1.39
+						> 							 0.5
+						> 							 0.08
+						> 							 0.08
+						> 							 -0.56
+						> 							 -1.37
+						> 							 -2.26
+						> 							 -2.2
+						> 							 -2.34
+						> 							 -1.94
+						> 							 -2.06
+						> 							 -1.64
+						> 							 -1.34
+						> 							 -0.96
+						> 							 -0.66
+						> 							 0.16
+						> 							 0.62
+						> 							 -0.04
+						> 							 -0.74
+						> 							 -0.04
+						> 							 0.54
+						> 							 0.2
+						> 							 0.2
+						> 							 0.24
+						> 							 0.29
+						> 							 -0.52
+						> 							 -0.52
+						> 							 -0.52
+						> 							 -0.26
+						> 							 -0.83
+						> 							 0.02
+						> 							 -0.02
+						> 							 0.22
+						> 							 -0.39
+						> 							 0.5
+						> 							 0.81
+						> 							 1.7
+						> 							 1.43
+						> 							 1.93
+						> 							 1.93
+						> 							 1.63
+						> 							 1.93
+						> 							 1.9
+						> 							 1.82
+						> 							 1.82
+						> 							 1.79
+						> 							 1.51
+						> 							 0.73
+						> 							 0.13
+						> 							 0.99
+						> 							 0.96
+						> 							 0.63
+						> 							 -0.18
+						> 							 0.1
+						> 							 0.06
+						> 							 0.44
+						> 							 1.08
+						> 							 1.68
+						> 							 0.82
+						> 							 0.27
+						> 							 0.97
+						> 							 1.26
+						> 							 0.62
+						> 							 0.12
+						> 							 0.01
+						> 							 -0.66
+						> 							 -1.47
+						> 							 -1.12
+						> 							 -1.42
+						> 							 -1.98
+						> 							 -1.92
+						> 							 -1.58
+						> 							 -1.86
+						> 							 -1.59
+						> 							 -1.34
+						> 							 -1.03
+						> 							 -1.42
+						> 							 -0.83
+						> 							 -0.06
+						> 							 0.41
+						> 							 0.7
+						> 							 0.91
+						> 							 0.64
+						> 							 1.1
+						> 							 1.38
+						> 							 2.23
+						> 							 2.23
+						> 							 1.77
+						> 							 0.96
+						> 							 0.37
+						> 							 0.12
+						> 							 -0.51
+						> 							 -1.32
+						> 							 -1.96
+						> 							 -2.77
+						> 							 -2.5
+						> 							 -2.03
+						> 							 -2.08
+						> 							 -1.78
+						> 							 -0.97
+						> 							 -0.92
+						> 							 -0.81
+						> 							 -0.77
+						> 							 -0.18
+						> 							 -0.18
+						> 							 -1.03
+						> 							 -1.03
+						> 							 -1.33
+						> 							 -2.14
+						> 							 -1.84
+						> 							 -0.99
+						> 							 -0.96
+						> 							 -1.26
+						> 							 -2.11
+						> 							 -2.18
+						> 							 -1.92
+						> 							 -1.92
+						> 							 -1.97
+						> 							 -2.06
+						> 							 -2.96
+						> 							 -2.4
+						> 							 -2.48
+						> 							 -1.62
+						> 							 -1.17
+						> 							 -1.34
+						> 							 -0.64
+						> 							 -0.36
+						> 							 -0.57
+						> 							 -0.31
+						> 							 -0.9
+						> 							 -0.52
+						> 							 -1.17
+						> 							 -1.21
+						> 							 -0.66
+						> 							 -1.36
+						> 							 -0.74
+						> 							 -0.74
+						> 							 -0.36
+						> 							 -0.04
+						> 							 -0.33
+						> 							 -0.3
+						> 							 0.26
+						> 							 0.48
+						> 							 1.29
+						> 							 1.02
+						> 							 1.27
+						> 							 1.48
+						> 							 1.48
+						> 							 1.77
+						> 							 1.52
+						> 							 0.88
+						> 							 0.66
+						> 							 0.06
+						> 							 -0.22
+						> 							 -0.17
+						> 							 -0.98
+						> 							 -1.29
+						> 							 -1.07
+						> 							 -0.76
+						> 							 -0.67
+						> 							 -0.67
+						> 							 -0.57
+						> 							 -0.88
+						> 							 -0.29
+						> 							 0.57
+						> 							 0.52
+						> 							 0.0
+						> 							 0.58
+						> 							 0.59
+						> 							 -0.04
+						> 							 -0.36
+						> 							 -0.36
+						> 							 -1.24
+						> 							 -1.51
+						> 							 -1.47
+						> 							 -1.41
+						> 							 -1.96
+						> 							 -1.57
+						> 							 -1.22
+						> 							 -0.92
+						> 							 -0.61
+						> 							 -0.61
+						> 							 -1.2
+						> 							 -0.89
+						> 							 -0.38
+						> 							 0.13
+						> 							 0.02
+						> 							 0.53
+						> 							 0.27
+						> 							 0.54
+						> 							 1.36
+						> 							 1.66
+						> 							 1.3
+						> 							 0.69
+						> 							 0.18
+						> 							 0.18
+						> 							 -0.04
+						> 							 0.23
+						> 							 0.34
+						> 							 -0.16
+						> 							 -0.57
+						> 							 -0.21
+						> 							 -0.11
+						> 							 -0.5
+						> 							 -0.5
+						> 							 -0.5
+						> 							 -0.81
+						> 							 -0.66
+						> 							 -0.66
+						> 							 0.34
+						> 							 0.03
+						> 							 -0.01
+						> 							 0.33
+						> 							 0.09
+						> 							 -0.19
+						> 							 0.51
+						> 							 -0.04
+						> 							 -0.06
+						> 							 -0.99
+						> 							 -0.29
+						> 							 -0.59
+						> 							 -0.03
+						> 							 -0.38
+						> 							 -0.69
+						> 							 -1.39
+						> 							 -1.69
+						> 							 -2.1
+						> 							 -1.24
+						> 							 -1.13
+						> 							 -0.32
+						> 							 -1.18
+						> 							 -1.18
+						> 							 -0.32
+						> 							 -0.02
+						> 							 0.79
+						> 							 1.11
+						> 							 0.3
+						> 							 0.3
+						> 							 -0.3
+						> 							 0.04
+						> 							 0.04
+						> 							 -0.57
+						> 							 -0.57
+						> 							 -0.78
+						> 							 -1.03
+						> 							 -0.18
+						> 							 -0.68
+						> 							 -0.54
+						> 							 -0.89
+						> 							 -0.54
+						> 							 -0.12
+						> 							 0.43
+						> 							 0.08
+						> 							 0.93
+						> 							 0.08
+						> 							 0.08
+						> 							 0.03
+						> 							 0.84
+						> 							 0.46
+						> 							 0.03
+						> 							 -0.82
+						> 							 -0.18
+						> 							 -0.18
+						> 							 0.03
+						> 							 -0.28
+						> 							 -0.62
+						> 							 -1.43
+						> 							 -1.39
+						> 							 -0.93
+						> 							 -0.72
+						> 							 -0.91
+						> 							 -1.13
+						> 							 -0.53
+						> 							 -0.19
+						> 							 0.71
+						> 							 0.71
+						> 							 1.02
+						> 							 1.13
+						> 							 1.13
+						> 							 0.43
+						> 							 0.16
+						> 							 0.01
+						> 							 -0.33
+						> 							 -1.19
+						> 							 -0.98
+						> 							 -1.33
+						> 							 -1.56
+						> 							 -1.73
+						> 							 -1.42
+						> 							 -1.43
+						> 							 -1.4
+						> 							 -1.4
+						> 							 -0.51
+						> 							 -0.42
+						> 							 0.43
+						> 							 0.14
+						> 							 0.97
+						> 							 0.96
+						> 							 0.9
+						> 							 0.51
+						> 							 0.86
+						> 							 0.27
+						> 							 -0.14
+						> 							 -0.66
+						> 							 -0.37
+						> 							 -0.92
+						> 							 -1.22
+						> 							 -0.87
+						> 							 -0.59
+						> 							 -0.04
+						> 							 0.51
+						> 							 0.62
+						> 							 1.18
+						> 							 0.54
+						> 							 0.84
+						> 							 1.7
+						> 							 1.4
+						> 							 1.16
+						> 							 0.97
+						> 							 1.0
+						> 							 1.21
+						> 							 1.17
+						> 							 1.17
+						> 							 0.78
+						> 							 0.23
+						> 							 0.79
+						> 							 0.4
+						> 							 0.3
+						> 							 0.22
+						> 							 0.01
+						> 							 -0.91
+						> 							 -0.57
+						> 							 -0.78
+						> 							 -1.06
+						> 							 -1.06
+						> 							 -0.71
+						> 							 -1.42
+						> 							 -1.92
+						> 							 -1.92
+						> 							 -0.96
+						> 							 -0.96
+						> 							 -0.66
+						> 							 -0.69
+						> 							 -1.51
+						> 							 -0.96
+						> 							 -0.03
+						> 							 0.54
+						> 							 0.79
+						> 							 0.74
+						> 							 0.44
+						> 							 0.1
+						> 							 0.96
+						> 							 1.22
+						> 							 0.37
+						> 							 -0.44
+						> 							 -1.02
+						> 							 -0.46
+						> 							 -0.97
+						> 							 -0.16
+						> 							 0.59
+						> 							 0.43
+						> 							 0.44
+						> 							 1.3
+						> 							 2.11
+						> 							 1.8
+						> 							 0.99
+						> 							 1.54
+						> 							 0.94
+						> 							 1.1
+						> 							 0.29
+						> 							 -0.02
+						> 							 -0.07
+						> 							 -0.92
+						> 							 -0.71
+						> 							 -0.12
+						> 							 -0.09
+						> 							 0.56
+						> 							 -0.34
+						> 							 0.62
+						> 							 0.87
+						> 							 0.06
+						> 							 0.34
+						> 							 0.38
+						> 							 -0.21
+						> 							 -0.79
+						> 							 -1.64
+						> 							 -1.6
+						> 							 -1.76
+						> 							 -1.41
+						> 							 -0.52
+						> 							 -0.18
+						> 							 -0.42
+						> 							 -0.18
+						> 							 -0.49
+						> 							 0.1
+						> 							 0.31
+						> 							 0.28
+						> 							 -0.01
+						> 							 -0.94
+						> 							 -1.53
+						> 							 -0.72
+						> 							 -0.62
+						> 							 -0.62
+						> 							 -0.62
+		> 			name
+				 Disordered binding sites
+			provenance_source
+				 Anchor2
+			type
+				 disorder_binding
+			feature_positions
+				> 					beg_seq_id
+						 1
+					values
+						> 							 0.33
+						> 							 0.35
+						> 							 0.37
+						> 							 0.39
+						> 							 0.41
+						> 							 0.43
+						> 							 0.39
+						> 							 0.34
+						> 							 0.31
+						> 							 0.29
+						> 							 0.28
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.32
+						> 							 0.35
+						> 							 0.38
+						> 							 0.42
+						> 							 0.43
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.36
+						> 							 0.35
+						> 							 0.34
+						> 							 0.34
+						> 							 0.34
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.34
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.43
+						> 							 0.43
+						> 							 0.41
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.4
+						> 							 0.38
+						> 							 0.35
+						> 							 0.33
+						> 							 0.31
+						> 							 0.29
+						> 							 0.28
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.32
+						> 							 0.33
+						> 							 0.35
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.36
+						> 							 0.36
+						> 							 0.35
+						> 							 0.34
+						> 							 0.33
+						> 							 0.33
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.35
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.36
+						> 							 0.35
+						> 							 0.34
+						> 							 0.33
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.38
+						> 							 0.39
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.38
+						> 							 0.39
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.36
+						> 							 0.35
+						> 							 0.34
+						> 							 0.32
+						> 							 0.31
+						> 							 0.3
+						> 							 0.28
+						> 							 0.26
+						> 							 0.24
+						> 							 0.22
+						> 							 0.21
+						> 							 0.2
+						> 							 0.19
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.2
+						> 							 0.21
+						> 							 0.22
+						> 							 0.23
+						> 							 0.25
+						> 							 0.27
+						> 							 0.29
+						> 							 0.3
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.33
+						> 							 0.32
+						> 							 0.31
+						> 							 0.29
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.28
+						> 							 0.28
+						> 							 0.3
+						> 							 0.32
+						> 							 0.35
+						> 							 0.38
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.35
+						> 							 0.33
+						> 							 0.3
+						> 							 0.28
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.25
+						> 							 0.24
+						> 							 0.22
+						> 							 0.22
+						> 							 0.2
+						> 							 0.19
+						> 							 0.18
+						> 							 0.17
+						> 							 0.16
+						> 							 0.15
+						> 							 0.15
+						> 							 0.14
+						> 							 0.14
+						> 							 0.13
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.1
+						> 							 0.1
+						> 							 0.1
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.1
+						> 							 0.1
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.12
+						> 							 0.13
+						> 							 0.13
+						> 							 0.15
+						> 							 0.17
+						> 							 0.2
+						> 							 0.21
+						> 							 0.23
+						> 							 0.24
+						> 							 0.26
+						> 							 0.27
+						> 							 0.28
+						> 							 0.29
+						> 							 0.3
+						> 							 0.3
+						> 							 0.33
+						> 							 0.34
+						> 							 0.34
+						> 							 0.34
+						> 							 0.35
+						> 							 0.34
+						> 							 0.35
+						> 							 0.37
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.41
+						> 							 0.39
+						> 							 0.38
+						> 							 0.36
+						> 							 0.34
+						> 							 0.33
+						> 							 0.31
+						> 							 0.3
+						> 							 0.28
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.27
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.3
+						> 							 0.31
+						> 							 0.31
+						> 							 0.32
+						> 							 0.34
+						> 							 0.34
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.38
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.39
+						> 							 0.38
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.34
+						> 							 0.34
+						> 							 0.33
+						> 							 0.35
+						> 							 0.38
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.41
+						> 							 0.4
+						> 							 0.38
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.36
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.36
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.36
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.37
+						> 							 0.38
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.4
+						> 							 0.43
+						> 							 0.42
+						> 							 0.39
+						> 							 0.37
+						> 							 0.35
+						> 							 0.34
+						> 							 0.33
+						> 							 0.3
+						> 							 0.28
+						> 							 0.27
+						> 							 0.25
+						> 							 0.24
+						> 							 0.23
+						> 							 0.23
+						> 							 0.21
+						> 							 0.2
+						> 							 0.19
+						> 							 0.18
+						> 							 0.18
+						> 							 0.19
+						> 							 0.19
+						> 							 0.2
+						> 							 0.21
+						> 							 0.21
+						> 							 0.22
+						> 							 0.23
+						> 							 0.24
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.25
+						> 							 0.25
+						> 							 0.24
+						> 							 0.24
+						> 							 0.22
+						> 							 0.21
+						> 							 0.2
+						> 							 0.19
+						> 							 0.18
+						> 							 0.16
+						> 							 0.15
+						> 							 0.14
+						> 							 0.12
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.12
+						> 							 0.12
+						> 							 0.12
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.1
+						> 							 0.11
+						> 							 0.11
+						> 							 0.1
+						> 							 0.1
+						> 							 0.09
+						> 							 0.09
+						> 							 0.1
+						> 							 0.1
+						> 							 0.11
+						> 							 0.11
+						> 							 0.12
+						> 							 0.13
+						> 							 0.15
+						> 							 0.17
+						> 							 0.2
+						> 							 0.22
+						> 							 0.25
+						> 							 0.27
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.31
+						> 							 0.3
+						> 							 0.3
+						> 							 0.29
+						> 							 0.28
+						> 							 0.28
+						> 							 0.28
+						> 							 0.28
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.25
+						> 							 0.25
+						> 							 0.26
+						> 							 0.27
+						> 							 0.28
+						> 							 0.29
+						> 							 0.3
+						> 							 0.3
+						> 							 0.31
+						> 							 0.31
+						> 							 0.32
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.34
+						> 							 0.35
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.43
+						> 							 0.41
+						> 							 0.39
+						> 							 0.37
+						> 							 0.35
+						> 							 0.34
+						> 							 0.33
+						> 							 0.32
+						> 							 0.31
+						> 							 0.3
+						> 							 0.3
+						> 							 0.31
+						> 							 0.33
+						> 							 0.34
+						> 							 0.35
+						> 							 0.35
+						> 							 0.36
+						> 							 0.36
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.36
+						> 							 0.36
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.38
+						> 							 0.37
+						> 							 0.35
+						> 							 0.34
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.32
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.36
+						> 							 0.37
+						> 							 0.38
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.41
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.36
+						> 							 0.39
+						> 							 0.42
+						> 							 0.41
+						> 							 0.38
+						> 							 0.35
+						> 							 0.33
+						> 							 0.3
+						> 							 0.3
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.33
+						> 							 0.36
+						> 							 0.39
+						> 							 0.43
+						> 							 0.41
+						> 							 0.38
+						> 							 0.36
+						> 							 0.34
+						> 							 0.32
+						> 							 0.3
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.3
+						> 							 0.31
+						> 							 0.32
+						> 							 0.3
+						> 							 0.29
+						> 							 0.28
+						> 							 0.27
+						> 							 0.26
+						> 							 0.24
+						> 							 0.21
+						> 							 0.19
+						> 							 0.17
+						> 							 0.15
+						> 							 0.13
+						> 							 0.12
+						> 							 0.11
+						> 							 0.1
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.1
+						> 							 0.1
+						> 							 0.11
+						> 							 0.12
+						> 							 0.13
+						> 							 0.14
+						> 							 0.15
+						> 							 0.15
+						> 							 0.15
+						> 							 0.15
+						> 							 0.14
+						> 							 0.14
+						> 							 0.13
+						> 							 0.12
+						> 							 0.11
+						> 							 0.1
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.09
+						> 							 0.08
+						> 							 0.08
+						> 							 0.08
+						> 							 0.08
+						> 							 0.08
+						> 							 0.08
+						> 							 0.08
+						> 							 0.09
+						> 							 0.09
+						> 							 0.1
+						> 							 0.11
+						> 							 0.12
+						> 							 0.13
+						> 							 0.14
+						> 							 0.16
+						> 							 0.17
+						> 							 0.19
+						> 							 0.2
+						> 							 0.21
+						> 							 0.22
+						> 							 0.22
+						> 							 0.21
+						> 							 0.21
+						> 							 0.19
+						> 							 0.18
+						> 							 0.16
+						> 							 0.15
+						> 							 0.14
+						> 							 0.12
+						> 							 0.12
+						> 							 0.11
+						> 							 0.1
+						> 							 0.11
+						> 							 0.12
+						> 							 0.15
+						> 							 0.18
+						> 							 0.21
+						> 							 0.24
+						> 							 0.28
+						> 							 0.32
+						> 							 0.37
+						> 							 0.41
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.39
+						> 							 0.37
+						> 							 0.35
+						> 							 0.33
+						> 							 0.32
+						> 							 0.3
+						> 							 0.29
+						> 							 0.28
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.28
+						> 							 0.28
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.25
+						> 							 0.24
+						> 							 0.23
+						> 							 0.22
+						> 							 0.21
+						> 							 0.21
+						> 							 0.2
+						> 							 0.2
+						> 							 0.21
+						> 							 0.22
+						> 							 0.22
+						> 							 0.22
+						> 							 0.23
+						> 							 0.24
+						> 							 0.24
+						> 							 0.25
+						> 							 0.25
+						> 							 0.27
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.32
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.34
+						> 							 0.32
+						> 							 0.31
+						> 							 0.29
+						> 							 0.28
+						> 							 0.27
+						> 							 0.26
+						> 							 0.23
+						> 							 0.22
+						> 							 0.2
+						> 							 0.19
+						> 							 0.19
+						> 							 0.19
+						> 							 0.18
+						> 							 0.17
+						> 							 0.16
+						> 							 0.16
+						> 							 0.16
+						> 							 0.15
+						> 							 0.15
+						> 							 0.15
+						> 							 0.14
+						> 							 0.13
+						> 							 0.12
+						> 							 0.11
+						> 							 0.1
+						> 							 0.1
+						> 							 0.09
+						> 							 0.08
+						> 							 0.08
+						> 							 0.07
+						> 							 0.07
+						> 							 0.07
+						> 							 0.07
+						> 							 0.08
+						> 							 0.09
+						> 							 0.1
+						> 							 0.11
+						> 							 0.13
+						> 							 0.15
+						> 							 0.17
+						> 							 0.19
+						> 							 0.2
+						> 							 0.21
+						> 							 0.23
+						> 							 0.24
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.27
+						> 							 0.28
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.25
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.28
+						> 							 0.28
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.26
+						> 							 0.25
+						> 							 0.26
+						> 							 0.27
+						> 							 0.29
+						> 							 0.31
+						> 							 0.33
+						> 							 0.36
+						> 							 0.39
+						> 							 0.43
+						> 							 0.4
+						> 							 0.37
+						> 							 0.33
+						> 							 0.3
+						> 							 0.28
+						> 							 0.28
+						> 							 0.28
+						> 							 0.28
+						> 							 0.29
+						> 							 0.3
+						> 							 0.32
+						> 							 0.34
+						> 							 0.36
+						> 							 0.38
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.44
+						> 							 0.44
+						> 							 0.44
+						> 							 0.44
+						> 							 0.44
+						> 							 0.44
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.35
+						> 							 0.36
+						> 							 0.36
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.36
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.42
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.41
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.42
+						> 							 0.43
+						> 							 0.41
+						> 							 0.39
+						> 							 0.37
+						> 							 0.36
+						> 							 0.34
+						> 							 0.32
+						> 							 0.3
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.32
+						> 							 0.33
+						> 							 0.33
+						> 							 0.34
+						> 							 0.35
+						> 							 0.36
+						> 							 0.37
+						> 							 0.37
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.39
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.43
+						> 							 0.42
+						> 							 0.42
+						> 							 0.41
+						> 							 0.41
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.41
+						> 							 0.42
+						> 							 0.43
+						> 							 0.42
+						> 							 0.41
+						> 							 0.4
+						> 							 0.39
+						> 							 0.38
+						> 							 0.37
+						> 							 0.36
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.35
+						> 							 0.34
+						> 							 0.34
+						> 							 0.33
+						> 							 0.32
+						> 							 0.32
+						> 							 0.31
+						> 							 0.31
+						> 							 0.3
+						> 							 0.29
+						> 							 0.28
+						> 							 0.28
+						> 							 0.28
+						> 							 0.27
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.25
+						> 							 0.24
+						> 							 0.24
+						> 							 0.24
+						> 							 0.23
+						> 							 0.23
+						> 							 0.23
+						> 							 0.23
+						> 							 0.23
+						> 							 0.24
+						> 							 0.25
+						> 							 0.25
+						> 							 0.26
+						> 							 0.27
+						> 							 0.28
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.27
+						> 							 0.26
+						> 							 0.25
+						> 							 0.23
+						> 							 0.22
+						> 							 0.21
+						> 							 0.2
+						> 							 0.2
+						> 							 0.2
+						> 							 0.2
+						> 							 0.2
+						> 							 0.21
+						> 							 0.22
+						> 							 0.24
+						> 							 0.25
+						> 							 0.27
+						> 							 0.28
+						> 							 0.29
+						> 							 0.29
+						> 							 0.29
+						> 							 0.28
+						> 							 0.27
+						> 							 0.26
+						> 							 0.24
+						> 							 0.23
+						> 							 0.21
+						> 							 0.2
+						> 							 0.2
+						> 							 0.19
+						> 							 0.18
+						> 							 0.17
+						> 							 0.17
+						> 							 0.17
+						> 							 0.17
+						> 							 0.17
+						> 							 0.17
+						> 							 0.17
+						> 							 0.16
+						> 							 0.16
+						> 							 0.16
+		> 			name
+				 Disordered regions
+			provenance_source
+				 IUPred2(short)
+			type
+				 disorder
+			feature_positions
+				> 					beg_seq_id
+						 1
+					values
+						> 							 0.82
+						> 							 0.73
+						> 							 0.71
+						> 							 0.67
+						> 							 0.57
+						> 							 0.46
+						> 							 0.41
+						> 							 0.37
+						> 							 0.34
+						> 							 0.3
+						> 							 0.25
+						> 							 0.26
+						> 							 0.32
+						> 							 0.32
+						> 							 0.26
+						> 							 0.21
+						> 							 0.14
+						> 							 0.1
+						> 							 0.15
+						> 							 0.11
+						> 							 0.1
+						> 							 0.15
+						> 							 0.21
+						> 							 0.19
+						> 							 0.14
+						> 							 0.19
+						> 							 0.2
+						> 							 0.2
+						> 							 0.18
+						> 							 0.17
+						> 							 0.12
+						> 							 0.13
+						> 							 0.12
+						> 							 0.08
+						> 							 0.07
+						> 							 0.11
+						> 							 0.15
+						> 							 0.2
+						> 							 0.26
+						> 							 0.19
+						> 							 0.17
+						> 							 0.24
+						> 							 0.25
+						> 							 0.17
+						> 							 0.18
+						> 							 0.2
+						> 							 0.22
+						> 							 0.28
+						> 							 0.3
+						> 							 0.26
+						> 							 0.2
+						> 							 0.28
+						> 							 0.21
+						> 							 0.16
+						> 							 0.19
+						> 							 0.13
+						> 							 0.12
+						> 							 0.08
+						> 							 0.1
+						> 							 0.1
+						> 							 0.15
+						> 							 0.23
+						> 							 0.23
+						> 							 0.22
+						> 							 0.3
+						> 							 0.3
+						> 							 0.27
+						> 							 0.24
+						> 							 0.16
+						> 							 0.12
+						> 							 0.16
+						> 							 0.16
+						> 							 0.16
+						> 							 0.15
+						> 							 0.2
+						> 							 0.23
+						> 							 0.34
+						> 							 0.35
+						> 							 0.41
+						> 							 0.39
+						> 							 0.31
+						> 							 0.31
+						> 							 0.3
+						> 							 0.3
+						> 							 0.29
+						> 							 0.27
+						> 							 0.2
+						> 							 0.24
+						> 							 0.2
+						> 							 0.27
+						> 							 0.33
+						> 							 0.34
+						> 							 0.4
+						> 							 0.4
+						> 							 0.4
+						> 							 0.36
+						> 							 0.28
+						> 							 0.2
+						> 							 0.23
+						> 							 0.22
+						> 							 0.22
+						> 							 0.3
+						> 							 0.31
+						> 							 0.24
+						> 							 0.18
+						> 							 0.18
+						> 							 0.21
+						> 							 0.27
+						> 							 0.3
+						> 							 0.35
+						> 							 0.29
+						> 							 0.28
+						> 							 0.19
+						> 							 0.18
+						> 							 0.14
+						> 							 0.13
+						> 							 0.18
+						> 							 0.2
+						> 							 0.27
+						> 							 0.27
+						> 							 0.28
+						> 							 0.19
+						> 							 0.2
+						> 							 0.23
+						> 							 0.22
+						> 							 0.29
+						> 							 0.3
+						> 							 0.2
+						> 							 0.13
+						> 							 0.15
+						> 							 0.1
+						> 							 0.1
+						> 							 0.07
+						> 							 0.07
+						> 							 0.07
+						> 							 0.12
+						> 							 0.19
+						> 							 0.19
+						> 							 0.23
+						> 							 0.23
+						> 							 0.21
+						> 							 0.14
+						> 							 0.19
+						> 							 0.2
+						> 							 0.11
+						> 							 0.18
+						> 							 0.17
+						> 							 0.11
+						> 							 0.17
+						> 							 0.16
+						> 							 0.15
+						> 							 0.21
+						> 							 0.29
+						> 							 0.29
+						> 							 0.37
+						> 							 0.36
+						> 							 0.27
+						> 							 0.25
+						> 							 0.18
+						> 							 0.2
+						> 							 0.15
+						> 							 0.16
+						> 							 0.22
+						> 							 0.25
+						> 							 0.27
+						> 							 0.28
+						> 							 0.27
+						> 							 0.28
+						> 							 0.36
+						> 							 0.28
+						> 							 0.36
+						> 							 0.28
+						> 							 0.21
+						> 							 0.15
+						> 							 0.23
+						> 							 0.22
+						> 							 0.2
+						> 							 0.27
+						> 							 0.28
+						> 							 0.35
+						> 							 0.32
+						> 							 0.38
+						> 							 0.38
+						> 							 0.39
+						> 							 0.41
+						> 							 0.3
+						> 							 0.37
+						> 							 0.3
+						> 							 0.3
+						> 							 0.31
+						> 							 0.3
+						> 							 0.25
+						> 							 0.24
+						> 							 0.33
+						> 							 0.38
+						> 							 0.27
+						> 							 0.3
+						> 							 0.23
+						> 							 0.24
+						> 							 0.17
+						> 							 0.16
+						> 							 0.12
+						> 							 0.13
+						> 							 0.12
+						> 							 0.07
+						> 							 0.04
+						> 							 0.06
+						> 							 0.04
+						> 							 0.04
+						> 							 0.04
+						> 							 0.04
+						> 							 0.07
+						> 							 0.08
+						> 							 0.12
+						> 							 0.07
+						> 							 0.08
+						> 							 0.09
+						> 							 0.05
+						> 							 0.08
+						> 							 0.05
+						> 							 0.05
+						> 							 0.05
+						> 							 0.04
+						> 							 0.04
+						> 							 0.04
+						> 							 0.07
+						> 							 0.08
+						> 							 0.09
+						> 							 0.13
+						> 							 0.18
+						> 							 0.13
+						> 							 0.12
+						> 							 0.08
+						> 							 0.1
+						> 							 0.07
+						> 							 0.05
+						> 							 0.05
+						> 							 0.07
+						> 							 0.08
+						> 							 0.08
+						> 							 0.12
+						> 							 0.15
+						> 							 0.16
+						> 							 0.23
+						> 							 0.12
+						> 							 0.12
+						> 							 0.1
+						> 							 0.14
+						> 							 0.12
+						> 							 0.13
+						> 							 0.15
+						> 							 0.16
+						> 							 0.11
+						> 							 0.06
+						> 							 0.06
+						> 							 0.09
+						> 							 0.12
+						> 							 0.12
+						> 							 0.13
+						> 							 0.18
+						> 							 0.13
+						> 							 0.13
+						> 							 0.16
+						> 							 0.16
+						> 							 0.15
+						> 							 0.17
+						> 							 0.12
+						> 							 0.09
+						> 							 0.08
+						> 							 0.08
+						> 							 0.06
+						> 							 0.05
+						> 							 0.06
+						> 							 0.1
+						> 							 0.16
+						> 							 0.1
+						> 							 0.1
+						> 							 0.1
+						> 							 0.1
+						> 							 0.1
+						> 							 0.1
+						> 							 0.14
+						> 							 0.09
+						> 							 0.1
+						> 							 0.09
+						> 							 0.08
+						> 							 0.12
+						> 							 0.18
+						> 							 0.24
+						> 							 0.24
+						> 							 0.22
+						> 							 0.27
+						> 							 0.21
+						> 							 0.21
+						> 							 0.23
+						> 							 0.28
+						> 							 0.36
+						> 							 0.36
+						> 							 0.38
+						> 							 0.33
+						> 							 0.34
+						> 							 0.27
+						> 							 0.27
+						> 							 0.34
+						> 							 0.33
+						> 							 0.36
+						> 							 0.37
+						> 							 0.43
+						> 							 0.43
+						> 							 0.37
+						> 							 0.36
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.37
+						> 							 0.29
+						> 							 0.29
+						> 							 0.21
+						> 							 0.21
+						> 							 0.27
+						> 							 0.19
+						> 							 0.26
+						> 							 0.27
+						> 							 0.27
+						> 							 0.19
+						> 							 0.19
+						> 							 0.2
+						> 							 0.2
+						> 							 0.13
+						> 							 0.21
+						> 							 0.14
+						> 							 0.09
+						> 							 0.09
+						> 							 0.15
+						> 							 0.1
+						> 							 0.11
+						> 							 0.1
+						> 							 0.06
+						> 							 0.11
+						> 							 0.15
+						> 							 0.15
+						> 							 0.21
+						> 							 0.15
+						> 							 0.17
+						> 							 0.11
+						> 							 0.19
+						> 							 0.19
+						> 							 0.18
+						> 							 0.13
+						> 							 0.13
+						> 							 0.07
+						> 							 0.07
+						> 							 0.12
+						> 							 0.12
+						> 							 0.11
+						> 							 0.17
+						> 							 0.14
+						> 							 0.21
+						> 							 0.22
+						> 							 0.15
+						> 							 0.15
+						> 							 0.15
+						> 							 0.13
+						> 							 0.17
+						> 							 0.15
+						> 							 0.23
+						> 							 0.2
+						> 							 0.2
+						> 							 0.2
+						> 							 0.2
+						> 							 0.23
+						> 							 0.32
+						> 							 0.31
+						> 							 0.31
+						> 							 0.23
+						> 							 0.23
+						> 							 0.21
+						> 							 0.24
+						> 							 0.24
+						> 							 0.27
+						> 							 0.3
+						> 							 0.3
+						> 							 0.29
+						> 							 0.32
+						> 							 0.27
+						> 							 0.27
+						> 							 0.21
+						> 							 0.2
+						> 							 0.16
+						> 							 0.17
+						> 							 0.16
+						> 							 0.2
+						> 							 0.2
+						> 							 0.28
+						> 							 0.28
+						> 							 0.38
+						> 							 0.31
+						> 							 0.24
+						> 							 0.25
+						> 							 0.18
+						> 							 0.23
+						> 							 0.17
+						> 							 0.13
+						> 							 0.13
+						> 							 0.14
+						> 							 0.2
+						> 							 0.2
+						> 							 0.25
+						> 							 0.26
+						> 							 0.28
+						> 							 0.27
+						> 							 0.33
+						> 							 0.33
+						> 							 0.3
+						> 							 0.23
+						> 							 0.19
+						> 							 0.14
+						> 							 0.13
+						> 							 0.2
+						> 							 0.21
+						> 							 0.28
+						> 							 0.27
+						> 							 0.38
+						> 							 0.34
+						> 							 0.29
+						> 							 0.28
+						> 							 0.2
+						> 							 0.23
+						> 							 0.25
+						> 							 0.2
+						> 							 0.23
+						> 							 0.24
+						> 							 0.27
+						> 							 0.19
+						> 							 0.23
+						> 							 0.22
+						> 							 0.27
+						> 							 0.3
+						> 							 0.37
+						> 							 0.38
+						> 							 0.35
+						> 							 0.28
+						> 							 0.3
+						> 							 0.26
+						> 							 0.34
+						> 							 0.3
+						> 							 0.22
+						> 							 0.2
+						> 							 0.18
+						> 							 0.15
+						> 							 0.18
+						> 							 0.18
+						> 							 0.12
+						> 							 0.06
+						> 							 0.1
+						> 							 0.05
+						> 							 0.09
+						> 							 0.09
+						> 							 0.05
+						> 							 0.05
+						> 							 0.03
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.0
+						> 							 0.0
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.02
+						> 							 0.03
+						> 							 0.03
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.02
+						> 							 0.04
+						> 							 0.07
+						> 							 0.13
+						> 							 0.16
+						> 							 0.19
+						> 							 0.23
+						> 							 0.23
+						> 							 0.16
+						> 							 0.16
+						> 							 0.17
+						> 							 0.24
+						> 							 0.15
+						> 							 0.18
+						> 							 0.13
+						> 							 0.13
+						> 							 0.13
+						> 							 0.14
+						> 							 0.14
+						> 							 0.17
+						> 							 0.27
+						> 							 0.2
+						> 							 0.16
+						> 							 0.15
+						> 							 0.09
+						> 							 0.08
+						> 							 0.05
+						> 							 0.03
+						> 							 0.02
+						> 							 0.03
+						> 							 0.01
+						> 							 0.03
+						> 							 0.03
+						> 							 0.05
+						> 							 0.05
+						> 							 0.05
+						> 							 0.03
+						> 							 0.03
+						> 							 0.03
+						> 							 0.05
+						> 							 0.05
+						> 							 0.04
+						> 							 0.04
+						> 							 0.05
+						> 							 0.04
+						> 							 0.06
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.16
+						> 							 0.23
+						> 							 0.16
+						> 							 0.18
+						> 							 0.13
+						> 							 0.12
+						> 							 0.11
+						> 							 0.17
+						> 							 0.19
+						> 							 0.18
+						> 							 0.18
+						> 							 0.22
+						> 							 0.16
+						> 							 0.26
+						> 							 0.22
+						> 							 0.28
+						> 							 0.27
+						> 							 0.23
+						> 							 0.29
+						> 							 0.3
+						> 							 0.35
+						> 							 0.28
+						> 							 0.28
+						> 							 0.31
+						> 							 0.26
+						> 							 0.36
+						> 							 0.37
+						> 							 0.45
+						> 							 0.39
+						> 							 0.3
+						> 							 0.27
+						> 							 0.18
+						> 							 0.19
+						> 							 0.23
+						> 							 0.15
+						> 							 0.19
+						> 							 0.2
+						> 							 0.2
+						> 							 0.18
+						> 							 0.12
+						> 							 0.12
+						> 							 0.1
+						> 							 0.13
+						> 							 0.16
+						> 							 0.2
+						> 							 0.2
+						> 							 0.19
+						> 							 0.13
+						> 							 0.13
+						> 							 0.16
+						> 							 0.21
+						> 							 0.25
+						> 							 0.27
+						> 							 0.2
+						> 							 0.23
+						> 							 0.23
+						> 							 0.16
+						> 							 0.18
+						> 							 0.19
+						> 							 0.24
+						> 							 0.33
+						> 							 0.34
+						> 							 0.37
+						> 							 0.37
+						> 							 0.26
+						> 							 0.27
+						> 							 0.31
+						> 							 0.31
+						> 							 0.32
+						> 							 0.31
+						> 							 0.36
+						> 							 0.37
+						> 							 0.38
+						> 							 0.43
+						> 							 0.52
+						> 							 0.53
+						> 							 0.53
+						> 							 0.52
+						> 							 0.49
+						> 							 0.47
+						> 							 0.46
+						> 							 0.44
+						> 							 0.47
+						> 							 0.41
+						> 							 0.35
+						> 							 0.44
+						> 							 0.41
+						> 							 0.35
+						> 							 0.31
+						> 							 0.31
+						> 							 0.31
+						> 							 0.32
+						> 							 0.25
+						> 							 0.24
+						> 							 0.24
+						> 							 0.22
+						> 							 0.21
+						> 							 0.28
+						> 							 0.35
+						> 							 0.35
+						> 							 0.33
+						> 							 0.27
+						> 							 0.28
+						> 							 0.25
+						> 							 0.25
+						> 							 0.31
+						> 							 0.32
+						> 							 0.29
+						> 							 0.35
+						> 							 0.3
+						> 							 0.36
+						> 							 0.34
+						> 							 0.24
+						> 							 0.29
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.24
+						> 							 0.23
+						> 							 0.23
+						> 							 0.25
+						> 							 0.27
+						> 							 0.31
+						> 							 0.24
+						> 							 0.34
+						> 							 0.41
+						> 							 0.35
+						> 							 0.35
+						> 							 0.41
+						> 							 0.33
+						> 							 0.4
+						> 							 0.37
+						> 							 0.39
+						> 							 0.47
+						> 							 0.5
+						> 							 0.5
+						> 							 0.49
+						> 							 0.44
+						> 							 0.5
+						> 							 0.45
+						> 							 0.47
+						> 							 0.36
+						> 							 0.3
+						> 							 0.34
+						> 							 0.41
+						> 							 0.4
+						> 							 0.34
+						> 							 0.37
+						> 							 0.35
+						> 							 0.32
+						> 							 0.41
+						> 							 0.39
+						> 							 0.41
+						> 							 0.38
+						> 							 0.31
+						> 							 0.23
+						> 							 0.22
+						> 							 0.17
+						> 							 0.23
+						> 							 0.23
+						> 							 0.3
+						> 							 0.28
+						> 							 0.35
+						> 							 0.43
+						> 							 0.43
+						> 							 0.36
+						> 							 0.33
+						> 							 0.37
+						> 							 0.32
+						> 							 0.22
+						> 							 0.25
+						> 							 0.25
+						> 							 0.27
+						> 							 0.21
+						> 							 0.16
+						> 							 0.16
+						> 							 0.22
+						> 							 0.16
+						> 							 0.16
+						> 							 0.11
+						> 							 0.07
+						> 							 0.06
+						> 							 0.06
+						> 							 0.05
+						> 							 0.05
+						> 							 0.04
+						> 							 0.04
+						> 							 0.05
+						> 							 0.04
+						> 							 0.06
+						> 							 0.07
+						> 							 0.06
+						> 							 0.04
+						> 							 0.04
+						> 							 0.08
+						> 							 0.12
+						> 							 0.11
+						> 							 0.1
+						> 							 0.17
+						> 							 0.17
+						> 							 0.21
+						> 							 0.23
+						> 							 0.23
+						> 							 0.2
+						> 							 0.15
+						> 							 0.1
+						> 							 0.09
+						> 							 0.11
+						> 							 0.11
+						> 							 0.17
+						> 							 0.14
+						> 							 0.2
+						> 							 0.13
+						> 							 0.18
+						> 							 0.11
+						> 							 0.1
+						> 							 0.1
+						> 							 0.16
+						> 							 0.13
+						> 							 0.12
+						> 							 0.1
+						> 							 0.1
+						> 							 0.1
+						> 							 0.05
+						> 							 0.07
+						> 							 0.14
+						> 							 0.11
+						> 							 0.1
+						> 							 0.06
+						> 							 0.06
+						> 							 0.03
+						> 							 0.04
+						> 							 0.03
+						> 							 0.06
+						> 							 0.03
+						> 							 0.05
+						> 							 0.03
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.03
+						> 							 0.03
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.03
+						> 							 0.03
+						> 							 0.03
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.02
+						> 							 0.01
+						> 							 0.02
+						> 							 0.01
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.01
+						> 							 0.03
+						> 							 0.04
+						> 							 0.04
+						> 							 0.02
+						> 							 0.02
+						> 							 0.03
+						> 							 0.02
+						> 							 0.04
+						> 							 0.05
+						> 							 0.05
+						> 							 0.05
+						> 							 0.08
+						> 							 0.13
+						> 							 0.11
+						> 							 0.18
+						> 							 0.18
+						> 							 0.17
+						> 							 0.12
+						> 							 0.11
+						> 							 0.09
+						> 							 0.12
+						> 							 0.12
+						> 							 0.1
+						> 							 0.12
+						> 							 0.19
+						> 							 0.21
+						> 							 0.24
+						> 							 0.25
+						> 							 0.2
+						> 							 0.22
+						> 							 0.2
+						> 							 0.22
+						> 							 0.2
+						> 							 0.2
+						> 							 0.18
+						> 							 0.17
+						> 							 0.16
+						> 							 0.19
+						> 							 0.26
+						> 							 0.28
+						> 							 0.31
+						> 							 0.25
+						> 							 0.25
+						> 							 0.23
+						> 							 0.24
+						> 							 0.22
+						> 							 0.23
+						> 							 0.24
+						> 							 0.29
+						> 							 0.33
+						> 							 0.4
+						> 							 0.34
+						> 							 0.27
+						> 							 0.29
+						> 							 0.29
+						> 							 0.36
+						> 							 0.31
+						> 							 0.34
+						> 							 0.39
+						> 							 0.34
+						> 							 0.44
+						> 							 0.46
+						> 							 0.51
+						> 							 0.52
+						> 							 0.53
+						> 							 0.5
+						> 							 0.54
+						> 							 0.59
+						> 							 0.54
+						> 							 0.49
+						> 							 0.47
+						> 							 0.48
+						> 							 0.49
+						> 							 0.5
+						> 							 0.45
+						> 							 0.47
+						> 							 0.48
+						> 							 0.54
+						> 							 0.53
+						> 							 0.47
+						> 							 0.53
+						> 							 0.5
+						> 							 0.5
+						> 							 0.5
+						> 							 0.5
+						> 							 0.45
+						> 							 0.47
+						> 							 0.45
+						> 							 0.39
+						> 							 0.39
+						> 							 0.39
+						> 							 0.43
+						> 							 0.41
+						> 							 0.46
+						> 							 0.51
+						> 							 0.56
+						> 							 0.49
+						> 							 0.47
+						> 							 0.47
+						> 							 0.48
+						> 							 0.48
+						> 							 0.46
+						> 							 0.4
+						> 							 0.37
+						> 							 0.3
+						> 							 0.32
+						> 							 0.41
+						> 							 0.41
+						> 							 0.36
+						> 							 0.35
+						> 							 0.42
+						> 							 0.49
+						> 							 0.47
+						> 							 0.43
+						> 							 0.42
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.38
+						> 							 0.31
+						> 							 0.23
+						> 							 0.29
+						> 							 0.31
+						> 							 0.3
+						> 							 0.24
+						> 							 0.31
+						> 							 0.29
+						> 							 0.23
+						> 							 0.19
+						> 							 0.25
+						> 							 0.31
+						> 							 0.3
+						> 							 0.28
+						> 							 0.28
+						> 							 0.23
+						> 							 0.16
+						> 							 0.19
+						> 							 0.15
+						> 							 0.23
+						> 							 0.15
+						> 							 0.2
+						> 							 0.19
+						> 							 0.18
+						> 							 0.18
+						> 							 0.26
+						> 							 0.34
+						> 							 0.3
+						> 							 0.23
+						> 							 0.19
+						> 							 0.16
+						> 							 0.12
+						> 							 0.15
+						> 							 0.15
+						> 							 0.09
+						> 							 0.06
+						> 							 0.06
+						> 							 0.06
+						> 							 0.07
+						> 							 0.06
+						> 							 0.03
+						> 							 0.05
+						> 							 0.05
+						> 							 0.08
+						> 							 0.08
+						> 							 0.07
+						> 							 0.04
+						> 							 0.04
+						> 							 0.06
+						> 							 0.1
+						> 							 0.09
+						> 							 0.14
+						> 							 0.17
+						> 							 0.13
+						> 							 0.11
+						> 							 0.11
+						> 							 0.16
+						> 							 0.16
+						> 							 0.17
+						> 							 0.15
+						> 							 0.22
+						> 							 0.29
+						> 							 0.23
+						> 							 0.23
+						> 							 0.24
+						> 							 0.25
+						> 							 0.19
+						> 							 0.27
+						> 							 0.21
+						> 							 0.18
+						> 							 0.17
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.15
+						> 							 0.22
+						> 							 0.21
+						> 							 0.19
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.2
+						> 							 0.25
+						> 							 0.24
+						> 							 0.23
+						> 							 0.23
+						> 							 0.28
+						> 							 0.28
+						> 							 0.35
+						> 							 0.25
+						> 							 0.18
+						> 							 0.24
+						> 							 0.2
+						> 							 0.13
+						> 							 0.09
+						> 							 0.09
+						> 							 0.08
+						> 							 0.09
+						> 							 0.08
+						> 							 0.07
+						> 							 0.07
+						> 							 0.05
+						> 							 0.09
+						> 							 0.07
+						> 							 0.04
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.03
+						> 							 0.03
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.02
+						> 							 0.04
+						> 							 0.06
+						> 							 0.11
+						> 							 0.13
+						> 							 0.07
+						> 							 0.07
+						> 							 0.09
+						> 							 0.1
+						> 							 0.16
+						> 							 0.17
+						> 							 0.1
+						> 							 0.07
+						> 							 0.13
+						> 							 0.19
+						> 							 0.23
+						> 							 0.22
+						> 							 0.22
+						> 							 0.21
+						> 							 0.22
+						> 							 0.16
+						> 							 0.17
+						> 							 0.17
+						> 							 0.18
+						> 							 0.12
+						> 							 0.17
+						> 							 0.17
+						> 							 0.17
+						> 							 0.13
+						> 							 0.08
+						> 							 0.05
+						> 							 0.05
+						> 							 0.04
+						> 							 0.06
+						> 							 0.03
+						> 							 0.02
+						> 							 0.03
+						> 							 0.03
+						> 							 0.03
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.03
+						> 							 0.04
+						> 							 0.02
+						> 							 0.04
+						> 							 0.03
+						> 							 0.05
+						> 							 0.05
+						> 							 0.08
+						> 							 0.08
+						> 							 0.08
+						> 							 0.07
+						> 							 0.1
+						> 							 0.15
+						> 							 0.15
+						> 							 0.11
+						> 							 0.08
+						> 							 0.13
+						> 							 0.22
+						> 							 0.26
+						> 							 0.28
+						> 							 0.2
+						> 							 0.18
+						> 							 0.15
+						> 							 0.21
+						> 							 0.15
+						> 							 0.13
+						> 							 0.12
+						> 							 0.1
+						> 							 0.09
+						> 							 0.1
+						> 							 0.1
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.11
+						> 							 0.15
+						> 							 0.18
+						> 							 0.14
+						> 							 0.14
+						> 							 0.17
+						> 							 0.17
+						> 							 0.25
+						> 							 0.27
+						> 							 0.35
+						> 							 0.35
+						> 							 0.37
+						> 							 0.39
+						> 							 0.46
+						> 							 0.5
+						> 							 0.5
+						> 							 0.5
+						> 							 0.45
+						> 							 0.47
+						> 							 0.4
+						> 							 0.41
+						> 							 0.4
+						> 							 0.42
+						> 							 0.49
+						> 							 0.54
+						> 							 0.55
+						> 							 0.55
+						> 							 0.58
+						> 							 0.6
+						> 							 0.54
+						> 							 0.55
+						> 							 0.58
+						> 							 0.56
+						> 							 0.5
+						> 							 0.51
+						> 							 0.51
+						> 							 0.52
+						> 							 0.49
+						> 							 0.55
+						> 							 0.53
+						> 							 0.58
+						> 							 0.59
+						> 							 0.53
+						> 							 0.53
+						> 							 0.48
+						> 							 0.49
+						> 							 0.47
+						> 							 0.41
+						> 							 0.38
+						> 							 0.3
+						> 							 0.29
+						> 							 0.26
+						> 							 0.18
+						> 							 0.18
+						> 							 0.24
+						> 							 0.2
+						> 							 0.19
+						> 							 0.2
+						> 							 0.19
+						> 							 0.2
+						> 							 0.2
+						> 							 0.21
+						> 							 0.22
+						> 							 0.29
+						> 							 0.21
+						> 							 0.23
+						> 							 0.23
+						> 							 0.2
+						> 							 0.26
+						> 							 0.32
+						> 							 0.31
+						> 							 0.31
+						> 							 0.32
+						> 							 0.34
+						> 							 0.32
+						> 							 0.31
+						> 							 0.34
+						> 							 0.35
+						> 							 0.32
+						> 							 0.35
+						> 							 0.3
+						> 							 0.31
+						> 							 0.31
+						> 							 0.29
+						> 							 0.2
+						> 							 0.27
+						> 							 0.27
+						> 							 0.26
+						> 							 0.3
+						> 							 0.31
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.28
+						> 							 0.28
+						> 							 0.37
+						> 							 0.35
+						> 							 0.29
+						> 							 0.28
+						> 							 0.27
+						> 							 0.2
+						> 							 0.23
+						> 							 0.2
+						> 							 0.17
+						> 							 0.16
+						> 							 0.15
+						> 							 0.15
+						> 							 0.16
+						> 							 0.16
+						> 							 0.16
+						> 							 0.15
+						> 							 0.13
+						> 							 0.16
+						> 							 0.21
+						> 							 0.18
+						> 							 0.23
+						> 							 0.14
+						> 							 0.17
+						> 							 0.23
+						> 							 0.23
+						> 							 0.24
+						> 							 0.3
+						> 							 0.22
+						> 							 0.25
+						> 							 0.28
+						> 							 0.29
+						> 							 0.3
+						> 							 0.31
+						> 							 0.23
+						> 							 0.26
+						> 							 0.26
+						> 							 0.27
+						> 							 0.31
+						> 							 0.35
+						> 							 0.28
+						> 							 0.29
+						> 							 0.23
+						> 							 0.32
+						> 							 0.32
+						> 							 0.26
+						> 							 0.26
+						> 							 0.18
+						> 							 0.22
+						> 							 0.31
+						> 							 0.23
+						> 							 0.25
+						> 							 0.26
+						> 							 0.34
+						> 							 0.27
+						> 							 0.33
+						> 							 0.29
+						> 							 0.27
+						> 							 0.2
+						> 							 0.19
+						> 							 0.19
+						> 							 0.26
+						> 							 0.32
+						> 							 0.32
+						> 							 0.25
+						> 							 0.17
+						> 							 0.16
+						> 							 0.17
+						> 							 0.23
+						> 							 0.2
+						> 							 0.14
+						> 							 0.19
+						> 							 0.11
+						> 							 0.12
+						> 							 0.07
+						> 							 0.08
+						> 							 0.09
+						> 							 0.12
+						> 							 0.12
+						> 							 0.19
+						> 							 0.2
+						> 							 0.13
+						> 							 0.15
+						> 							 0.09
+						> 							 0.12
+						> 							 0.12
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.18
+						> 							 0.12
+						> 							 0.2
+						> 							 0.23
+						> 							 0.3
+						> 							 0.23
+						> 							 0.31
+						> 							 0.38
+						> 							 0.38
+						> 							 0.36
+						> 							 0.34
+						> 							 0.32
+						> 							 0.3
+						> 							 0.38
+						> 							 0.27
+						> 							 0.35
+						> 							 0.31
+						> 							 0.38
+						> 							 0.31
+						> 							 0.37
+						> 							 0.3
+						> 							 0.31
+						> 							 0.3
+						> 							 0.27
+						> 							 0.26
+						> 							 0.26
+						> 							 0.33
+						> 							 0.32
+						> 							 0.27
+						> 							 0.24
+						> 							 0.25
+						> 							 0.26
+						> 							 0.23
+						> 							 0.17
+						> 							 0.13
+						> 							 0.2
+						> 							 0.14
+						> 							 0.2
+						> 							 0.18
+						> 							 0.19
+						> 							 0.19
+						> 							 0.25
+						> 							 0.17
+						> 							 0.17
+						> 							 0.19
+						> 							 0.13
+						> 							 0.13
+						> 							 0.14
+						> 							 0.14
+						> 							 0.12
+						> 							 0.13
+						> 							 0.11
+						> 							 0.08
+						> 							 0.1
+						> 							 0.15
+						> 							 0.2
+						> 							 0.2
+						> 							 0.27
+						> 							 0.2
+						> 							 0.22
+						> 							 0.28
+						> 							 0.28
+						> 							 0.28
+						> 							 0.3
+						> 							 0.37
+						> 							 0.35
+						> 							 0.43
+						> 							 0.43
+						> 							 0.35
+						> 							 0.27
+						> 							 0.25
+						> 							 0.18
+						> 							 0.15
+						> 							 0.22
+						> 							 0.21
+						> 							 0.15
+						> 							 0.15
+						> 							 0.15
+						> 							 0.15
+						> 							 0.2
+						> 							 0.13
+						> 							 0.12
+						> 							 0.07
+						> 							 0.04
+						> 							 0.03
+						> 							 0.03
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.02
+						> 							 0.01
+						> 							 0.03
+						> 							 0.03
+						> 							 0.05
+						> 							 0.05
+						> 							 0.03
+						> 							 0.04
+						> 							 0.05
+						> 							 0.03
+						> 							 0.02
+						> 							 0.01
+						> 							 0.02
+						> 							 0.01
+						> 							 0.01
+						> 							 0.03
+						> 							 0.04
+						> 							 0.02
+						> 							 0.04
+						> 							 0.07
+						> 							 0.08
+						> 							 0.08
+						> 							 0.07
+						> 							 0.05
+						> 							 0.05
+						> 							 0.04
+						> 							 0.04
+						> 							 0.05
+						> 							 0.05
+						> 							 0.04
+						> 							 0.05
+						> 							 0.06
+						> 							 0.09
+						> 							 0.09
+						> 							 0.14
+						> 							 0.14
+						> 							 0.12
+						> 							 0.18
+						> 							 0.21
+						> 							 0.24
+						> 							 0.29
+						> 							 0.32
+						> 							 0.35
+						> 							 0.48
+						> 							 0.55
+						> 							 0.67
+						> 							 0.73
+						> 							 0.76
+						> 							 0.86
+	rcsb_polymer_entity_feature_summary
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 CARD_MODEL
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_DESCRIPTION
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_DOMAIN_NAME
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_GENE_ALLELE_NAME
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_ORGANISM_NAME
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_PROTEIN_NAME
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_RECEPTOR_DESCRIPTION
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 IMGT_ANTIBODY_RECEPTOR_TYPE
+		> 			count
+				 7
+			coverage
+				 0.64025
+			type
+				 Pfam
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 SABDAB_ANTIBODY_ANTIGEN_NAME
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 SABDAB_ANTIBODY_NAME
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 SABDAB_ANTIBODY_TARGET
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 artifact
+		> 			count
+				 1
+			coverage
+				 0.00069
+			type
+				 modified_monomer
+		> 			count
+				 0
+			coverage
+				 0.0
+			type
+				 mutation
+	rcsb_polymer_entity_name_com
+		> 			name
+				 ALPHA-2-M, C3 AND PZP-LIKE ALPHA-2-MACROGLOBULIN DOMAIN-CONTAINING PROTEIN 5
+	rcsb_related_target_references
+		> 			related_resource_name
+				 ChEMBL
+			related_resource_version
+				 29
+			related_target_id
+				 CHEMBL4295690
+			target_taxonomy_id
+				 9606
+			aligned_target
+				> 					entity_beg_seq_id
+						 1
+					length
+						 1450
+					target_beg_seq_id
+						 24
+		> 			related_resource_name
+				 DrugBank
+			related_resource_version
+				 5.1
+			related_target_id
+				 P01023
+			target_taxonomy_id
+				 9606
+			aligned_target
+				> 					entity_beg_seq_id
+						 1
+					length
+						 1450
+					target_beg_seq_id
+						 24
+		> 			related_resource_name
+				 Pharos
+			related_resource_version
+				 6.11.0
+			related_target_id
+				 15605
+			target_taxonomy_id
+				 9606
+			aligned_target
+				> 					entity_beg_seq_id
+						 1
+					length
+						 1450
+					target_beg_seq_id
+						 24
+	rcsb_target_cofactors
+		> 			cofactor_name
+				 Becaplermin
+			cofactor_resource_id
+				 DB00102
+			mechanism_of_action
+				 Binds to the beta platelet-derived growth factor (PDGF) receptor, a tyrosine kinase receptor. PDGF is known to exist as a dimer, and activates its signaling pathway by a ligand induced receptor dimerization and autophosphorylation. PDGF receptors also contain many auto-phosphorylation sites, which serve to mediate binding of SH2 sites and subsequently signal corresponding pathways. There are five different isoforms of PDGF that activate through two different receptors (alpha and beta).
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 1697862
+				> 					 7541796
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 LXZZYRPGZAFOLE-UHFFFAOYSA-L
+			cofactor_smiles
+				 [H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]
+			cofactor_chem_comp_id
+				 CPT
+			cofactor_name
+				 Cisplatin
+			cofactor_resource_id
+				 DB00515
+			mechanism_of_action
+				 Alkylating agents work by three different mechanisms: 1) attachment of alkyl groups to DNA bases, resulting in the DNA being fragmented by repair enzymes in their attempts to replace the alkylated bases, preventing DNA synthesis and RNA transcription from the affected DNA, 2) DNA damage via the formation of cross-links (bonds between atoms in the DNA) which prevents DNA from being separated for synthesis or transcription, and 3) the induction of mispairing of the nucleotides leading to mutations.
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 16773208
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 CLKOFPXJLQSYAH-ABRJDSQDSA-N
+			cofactor_smiles
+				 CC[C@H](C)[C@H](N)C1=N[C@@H](CS1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](CCC(O)=O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@H]1CCCCNC(=O)[C@H](CC(N)=O)NC(=O)[C@@H](CC(O)=O)NC(=O)[C@H](CC2=CNC=N2)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)[C@@H](CCCN)NC1=O)[C@@H](C)CC
+			cofactor_name
+				 Bacitracin
+			cofactor_resource_id
+				 DB00626
+			mechanism_of_action
+				 Bacitracin binds to a divalent metal ion such as Mn(II), Co(II), Ni(II), Cu(II), or Zn(II).[A954] These complexes bind C<sub>55</sub>-isoprenyl pyrophosphate, preventing the hydrolysis of a lipid dolichol pyrophosphate, which finally inhibits cell wall synthesis.[A954] Bacitracin metal complexes also bind and oxidatively cleave DNA.[A954]
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 42903
+				> 					 6162847
+				> 					 6165617
+				> 					 6184373
+				> 					 6187372
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 HCHKCACWOHOZIP-UHFFFAOYSA-N
+			cofactor_smiles
+				 [Zn]
+			cofactor_name
+				 Zinc
+			cofactor_resource_id
+				 DB01593
+			mechanism_of_action
+				 **Zinc has three primary biological roles**: _catalytic_, _structural_, and _regulatory_. The catalytic and structural role of zinc is well established, and there are various noteworthy reviews on these functions. For example, zinc is a structural constituent in numerous proteins, inclusive of growth factors, cytokines, receptors, enzymes, and transcription factors for different cellular signaling pathways. It is implicated in numerous cellular processes as a cofactor for approximately 3000 human proteins including enzymes, nuclear factors, and hormones [L2096].
+
+Zinc promotes resistance to epithelial apoptosis through cell protection (cytoprotection) against reactive oxygen species and bacterial toxins, likely through the antioxidant activity of the cysteine-rich metallothioneins [A32419].
+
+In HL-60 cells (promyelocytic leukemia cell line), zinc enhances the up-regulation of A20 mRNA, which, via TRAF pathway, decreases NF-kappaB activation, leading to decreased gene expression and generation of tumor necrosis factor-alpha (TNF-alpha), IL-1beta, and IL-8 [A32418].
+
+There are several mechanisms of action of zinc on acute diarrhea. Various mechanisms are specific to the gastrointestinal system: zinc restores mucosal barrier integrity and enterocyte brush-border enzyme activity, it promotes the production of antibodies and circulating lymphocytes against intestinal pathogens, and has a direct effect on ion channels, acting as a potassium channel blocker of adenosine 3-5-cyclic monophosphate-mediated chlorine secretion. Cochrane researchers examined the evidence available up to 30 September 2016 [L2106].
+
+Zinc deficiency in humans decreases the activity of serum _thymulin_ (a hormone of the thymus), which is necessary for the maturation of T-helper cells. T-helper 1 (Th(1)) cytokines are decreased but T-helper 2 (Th(2)) cytokines are not affected by zinc deficiency in humans [A342417].
+
+The change of _Th(1)_ to _Th(2)_ function leads to cell-mediated immune dysfunction. Because IL-2 production (Th(1) cytokine) is decreased, this causes decreased activity of natural-killer-cell (NK cell) and T cytolytic cells, normally involved in killing viruses, bacteria, and malignant cells [A3424]. 
+
+In humans, zinc deficiency may lead to the generation of new CD4+ T cells, produced in the thymus. In cell culture studies (HUT-78, a Th(0) human malignant lymphoblastoid cell line), as a result of zinc deficiency, nuclear factor-kappaB (NF-kappaB) activation, phosphorylation of IkappaB, and binding of NF-kappaB to DNA are decreased and this results in decreased Th(1) cytokine production [A32417].
+
+In another study, zinc supplementation in human subjects suppressed the gene expression and production of pro-inflammatory cytokines and decreased oxidative stress markers [A3424]. In HL-60 cells (a human pro-myelocytic leukemia cell line), zinc deficiency increased the levels of TNF-alpha, IL-1beta, and IL-8 cytokines and mRNA. In such cells, zinc was found to induce A20, a zinc finger protein that inhibited NF-kappaB activation by the tumor necrosis factor receptor-associated factor pathway. This process decreased gene expression of pro-inflammatory cytokines and oxidative stress markers [A32417].
+
+The exact mechanism of zinc in acne treatment is poorly understood. However, zinc is considered to act directly on microbial inflammatory equilibrium and facilitate antibiotic absorption when used in combination with other agents. Topical zinc alone as well as in combination with other agents may be efficacious because of its anti-inflammatory activity and ability to reduce P. acnes bacteria by the inhibition of P. acnes lipases and free fatty acid levels [L2102].
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 23896426
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 CXFKOLCMCRBYPL-UHFFFAOYSA-L
+			cofactor_smiles
+				 [Mn++].CC1=C(O)C(CN(CCN(CC([O-])=O)CC2=CC(COP(O)(O)=O)=NC(C)=C2O)CC([O-])=O)=CC(COP(O)(O)=O)=N1
+			cofactor_name
+				 Mangafodipir
+			cofactor_resource_id
+				 DB06796
+			mechanism_of_action
+				 After intravenous administration, the chelate dissociates slowly to manganese and organic ligand fodipir (dipyridoxyl diphosphate), and manganese is taken up by the hepatocytes with high affinity and selectivity. The ligand fodipir is distributed to the extracellular fluid and later eliminated via urine [A19708]. Mangafodipir shortens the longitudinal relaxation time (T1) of targeted tissues during MRI, where signal intensity or brightness is increased in normal liver parenchyma. Overall, there is increased contrast between normal tissue and abnormal tissue with lesions because there is a difference between cellular compositions [A19716], and manganese uptake in metastatic tissue or focal lesions is minimal or nearly absent [A19706].
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 9245963
+				> 					 9245964
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_name
+				 Ocriplasmin
+			cofactor_resource_id
+				 DB08888
+			mechanism_of_action
+				 Ocriplasmin has proteolytic activity against protein components of the vitreous body and the vitreoretinal interface (VRI) (e.g. laminin, fibronectin and collagen), thereby dissolving the protein matrix responsible for the vitreomacular adhesion (VMA).
+			neighbor_flag
+				 N
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 RYGMFSIKBFXOCR-UHFFFAOYSA-N
+			cofactor_smiles
+				 [Cu]
+			cofactor_name
+				 Copper
+			cofactor_resource_id
+				 DB09130
+			mechanism_of_action
+				 Copper is absorbed from the gut via high affinity copper uptake protein and likely through low affinity copper uptake protein and natural resistance-associated macrophage protein-2 [A19528]. It is believed that copper is reduced to the Cu1+ form prior to transport. Once inside the enterocyte, it is bound to copper transport protein ATOX1 which shuttles the ion to copper transporting ATPase-1 on the golgi membrane which take up copper into the golgi apparatus. Once copper has been secreted by enterocytes into the systemic circulation it remain largely bound by ceruloplasmin (65-90%), albumin (18%), and alpha 2-macroglobulin (12%). 
+
+Copper is an essential element in the body and is incorporated into many oxidase enzymes as a cofactor [A19518]. It is also a component of zinc/copper super oxide dismutase, giving it an anti-oxidant role. Copper defiency occurs in Occipital Horn Syndrome and Menke's disease both of which are associated with impaired development of connective tissue due to the lack of copper to act as a cofactor in protein-lysine-6-oxidase. Menke's disease is also associated with progressive neurological impairment leading to death in infancy. The precise mechanisms of the effects of copper deficiency are vague due to the wide range of enzymes which use the ion as a cofactor.
+
+Copper appears to reduce the viabilty and motility of spermatozoa [A19526]. This reduces the likelyhood of fertilization with a copper IUD, producing copper's contraceptive effect [A19526]. The exact mechanism of copper's effect on sperm are unknown.
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 17363239
+				> 					 14652164
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 BQCADISMDOOEFD-UHFFFAOYSA-N
+			cofactor_smiles
+				 [Ag]
+			cofactor_name
+				 Silver
+			cofactor_resource_id
+				 DB12965
+			mechanism_of_action
+				 The majority of released silver ions precipitate with chloride or phosphate anions or bind to albumins, macroglobulins, or tissue debris [A33138]. While bound silver ions do not exert antibacterial actions, they may potentially play a role in silver toxicity in case of chronic exposure [A33138]. Silver ions mediate antibacterial effects via disrupting the bacterial, fungal, and protozoal cell membranes; they bind to disulphide in membrane proteins, readily allowing penetration through the membranes and intracellular absorption via pinocytosis [A33138]. They may also bind to negatively-charged peptidoglycans in the cell wall via electrostatic interactions, leading to disruption of membrane transport function and loss of structural integrity [A33141]. Silver ions also bind to and oxidize sulphydryl groups (SH) in bacterial cytoplasmic enzymes to aberrate their function in metabolic processes. Silver nanoparticles may cause an increase in reactive oxygen species (ROS) inside the microbial cells leading to metal-induced oxidative stress and cell damage [A33140]. They also modulate cellular signal system via inhibition of phosphorylation of essential bacterial proteins to eventually cause cell death [A33140]. It is also reported that silver ions also attach to guanine in bacterial DNA, which inhibits DNA replication [A33141]. While it is not fully understood, the mode of action of silver compounds in preventing and arresting dental caries is thought to involve inhibition of the demineralization process in addition to cytoplasmic and membrane function perturbation mentioned above [A33141]. Silver compounds may directly interact with hydroxyapatite, a major tooth component [A33141].
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 21188244
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 DJWUNCQRNNEAKC-UHFFFAOYSA-L
+			cofactor_smiles
+				 [Zn++].CC([O-])=O.CC([O-])=O
+			cofactor_name
+				 Zinc acetate
+			cofactor_resource_id
+				 DB14487
+			mechanism_of_action
+				 **Zinc has three primary biological roles**: _catalytic_, _structural_, and _regulatory_. The catalytic and structural role of zinc is well established, and there are various noteworthy reviews on these functions. For example, zinc is a structural constituent in numerous proteins, inclusive of growth factors, cytokines, receptors, enzymes, and transcription factors for different cellular signaling pathways. It is implicated in numerous cellular processes as a cofactor for approximately 3000 human proteins including enzymes, nuclear factors, and hormones [L2096].
+
+Zinc promotes resistance to epithelial apoptosis through cell protection (cytoprotection) against reactive oxygen species and bacterial toxins, likely through the antioxidant activity of the cysteine-rich metallothioneins [A32419].
+
+In HL-60 cells (promyelocytic leukemia cell line), zinc enhances the up-regulation of A20 mRNA, which, via TRAF pathway, decreases NF-kappaB activation, leading to decreased gene expression and generation of tumor necrosis factor-alpha (TNF-alpha), IL-1beta, and IL-8 [A32418].
+
+There are several mechanisms of action of zinc on acute diarrhea. Various mechanisms are specific to the gastrointestinal system: zinc restores mucosal barrier integrity and enterocyte brush-border enzyme activity, it promotes the production of antibodies and circulating lymphocytes against intestinal pathogens, and has a direct effect on ion channels, acting as a potassium channel blocker of adenosine 3-5-cyclic monophosphate-mediated chlorine secretion. Cochrane researchers examined the evidence available up to 30 September 2016 [L2106].
+
+Zinc deficiency in humans decreases the activity of serum _thymulin_ (a hormone of the thymus), which is necessary for the maturation of T-helper cells. T-helper 1 (Th(1)) cytokines are decreased but T-helper 2 (Th(2)) cytokines are not affected by zinc deficiency in humans [A342417].
+
+The change of _Th(1)_ to _Th(2)_ function leads to cell-mediated immune dysfunction. Because IL-2 production (Th(1) cytokine) is decreased, this causes decreased activity of natural-killer-cell (NK cell) and T cytolytic cells, normally involved in killing viruses, bacteria, and malignant cells [A3424]. 
+
+In humans, zinc deficiency may lead to the generation of new CD4+ T cells, produced in the thymus. In cell culture studies (HUT-78, a Th(0) human malignant lymphoblastoid cell line), as a result of zinc deficiency, nuclear factor-kappaB (NF-kappaB) activation, phosphorylation of IkappaB, and binding of NF-kappaB to DNA are decreased and this results in decreased Th(1) cytokine production [A32417].
+
+In another study, zinc supplementation in human subjects suppressed the gene expression and production of pro-inflammatory cytokines and decreased oxidative stress markers [A3424]. In HL-60 cells (a human pro-myelocytic leukemia cell line), zinc deficiency increased the levels of TNF-alpha, IL-1beta, and IL-8 cytokines and mRNA. In such cells, zinc was found to induce A20, a zinc finger protein that inhibited NF-kappaB activation by the tumor necrosis factor receptor-associated factor pathway. This process decreased gene expression of pro-inflammatory cytokines and oxidative stress markers [A32417].
+
+The exact mechanism of zinc in acne treatment is poorly understood. However, zinc is considered to act directly on microbial inflammatory equilibrium and facilitate antibiotic absorption when used in combination with other agents. Topical zinc alone as well as in combination with other agents may be efficacious because of its anti-inflammatory activity and ability to reduce P. acnes bacteria by the inhibition of P. acnes lipases and free fatty acid levels [L2102].
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 23896426
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_in_ch_ikey
+				 JIAARYAFYJHUJI-UHFFFAOYSA-L
+			cofactor_smiles
+				 [Cl-].[Cl-].[Zn++]
+			cofactor_name
+				 Zinc chloride
+			cofactor_resource_id
+				 DB14533
+			mechanism_of_action
+				 Zinc performs catalytic, structural, and regulatory roles in the body. Zinc is a component of approximately 3000 human proteins.[A204104]
+
+Zinc is cytoprotective against reactive oxygen species mediated apoptosis through the action of metallothioneins.[A32419]
+
+In a promyelocytic leukemia cell line, zinc enhances the up-regulation of A20 mRNA, which, via the TRAF pathway, decreases NF-kappaB activation, leading to decreased gene expression and generation of TNF-α, IL-1β, and IL-8 [A32418].
+
+In patients with diarrhea, zinc restores mucosal barrier integrity, restores enterocyte brush-border enzyme activity, promotes the production of antibodies, and promotes the production of circulating lymphocytes against intestinal pathogens.[A204101] Zinc also directly affects ion channels as a potassium channel blocker of cAMP-mediated chlorine secretion.[A204101]
+
+Zinc deficiency decreases thymulin, inhibiting T-helper cell maturation and decreased Th-1 cytokines like IL-2.[A32417] Decreased IL-2 decreases the activity of NK cells and CD8+ T cells.[A32417] Zinc deficiency also leads to the generation of CD4+ T cells, decreased NF-κB activation, decreased phosphorylation of IκB, and decreased binding of NF-κB to DNA.[A32417]
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 23896426
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+		> 			cofactor_name
+				 Zinc sulfate, unspecified form
+			cofactor_resource_id
+				 DB14548
+			neighbor_flag
+				 N
+			pubmed_ids
+				> 					 23896426
+			resource_name
+				 DrugBank
+			resource_version
+				 5.1
+			target_resource_id
+				 P01023
+	rcsb_id
+		 4ACQ_1
+	rcsb_genomic_lineage
+		> 			id
+				 9606
+			name
+				 Homo sapiens (man)
+			depth
+				 0
+		> 			id
+				 9606:12:alpha_2_macroglobulin
+			name
+				 alpha-2-macroglobulin
+			depth
+				 2
+		> 			id
+				 9606:12
+			name
+				 Chromosome 12
+			depth
+				 1
+	rcsb_cluster_flexibility
+		link
+			 http://pdbflex.org/cluster.html#!/4acqC/19156/4acqA
+		label
+			 Low
+		avg_rmsd
+			 0.837
+		max_rmsd
+			 1.039
+		provenance_code
+			 PDBFlex
+	rcsb_latest_revision
+		major_revision
+			 3
+		minor_revision
+			 0
