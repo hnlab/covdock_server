@@ -79,7 +79,7 @@ def view_single(**args):
 @app.route("/view_single_exist/<dirname>")
 def view_single_exist(dirname=None):
     return render_template(
-        "html/template.html",
+        "html/view_single.html",
         content=dirname
     )
 

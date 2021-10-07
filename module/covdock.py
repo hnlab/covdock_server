@@ -13,6 +13,7 @@ lig_input = "/home/fuqiuyu/work/cavity_server/data/compound1.mol2"
 inputfile = "/home/fuqiuyu/work/cavity_server/data/output.xlsx"
 df = pd.read_excel(inputfile)
 
+af_base = '/home/fuqiuyu/Database/Alpha_Fold_Human_Proteomic'
 
 def runcovdock(dirname):
     index = int(dirname.split(":")[0])
@@ -25,6 +26,8 @@ def runcovdock(dirname):
 
     # Download pdb
     if True:
+        source = f"{af_base}/AF-{uniprot}-F3-model_v1.pdb.gz"
+        
         with open(f"{pdbid}.pdb.gz", "wb") as ofp:
             ofp.write(
                 request.urlopen(f"https://files.rcsb.org/download/{pdbid}.pdb.gz").read()
