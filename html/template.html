@@ -9,86 +9,17 @@
   <link rel="stylesheet"            href="{{ url_for('static', filename='/css/template.css') }}">
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='/img/icon.png') }}">
 
-  <script type="text/javascript" src="{{ url_for('static',filename='/applet/jsmol/JSmol.min.js') }}"</script>
-    <script type="text/javascript"> 
-        var Info0;
-        var jmolApplet0;
-        function jmolApplet0_isReady() {
-            Jmol.script(jmolApplet0,";select [INH]; hide [INH] ;selectionHalos ON; select protein or nucleic; cartoons only;select none; set windowCentered TRUE;center [SOL];zoom IN ;");
-            Jmol.script(jmolApplet0,";antialiasDisplay = true; color property atomno;");
-            Jmol.script(jmolApplet0,";cartoonsFancy = true;");
-            Jmol.script(jmolApplet0,";select all;");
-            Jmol.script(jmolApplet0,";color cartoon property atomno ;");
-            Jmol.script(jmolApplet0,";select [SOL] ;");
-            Jmol.script(jmolApplet0,";spacefill 50%;");
-            Jmol.script(jmolApplet0,";selectionHalos ON;");
-            Jmol.script(jmolApplet0,";select none;");
-        }
-        var Info0 = {
-            width: 600,
-            height: 600,
-            debug: false,
-            color: "white",
-            addSelectionOptions: false,
-            serverURL: "/applet/jsmol.php",
-            use: "HTML5",
-            j2sPath: "/applet/jsmol/j2s",
-            src: "PDB_FILE",
-            readyFunction: jmolApplet0_isReady,
-            script: null,//script,
-            disableInitialConsole: false,
-            language: "en_US",
-        };
-        var states = new Object();
-        function highlight_water(applet,water) {
-            if ( states[water] == undefined || states[water] == false ) {
-                Jmol.script(applet,";select ADD [SOL]"+water);
-                states[water] = true;
-            }
-            else {
-                Jmol.script(applet,";select REMOVE [SOL]"+water);
-                states[water] = false;
-            }
-        };
-        
-        function togglecolor(a) {
-            if ( a['highlighted'] ) {
-                a.style.backgroundColor = document.body.style.backgroundColor ;
-                a['highlighted'] = false ;
-            }
-            else {
-                a.style.backgroundColor = "#66FF99" ;
-                a['highlighted'] = true ;
-            }
-            
-        }
-            
-    </script>
 </head>
 
 <body bgcolor="#F4F5F7" width="80%" align="center"> <!-- banner -->
-
-<style>
-body {
-  background-image: url('/img/light.jpg');
-}
-</style>
-
   <table width="100%" height=60 border="0" cellspacing="0" cellpadding="0" bgcolor="#916300" align="center">
     <tr height = 20 >
 
-      <style>
-      .navText{
-          color:white;
-          text-decoration:none; 
-      }
-      </style>
-
-      <td align="left" valign="middle" width="83%"><a href="/html/home.html"><img src="/img/logo.png" height="30%"
+      <td align="left" valign="middle" width="83%"><a href="/index"><img src="/img/logo.png" height="30%"
       border="0"/></td>
 
       <td align="center" valign="middle" width="17%">
-        <form action="/cgi-bin/search.cgi" method="post" name=
+        <form action="/search" method="post" name=
             "protein_pdbid" enctype="multipart/form-data" target="_blank">
               <p><input type="text" name="pdbid" /> &nbsp;&nbsp;&nbsp; <input type=
               "submit" name="search_id" value="Search" /></p>

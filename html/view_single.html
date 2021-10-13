@@ -74,12 +74,12 @@
             var plugin = LiteMol.Plugin.create({ target: '#app' });
             plugin.loadMolecule({
                 id: 'Receptor',
-                url: 'data/work/4430:C152/output/fixed.pdb',
+                url: 'data/work/{{ dirname }}/output/fixed.pdb',
                 format: 'pdb' // default
             });
             plugin.loadMolecule({
                 id: 'Pose',
-                url: 'data/work/4430:C152/output/my_docking.pdbqt',
+                url: 'data/work/{{ dirname }}/output/my_docking.pdbqt',
                 format: 'pdb' // default
             });
           </script>

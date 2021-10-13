@@ -1,0 +1,840 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +186.54 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +184.45 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +185.01 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.55 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -1.927234 -0.965910 7.383383
+USER    NEWDPF quaternion0 0.781753 0.484349 0.000821 -0.392770
+USER    NEWDPF axisangle0 0.850067 0.526675 0.000892 -133.746124
+USER    NEWDPF quat0 0.850067 0.526675 0.000892 -133.746124
+USER    NEWDPF dihe0 -64.45 76.26 -70.90 38.49 -97.09 116.85 -95.06 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -14.983  -1.047  19.480+44.85 +0.07    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -15.031   0.543  20.345+22.84 -0.04    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -15.608   1.604  19.422 +2.94 -0.04    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.861   2.912  19.626+14.51 +0.01    -0.102 C 
+ATOM      7  CX  CYS A 294     -14.275   3.936  19.784 +2.44 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -15.459   1.155  17.977 +2.36 -0.03    +0.240 C 
+ATOM      9  OX  CYS A 294     -14.374   1.128  17.466 -0.45 +0.06    -0.272 OA
+ATOM     10  NX  CYS A 294     -16.589   0.773  17.243 +3.79 +0.01    -0.316 N 
+ATOM     11  CX  CYS A 294     -17.907   0.830  17.899+13.05 -0.02    +0.132 C 
+ATOM     12  CX  CYS A 294     -16.510   0.350  15.909 -0.52 +0.00    +0.043 A 
+ATOM     13  CX  CYS A 294     -18.928  -0.096  17.248 +6.89 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -18.309  -1.274  16.512+10.14 -0.01    +0.042 C 
+ATOM     15  CX  CYS A 294     -17.340  -0.683  15.498 +9.07 -0.00    -0.029 A 
+ATOM     16  CX  CYS A 294     -17.280  -1.152  14.189+27.28 -0.00    +0.046 A 
+ATOM     17  CX  CYS A 294     -16.425  -0.578  13.253+12.53 -0.00    +0.068 A 
+ATOM     18  CX  CYS A 294     -15.598   0.468  13.650 +2.69 +0.00    +0.039 A 
+ATOM     19  CX  CYS A 294     -15.650   0.915  14.967 +5.56 +0.00    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294     -16.407  -1.022  11.978 +3.97 +0.04    -0.356 OA
+ATOM     21  CX  CYS A 294     -15.303  -1.845  11.632 +1.08 -0.05    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +195.63 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +193.54 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +163.69 kcal/mol
+USER        Internal Moving-Moving Receptor =  +29.85 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -11.096499 13.539334 27.071983
+USER    NEWDPF quaternion0 0.075610 0.595174 0.288664 0.746139
+USER    NEWDPF axisangle0 0.113564 0.893937 0.433567 83.485881
+USER    NEWDPF quat0 0.113564 0.893937 0.433567 83.485881
+USER    NEWDPF dihe0 147.64 -80.82 -37.27 162.32 118.08 42.82 23.27 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -13.643   0.168  17.197 -0.65 +0.08    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -12.581   1.565  17.641 +0.09 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -13.036   2.144  18.972 +6.19 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.450   1.674  19.271+10.68 +0.03    -0.102 C 
+ATOM      7  CX  CYS A 294     -15.557   1.306  19.506 +3.63 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -12.101   1.675  20.075+17.48 -0.14    +0.240 C 
+ATOM      9  OX  CYS A 294     -11.655   0.562  20.050+13.09 +0.29    -0.272 OA
+ATOM     10  NX  CYS A 294     -11.761   2.543  21.121+27.11 +0.12    -0.316 N 
+ATOM     11  CX  CYS A 294     -12.337   3.899  21.126+19.44 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -10.904   2.163  22.163+33.93 -0.02    +0.043 A 
+ATOM     13  CX  CYS A 294     -11.505   4.888  21.933 +7.33 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -10.039   4.503  22.054+11.63 +0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -10.011   3.105  22.654 +1.65 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294      -9.125   2.767  23.672 -0.29 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294      -9.135   1.501  24.250 -0.34 -0.02    +0.068 A 
+ATOM     18  CX  CYS A 294     -10.036   0.552  23.775 +2.34 -0.02    +0.039 A 
+ATOM     19  CX  CYS A 294     -10.903   0.894  22.741+10.48 -0.02    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294      -8.293   1.202  25.262 -0.16 +0.14    -0.356 OA
+ATOM     21  CX  CYS A 294      -8.854   1.265  26.564 -0.17 -0.08    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +166.11 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +164.03 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +151.00 kcal/mol
+USER        Internal Moving-Moving Receptor =  +13.03 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -11.737502 0.871911 17.298851
+USER    NEWDPF quaternion0 -0.555424 -0.098799 -0.519188 -0.642017
+USER    NEWDPF axisangle0 -0.724445 -0.128864 -0.677181 -100.115155
+USER    NEWDPF quat0 -0.724445 -0.128864 -0.677181 -100.115155
+USER    NEWDPF dihe0 -31.00 108.54 21.90 110.66 77.56 139.65 -42.85 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -14.684   0.207  18.727 -0.02 +0.06    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -14.191   1.661  17.768 -0.42 -0.02    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -13.537   2.678  18.690 +3.08 -0.03    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.586   3.264  19.621 +9.16 +0.01    -0.102 C 
+ATOM      7  CX  CYS A 294     -15.406   3.723  20.351+18.81 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -12.454   1.996  19.511+13.33 -0.10    +0.240 C 
+ATOM      9  OX  CYS A 294     -11.964   0.972  19.124 +7.19 +0.20    -0.272 OA
+ATOM     10  NX  CYS A 294     -12.030   2.563  20.720+32.04 +0.12    -0.316 N 
+ATOM     11  CX  CYS A 294     -12.663   3.815  21.171+20.41 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -11.036   1.977  21.516+16.84 -0.02    +0.043 A 
+ATOM     13  CX  CYS A 294     -11.785   4.603  22.135 +8.86 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -10.299   4.316  21.989+12.93 -0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -10.135   2.813  22.160 +3.08 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294      -9.117   2.276  22.942 -0.37 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294      -8.998   0.903  23.133 -0.43 -0.03    +0.068 A 
+ATOM     18  CX  CYS A 294      -9.905   0.056  22.503 +0.02 -0.03    +0.039 A 
+ATOM     19  CX  CYS A 294     -10.906   0.602  21.705 +6.29 -0.03    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294      -8.026   0.402  23.924 +0.19 +0.21    -0.356 OA
+ATOM     21  CX  CYS A 294      -6.708   0.485  23.402 -0.15 -0.15    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +196.51 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +194.43 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +180.99 kcal/mol
+USER        Internal Moving-Moving Receptor =  +13.43 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -4.894828 -2.749605 22.597473
+USER    NEWDPF quaternion0 -0.094560 0.297284 0.854168 0.416025
+USER    NEWDPF axisangle0 -0.103986 0.326918 0.939314 130.832218
+USER    NEWDPF quat0 -0.103986 0.326918 0.939314 130.832218
+USER    NEWDPF dihe0 130.28 94.59 -143.99 124.17 179.08 147.70 -92.41 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -14.986  -0.970  19.466+42.63 +0.07    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -15.495   0.767  19.518+18.15 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -14.512   1.606  18.717 +0.22 -0.04    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -13.106   1.386  19.250 +3.76 +0.04    -0.102 C 
+ATOM      7  CX  CYS A 294     -12.005   1.214  19.668 +8.72 -0.01    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -14.570   1.196  17.254 +0.50 -0.04    +0.240 C 
+ATOM      9  OX  CYS A 294     -13.569   1.191  16.593 +4.98 +0.07    -0.272 OA
+ATOM     10  NX  CYS A 294     -15.792   0.824  16.679 +0.01 +0.02    -0.316 N 
+ATOM     11  CX  CYS A 294     -17.003   0.853  17.518+19.25 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -15.903   0.437  15.336 -0.15 -0.00    +0.043 A 
+ATOM     13  CX  CYS A 294     -18.103  -0.063  16.995 +3.81 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -17.591  -1.216  16.146 +5.30 -0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -16.779  -0.592  15.021 +7.69 -0.00    -0.029 A 
+ATOM     16  CX  CYS A 294     -16.905  -1.026  13.705+32.64 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294     -16.196  -0.421  12.672 +4.39 +0.00    +0.068 A 
+ATOM     18  CX  CYS A 294     -15.325   0.621  12.975 +5.31 +0.00    +0.039 A 
+ATOM     19  CX  CYS A 294     -15.189   1.033  14.297+21.74 +0.00    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294     -16.359  -0.832  11.396 +2.62 -0.05    -0.356 OA
+ATOM     21  CX  CYS A 294     -15.557  -1.936  11.001 -0.56 -0.06    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +195.51 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +193.42 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +162.03 kcal/mol
+USER        Internal Moving-Moving Receptor =  +31.39 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -24.405000 -3.007030 15.177681
+USER    NEWDPF quaternion0 -0.531366 -0.198578 -0.588119 -0.576484
+USER    NEWDPF axisangle0 -0.650300 -0.243025 -0.719756 -109.592765
+USER    NEWDPF quat0 -0.650300 -0.243025 -0.719756 -109.592765
+USER    NEWDPF dihe0 157.15 -78.72 -37.96 162.26 119.61 41.51 23.92 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -13.633   0.158  17.185 -0.64 +0.08    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -12.593   1.568  17.638 +0.07 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -13.053   2.129  18.974 +5.73 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.458   1.634  19.273+10.48 +0.03    -0.102 C 
+ATOM      7  CX  CYS A 294     -15.560   1.247  19.507 +3.75 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -12.108   1.665  20.071+17.28 -0.14    +0.240 C 
+ATOM      9  OX  CYS A 294     -11.655   0.554  20.042+13.30 +0.29    -0.272 OA
+ATOM     10  NX  CYS A 294     -11.767   2.534  21.116+27.71 +0.12    -0.316 N 
+ATOM     11  CX  CYS A 294     -12.352   3.886  21.126+18.70 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -10.902   2.158  22.152+32.93 -0.02    +0.043 A 
+ATOM     13  CX  CYS A 294     -11.521   4.880  21.929 +7.54 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -10.052   4.504  22.040+12.09 +0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -10.012   3.106  22.638 +1.63 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294      -9.117   2.772  23.651 -0.29 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294      -9.115   1.506  24.227 -0.34 -0.02    +0.068 A 
+ATOM     18  CX  CYS A 294     -10.013   0.552  23.757 +2.13 -0.02    +0.039 A 
+ATOM     19  CX  CYS A 294     -10.888   0.888  22.729+10.03 -0.02    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294      -8.265   1.212  25.234 -0.15 +0.14    -0.356 OA
+ATOM     21  CX  CYS A 294      -8.830   1.224  26.536 -0.17 -0.08    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +157.17 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +155.08 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +135.78 kcal/mol
+USER        Internal Moving-Moving Receptor =  +19.30 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -24.382764 6.421790 23.885715
+USER    NEWDPF quaternion0 -0.433961 -0.248025 0.140230 0.854691
+USER    NEWDPF axisangle0 -0.835928 -0.477764 0.270122 62.548765
+USER    NEWDPF quat0 -0.835928 -0.477764 0.270122 62.548765
+USER    NEWDPF dihe0 -84.73 99.83 50.41 -1.00 -78.95 -19.29 14.60 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -13.783   0.295  17.371 -0.83 +0.07    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -14.550   1.628  18.326 -0.41 -0.02    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -13.497   2.663  18.688 +4.05 -0.03    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.146   3.794  19.468 +2.27 +0.01    -0.102 C 
+ATOM      7  CX  CYS A 294     -14.655   4.679  20.080 +9.51 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -12.419   2.012  19.541+14.36 -0.10    +0.240 C 
+ATOM      9  OX  CYS A 294     -11.904   0.991  19.180 +9.15 +0.21    -0.272 OA
+ATOM     10  NX  CYS A 294     -12.029   2.605  20.749+31.16 +0.11    -0.316 N 
+ATOM     11  CX  CYS A 294     -12.691   3.853  21.167+16.54 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -11.041   2.048  21.573+20.77 -0.02    +0.043 A 
+ATOM     13  CX  CYS A 294     -11.846   4.671  22.136+11.29 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -10.353   4.407  22.024 +9.95 +0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -10.167   2.910  22.221 +2.95 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294      -9.156   2.402  23.031 -0.35 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294      -9.018   1.034  23.246 -0.42 -0.03    +0.068 A 
+ATOM     18  CX  CYS A 294      -9.898   0.162  22.612 -0.11 -0.03    +0.039 A 
+ATOM     19  CX  CYS A 294     -10.892   0.679  21.786 +5.92 -0.03    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294      -8.053   0.562  24.065 -0.04 +0.19    -0.356 OA
+ATOM     21  CX  CYS A 294      -6.755   0.480  23.497 -0.15 -0.15    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +198.84 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +196.75 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +196.92 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.16 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -8.177176 4.533232 17.367042
+USER    NEWDPF quaternion0 0.363574 0.256844 0.881042 0.160031
+USER    NEWDPF axisangle0 0.368321 0.260197 0.892545 161.582600
+USER    NEWDPF quat0 0.368321 0.260197 0.892545 161.582600
+USER    NEWDPF dihe0 -25.66 -162.83 -65.09 80.22 -89.88 158.78 -30.93 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -14.524   0.359  18.453 -0.73 +0.05    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -14.217   1.305  16.940 +6.61 -0.02    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -15.177   0.848  15.853 +4.91 -0.01    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.464  -0.115  14.920 +2.50 +0.01    -0.102 C 
+ATOM      7  CX  CYS A 294     -13.905  -0.869  14.188+34.27 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -16.368   0.148  16.490 -0.38 -0.01    +0.240 C 
+ATOM      9  OX  CYS A 294     -16.211  -0.883  17.082 +0.87 +0.03    -0.272 OA
+ATOM     10  NX  CYS A 294     -17.648   0.708  16.385 +1.69 -0.04    -0.316 N 
+ATOM     11  CX  CYS A 294     -17.806   1.969  15.640+16.54 +0.02    +0.132 C 
+ATOM     12  CX  CYS A 294     -18.779   0.106  16.952+11.70 +0.00    +0.043 A 
+ATOM     13  CX  CYS A 294     -19.052   2.743  16.051+18.29 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -19.532   2.432  17.461+19.68 -0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -19.744   0.927  17.518+11.69 +0.00    -0.029 A 
+ATOM     16  CX  CYS A 294     -20.873   0.373  18.114+27.07 +0.00    +0.046 A 
+ATOM     17  CX  CYS A 294     -21.086  -1.002  18.124 +3.28 +0.00    +0.068 A 
+ATOM     18  CX  CYS A 294     -20.132  -1.834  17.547 +3.58 -0.01    +0.039 A 
+ATOM     19  CX  CYS A 294     -18.995  -1.272  16.973+13.38 -0.01    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294     -22.206  -1.519  18.675 +8.91 +0.03    -0.356 OA
+ATOM     21  CX  CYS A 294     -23.270  -0.600  18.874+13.07 -0.09    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +157.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +155.16 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +135.87 kcal/mol
+USER        Internal Moving-Moving Receptor =  +19.29 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -2.057770 7.253676 16.392265
+USER    NEWDPF quaternion0 -0.120499 -0.465530 -0.114217 0.869319
+USER    NEWDPF axisangle0 -0.243802 -0.941890 -0.231091 59.240688
+USER    NEWDPF quat0 -0.243802 -0.941890 -0.231091 59.240688
+USER    NEWDPF dihe0 -16.14 99.99 50.45 -1.00 -78.95 -19.28 14.57 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -13.783   0.295  17.372 -0.83 +0.07    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -14.551   1.628  18.327 -0.41 -0.02    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -13.498   2.663  18.690 +4.03 -0.03    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.147   3.793  19.470 +2.28 +0.01    -0.102 C 
+ATOM      7  CX  CYS A 294     -14.655   4.679  20.082 +9.54 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -12.420   2.012  19.542+14.34 -0.10    +0.240 C 
+ATOM      9  OX  CYS A 294     -11.904   0.991  19.180 +9.15 +0.21    -0.272 OA
+ATOM     10  NX  CYS A 294     -12.029   2.604  20.751+31.04 +0.11    -0.316 N 
+ATOM     11  CX  CYS A 294     -12.693   3.851  21.170+16.78 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -11.042   2.047  21.575+20.87 -0.02    +0.043 A 
+ATOM     13  CX  CYS A 294     -11.848   4.669  22.139+11.29 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -10.355   4.406  22.027 +9.84 +0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -10.168   2.908  22.223 +2.94 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294      -9.157   2.400  23.033 -0.35 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294      -9.018   1.032  23.247 -0.42 -0.03    +0.068 A 
+ATOM     18  CX  CYS A 294      -9.898   0.161  22.612 -0.11 -0.03    +0.039 A 
+ATOM     19  CX  CYS A 294     -10.892   0.677  21.787 +5.91 -0.03    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294      -8.053   0.561  24.065 -0.04 +0.19    -0.356 OA
+ATOM     21  CX  CYS A 294      -6.754   0.483  23.498 -0.15 -0.15    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +157.27 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +155.18 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +135.89 kcal/mol
+USER        Internal Moving-Moving Receptor =  +19.29 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -10.351002 8.046688 7.594965
+USER    NEWDPF quaternion0 0.040590 0.282637 -0.318106 0.904034
+USER    NEWDPF axisangle0 0.094956 0.661200 -0.744176 50.613018
+USER    NEWDPF quat0 0.094956 0.661200 -0.744176 50.613018
+USER    NEWDPF dihe0 -115.25 100.51 50.40 -1.03 -78.93 -19.22 14.51 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -13.784   0.296  17.373 -0.83 +0.07    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -14.551   1.628  18.330 -0.41 -0.02    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -13.498   2.663  18.692 +4.04 -0.03    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -14.146   3.793  19.473 +2.28 +0.01    -0.102 C 
+ATOM      7  CX  CYS A 294     -14.655   4.678  20.086 +9.52 -0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -12.419   2.012  19.543+14.35 -0.10    +0.240 C 
+ATOM      9  OX  CYS A 294     -11.904   0.990  19.181 +9.15 +0.21    -0.272 OA
+ATOM     10  NX  CYS A 294     -12.027   2.604  20.751+31.37 +0.11    -0.316 N 
+ATOM     11  CX  CYS A 294     -12.689   3.852  21.171+16.72 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -11.039   2.048  21.574+20.64 -0.02    +0.043 A 
+ATOM     13  CX  CYS A 294     -11.844   4.669  22.139+11.20 +0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -10.350   4.406  22.025 +9.95 +0.00    +0.042 C 
+ATOM     15  CX  CYS A 294     -10.164   2.909  22.222 +2.89 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294      -9.152   2.401  23.031 -0.35 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294      -9.014   1.033  23.245 -0.42 -0.03    +0.068 A 
+ATOM     18  CX  CYS A 294      -9.894   0.161  22.611 -0.11 -0.03    +0.039 A 
+ATOM     19  CX  CYS A 294     -10.889   0.678  21.787 +5.91 -0.03    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294      -8.048   0.561  24.062 -0.04 +0.19    -0.356 OA
+ATOM     21  CX  CYS A 294      -6.747   0.493  23.497 -0.15 -0.15    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    = +245.68 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +243.59 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +236.70 kcal/mol
+USER        Internal Moving-Moving Receptor =   +6.89 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -13.154500 4.227900 16.624200
+USER    NEWDPF tran0 -8.523486 15.044900 7.033767
+USER    NEWDPF quaternion0 -0.153800 0.856922 -0.156754 -0.466324
+USER    NEWDPF axisangle0 -0.173861 0.968696 -0.177200 -124.408135
+USER    NEWDPF quat0 -0.173861 0.968696 -0.177200 -124.408135
+USER    NEWDPF dihe0 -73.71 22.13 -179.79 -55.03 -38.27 -132.32 32.98 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 294
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 294     -12.235  -0.922  19.301 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 294     -13.490  -1.132  18.453 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 294     -13.498  -0.011  17.026 -0.14 +0.09    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 294     -14.786  -0.525  15.863 +1.56 -0.02    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 294     -15.453   0.706  15.269 +2.61 -0.00    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 294     -15.382   0.638  13.753 +4.90 -0.00    -0.102 C 
+ATOM      7  CX  CYS A 294     -15.327   0.585  12.565+12.60 +0.00    +0.013 C 
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CX  CYS A 294     -16.909   0.754  15.707 +0.59 +0.02    +0.240 C 
+ATOM      9  OX  CYS A 294     -17.615   1.652  15.341 +2.63 -0.05    -0.272 OA
+ATOM     10  NX  CYS A 294     -17.424  -0.249  16.538 +0.13 -0.01    -0.316 N 
+ATOM     11  CX  CYS A 294     -16.524  -1.330  16.978+17.07 -0.01    +0.132 C 
+ATOM     12  CX  CYS A 294     -18.757  -0.254  16.972 +6.54 +0.00    +0.043 A 
+ATOM     13  CX  CYS A 294     -17.275  -2.595  17.374+63.36 -0.00    +0.025 C 
+ATOM     14  CX  CYS A 294     -18.637  -2.735  16.712+42.62 -0.03    +0.042 C 
+ATOM     15  CX  CYS A 294     -19.413  -1.474  17.059+18.58 +0.01    -0.029 A 
+ATOM     16  CX  CYS A 294     -20.744  -1.525  17.462 +1.15 -0.01    +0.046 A 
+ATOM     17  CX  CYS A 294     -21.436  -0.374  17.824 +1.91 +0.00    +0.068 A 
+ATOM     18  CX  CYS A 294     -20.784   0.853  17.753+29.37 +0.00    +0.039 A 
+ATOM     19  CX  CYS A 294     -19.459   0.897  17.328+17.60 +0.00    +0.033 A 
+BRANCH  17  20
+ATOM     20  OX  CYS A 294     -22.716  -0.448  18.248 +6.21 +0.05    -0.356 OA
+ATOM     21  CX  CYS A 294     -23.472   0.747  18.123 +7.41 -0.04    +0.210 C 
+ENDBRANCH  17  20
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 294
+TER
+ENDMDL

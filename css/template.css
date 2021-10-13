@@ -40,11 +40,11 @@
 	&::after {
 		content:'';
 		position:absolute;
-		right:-($half-spacing-unit * 1.5);
+		right: -($half-spacing-unit * 1.5);
 		color:white;
 		font-size:$half-spacing-unit;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-50%) ;
 	}
 	
 	&.desc::after {
@@ -56,3 +56,17 @@
 	}
 	
 }
+
+.compoundimg {
+    width: 200px;
+}
+
+body {
+  background-image: url('/img/light.jpg');
+}
+
+.navText {
+  color:white;
+  text-decoration:none; 
+}
+

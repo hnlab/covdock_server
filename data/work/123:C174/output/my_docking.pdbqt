@@ -1,0 +1,850 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.65 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.58 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -6.224179 11.912974 -15.880215
+USER    NEWDPF quaternion0 -0.203438 0.437756 0.774827 -0.408197
+USER    NEWDPF axisangle0 -0.222850 0.479526 0.848760 -131.816724
+USER    NEWDPF quat0 -0.222850 0.479526 0.848760 -131.816724
+USER    NEWDPF dihe0 -149.93 14.66 -70.84 -108.59 -40.46 175.08 10.91 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.059 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.322  -6.434 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.797   6.167  -7.926 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.148   6.763  -8.285 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.215   7.956  -9.018 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.957   8.598  -9.434 -0.22 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.433   8.549  -9.376 -0.19 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.117  10.089  -9.704 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.281  10.726  -8.959 -0.25 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.521   9.934  -9.345 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.718  10.566  -9.670 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.836   9.841 -10.068 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.754   8.452 -10.115 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.561   7.828  -9.768 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.157   6.212  -7.940 -0.05 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -21.977  10.475 -10.413 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.812  11.768 -10.978 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.781   4.692  -8.292 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.768   3.537  -8.578 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.64 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -4.555266 10.453725 -15.251171
+USER    NEWDPF quaternion0 0.783496 0.307587 -0.244857 -0.481216
+USER    NEWDPF axisangle0 0.893788 0.350886 -0.279326 -122.470295
+USER    NEWDPF quat0 0.893788 0.350886 -0.279326 -122.470295
+USER    NEWDPF dihe0 -149.94 -7.72 -71.17 -108.99 -40.09 175.13 10.90 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.059 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.322  -6.434 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.798   6.158  -7.926 -0.05 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.153   6.745  -8.285 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.227   7.938  -9.019 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.973   8.588  -9.434 -0.23 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.449   8.523  -9.377 -0.19 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.143  10.077  -9.704 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.312  10.707  -8.960 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.547   9.908  -9.347 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.747  10.532  -9.672 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.860   9.799 -10.070 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.769   8.411 -10.117 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.572   7.795  -9.769 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.159   6.188  -7.940 -0.04 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.005  10.426 -10.416 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.848  11.720 -10.982 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.776   4.681  -8.283 -0.59 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.758   3.525  -8.563 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.64 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -24.213585 2.672315 2.678553
+USER    NEWDPF quaternion0 0.022972 0.156819 -0.903888 -0.397323
+USER    NEWDPF axisangle0 0.025033 0.170886 -0.984973 -133.178089
+USER    NEWDPF quat0 0.025033 0.170886 -0.984973 -133.178089
+USER    NEWDPF dihe0 -151.16 41.17 -71.13 -109.51 -40.09 175.18 10.90 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.059 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.553   6.323  -6.435 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.797   6.159  -7.927 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.157   6.735  -8.285 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.241   7.927  -9.018 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.993   8.588  -9.434 -0.24 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.468   8.503  -9.375 -0.18 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.175  10.076  -9.703 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.348  10.696  -8.958 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.576   9.887  -9.345 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.782  10.501  -9.669 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.889   9.760 -10.067 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.787   8.373 -10.114 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.585   7.765  -9.767 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.157   6.170  -7.940 -0.04 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.040  10.378 -10.412 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.895  11.684 -10.951 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.763   4.683  -8.286 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.735   3.526  -8.567 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.65 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.58 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -21.544220 -8.342510 -12.546392
+USER    NEWDPF quaternion0 -0.689443 0.456328 -0.059752 0.559341
+USER    NEWDPF axisangle0 -0.831719 0.550497 -0.072083 111.979487
+USER    NEWDPF quat0 -0.831719 0.550497 -0.072083 111.979487
+USER    NEWDPF dihe0 -150.08 3.34 -70.98 -108.62 -40.38 175.17 10.88 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.829   5.926  -6.058 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.323  -6.434 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.797   6.165  -7.927 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.147   6.762  -8.287 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.213   7.955  -9.020 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.954   8.596  -9.434 -0.22 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.431   8.548  -9.379 -0.19 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.114  10.087  -9.704 -0.41 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.279  10.725  -8.960 -0.25 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.519   9.933  -9.348 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.715  10.566  -9.674 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.833   9.841 -10.073 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.751   8.452 -10.120 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.558   7.827  -9.772 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.156   6.211  -7.943 -0.05 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -21.973  10.475 -10.420 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.807  11.769 -10.981 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.782   4.689  -8.289 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.770   3.534  -8.573 -0.74 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.65 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -5.076752 -1.369972 2.589898
+USER    NEWDPF quaternion0 -0.317967 0.784952 -0.110192 -0.520197
+USER    NEWDPF axisangle0 -0.372306 0.919098 -0.129024 -117.309012
+USER    NEWDPF quat0 -0.372306 0.919098 -0.129024 -117.309012
+USER    NEWDPF dihe0 -148.44 12.01 -70.72 -109.48 -40.45 175.13 10.89 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.058 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.322  -6.434 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.796   6.167  -7.927 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.156   6.743  -8.283 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.242   7.935  -9.016 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.994   8.595  -9.434 -0.24 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.469   8.511  -9.371 -0.18 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.177  10.083  -9.704 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.348  10.704  -8.956 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.578   9.895  -9.340 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.783  10.510  -9.662 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.892   9.768 -10.058 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.791   8.381 -10.104 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.588   7.774  -9.760 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.157   6.178  -7.935 -0.04 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.043  10.386 -10.400 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.896  11.667 -10.996 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.759   4.693  -8.295 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.730   3.538  -8.583 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.65 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -17.523802 -1.649295 -5.275952
+USER    NEWDPF quaternion0 0.667852 -0.233032 -0.034780 -0.706018
+USER    NEWDPF axisangle0 0.943034 -0.329051 -0.049111 -90.176379
+USER    NEWDPF quat0 0.943034 -0.329051 -0.049111 -90.176379
+USER    NEWDPF dihe0 -149.98 5.65 -70.80 -109.43 -40.43 175.18 10.87 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.829   5.926  -6.058 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.323  -6.434 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.796   6.166  -7.927 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.155   6.745  -8.284 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.239   7.937  -9.016 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.990   8.595  -9.434 -0.24 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.465   8.514  -9.372 -0.18 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.170  10.084  -9.703 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.341  10.706  -8.956 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.572   9.898  -9.341 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.776  10.515  -9.664 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.886   9.775 -10.061 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.786   8.387 -10.108 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.584   7.778  -9.763 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.157   6.181  -7.937 -0.04 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.036  10.394 -10.404 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.888  11.690 -10.968 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.762   4.692  -8.293 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.734   3.537  -8.580 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.64 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -18.293678 -4.018565 5.132172
+USER    NEWDPF quaternion0 -0.264037 0.082038 0.764037 0.582925
+USER    NEWDPF axisangle0 -0.324958 0.100966 0.940323 108.686919
+USER    NEWDPF quat0 -0.324958 0.100966 0.940323 108.686919
+USER    NEWDPF dihe0 -148.31 16.93 -71.05 -109.89 -40.06 175.14 10.92 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.059 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.553   6.323  -6.435 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.797   6.158  -7.927 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.161   6.726  -8.283 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.255   7.917  -9.016 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -16.011   8.586  -9.434 -0.25 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.485   8.485  -9.372 -0.18 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.204  10.073  -9.703 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.380  10.685  -8.956 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.603   9.868  -9.341 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.813  10.474  -9.664 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.917   9.726 -10.060 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.805   8.339 -10.107 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.599   7.740  -9.762 -0.13 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.158   6.154  -7.937 -0.03 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.072  10.336 -10.403 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.932  11.617 -11.001 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.753   4.683  -8.288 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.718   3.527  -8.570 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.64 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -24.091522 10.565441 -14.924149
+USER    NEWDPF quaternion0 -0.237492 -0.103379 0.815685 -0.517269
+USER    NEWDPF axisangle0 -0.277502 -0.120795 0.953101 -117.701494
+USER    NEWDPF quat0 -0.277502 -0.120795 0.953101 -117.701494
+USER    NEWDPF dihe0 -151.07 14.58 -70.78 -109.51 -40.37 175.12 10.89 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.058 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.322  -6.433 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.797   6.165  -7.926 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.158   6.741  -8.282 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.244   7.932  -9.015 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.997   8.592  -9.434 -0.24 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.472   8.507  -9.370 -0.18 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.180  10.081  -9.704 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.352  10.701  -8.956 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.581   9.891  -9.340 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.787  10.505  -9.662 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.895   9.763 -10.057 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.793   8.376 -10.104 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.590   7.769  -9.759 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.158   6.175  -7.934 -0.03 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.046  10.380 -10.400 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.903  11.685 -10.942 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.760   4.690  -8.292 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.731   3.535  -8.579 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.65 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -18.189774 -4.627605 -1.702041
+USER    NEWDPF quaternion0 -0.883589 -0.145124 -0.406906 0.180659
+USER    NEWDPF axisangle0 -0.898371 -0.147552 -0.413713 159.183685
+USER    NEWDPF quat0 -0.898371 -0.147552 -0.413713 159.183685
+USER    NEWDPF dihe0 -148.40 25.16 -71.08 -109.86 -40.17 175.33 10.81 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.830   5.925  -6.057 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.324  -6.435 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.797   6.160  -7.927 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.159   6.730  -8.285 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.249   7.922  -9.017 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -16.004   8.588  -9.434 -0.24 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.478   8.492  -9.374 -0.18 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.193  10.075  -9.703 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.368  10.690  -8.958 -0.24 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.593   9.875  -9.344 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.801  10.485  -9.668 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.906   9.738 -10.065 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.798   8.352 -10.112 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.593   7.750  -9.766 -0.13 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.157   6.161  -7.939 -0.03 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -22.059  10.351 -10.410 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.916  11.632 -11.006 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.756   4.684  -8.286 -0.60 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.723   3.528  -8.568 -0.75 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = ligcovalent_fixed.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    7.65 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -4.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -4.40 kcal/mol
+USER        Internal Moving-Moving Receptor =   -0.58 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.09 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move empty
+USER    NEWDPF about -15.716900 2.211500 -6.059200
+USER    NEWDPF tran0 -10.358289 -1.561422 -7.962266
+USER    NEWDPF quaternion0 0.210106 0.091473 -0.380731 0.895842
+USER    NEWDPF axisangle0 0.472813 0.205847 -0.856782 52.766547
+USER    NEWDPF quat0 0.472813 0.205847 -0.856782 52.766547
+USER    NEWDPF dihe0 -151.75 -8.80 -71.17 -108.67 -40.18 175.16 10.88 
+USER  keepresnum = 1 
+USER  
+rmsdatoms all
+BEGIN_RES CYS A 174
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OX   and  CX  
+REMARK       I    between atoms: NX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  SG  
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  SG  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 174     -14.015   8.393  -4.776 +0.00 +0.00    +0.216 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 174     -13.193   7.097  -4.831 +0.00 +0.00    +0.109 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 174     -13.828   5.926  -6.058 -0.76 +0.04    -0.165 SA
+BRANCH   3   4
+ATOM      4  CX  CYS A 174     -15.554   6.323  -6.434 -0.11 -0.03    +0.100 C 
+BRANCH   4   5
+ATOM      5  CX  CYS A 174     -15.798   6.160  -7.926 -0.04 -0.05    +0.166 C 
+BRANCH   5   6
+ATOM      6  CX  CYS A 174     -17.149   6.755  -8.287 -0.34 +0.01    +0.240 C 
+ATOM      7  NX  CYS A 174     -17.216   7.948  -9.020 -0.19 +0.03    -0.316 N 
+ATOM      8  CX  CYS A 174     -15.958   8.591  -9.434 -0.22 -0.04    +0.132 C 
+ATOM      9  CX  CYS A 174     -18.434   8.540  -9.380 -0.19 +0.00    +0.043 A 
+ATOM     10  CX  CYS A 174     -16.119  10.082  -9.704 -0.40 -0.00    +0.025 C 
+ATOM     11  CX  CYS A 174     -17.285  10.718  -8.961 -0.25 -0.00    +0.042 C 
+ATOM     12  CX  CYS A 174     -18.524   9.925  -9.349 -0.12 -0.00    -0.029 A 
+ATOM     13  CX  CYS A 174     -19.720  10.556  -9.676 -0.04 +0.00    +0.046 A 
+ATOM     14  CX  CYS A 174     -20.837   9.830 -10.075 -0.02 +0.01    +0.068 A 
+ATOM     15  CX  CYS A 174     -20.754   8.441 -10.122 -0.05 +0.01    +0.039 A 
+ATOM     16  CX  CYS A 174     -19.560   7.818  -9.773 -0.12 +0.01    +0.033 A 
+ATOM     17  OX  CYS A 174     -18.158   6.204  -7.943 -0.05 -0.14    -0.272 OA
+BRANCH  14  18
+ATOM     18  OX  CYS A 174     -21.978  10.463 -10.423 +0.00 -0.05    -0.356 OA
+ATOM     19  CX  CYS A 174     -21.816  11.772 -10.950 +0.00 +0.01    +0.210 C 
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   5  20
+ATOM     20  CX  CYS A 174     -15.783   4.683  -8.284 -0.59 +0.01    -0.102 C 
+ATOM     21  CX  CYS A 174     -15.771   3.527  -8.564 -0.74 -0.00    +0.013 C 
+ENDBRANCH   5  20
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 174
+TER
+ENDMDL
